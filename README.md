@@ -1,4 +1,4 @@
-# Logic_Building_in_c
+# LogicBuilding
 C Programming Repository
 
 | Program Name             | Link Of Source Code                                                                   |
