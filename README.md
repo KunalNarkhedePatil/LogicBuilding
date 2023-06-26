@@ -1,6 +1,6 @@
 # LogicBuilding
 
-| Folder Name             | Link Of Source Code                                                                   |
+| Folder Name             | Link Of Folders                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
 1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
 2.ProblemsOnArrays   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/ProblemsOnArrays
