@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Kunal Narkhede/Desktop/3MonthTargetDSA/ProblemsOnNumbers",
-      "program": "c:/Users/Kunal Narkhede/Desktop/3MonthTargetDSA/ProblemsOnNumbers/build/Debug/outDebug",
+      "cwd": "f:/Logic Building/ProblemsOnNumbers",
+      "program": "f:/Logic Building/ProblemsOnNumbers/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
