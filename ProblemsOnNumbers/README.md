@@ -1,4 +1,4 @@
-# ArrayProblems
+# ProblemsOnNumbers
 
 | Program Name             | Link Of Souce code                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
