@@ -18,3 +18,4 @@
 14.SwapUsingPointer   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/SwapUsingPointer.cpp
 15.FobinacciSeries   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FobinacciSeries.cpp
 16.FobinacciSeriesUsingRecursion   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FobinacciSeriesUsingRecursion.cpp
+16.FindGcd   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FobinacciSeriesUsingRecursion.cpp
