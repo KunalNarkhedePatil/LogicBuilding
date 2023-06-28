@@ -18,4 +18,10 @@
 14.SwapUsingPointer   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/SwapUsingPointer.cpp
 15.FobinacciSeries   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FobinacciSeries.cpp
 16.FobinacciSeriesUsingRecursion   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FobinacciSeriesUsingRecursion.cpp
-16.FindGcd   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FindGcd.cpp
+16.FindGcdOfTwoNo   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FindGcd.cpp
+17.FindLcmOfTwoNo   |https://github.com/KunalNarkhedePatil/
+LogicBuilding/blob/main/ProblemsOnNumbers/FindGcd.cpp
+19.CheckPrimeOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FindGcd.cpp
+20.CheckNoPalindromeOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FindGcd.cpp
+21.CheckNoArmstrongOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FindGcd.cpp
+

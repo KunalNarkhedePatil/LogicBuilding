@@ -8,6 +8,7 @@ class Demo
 };
 int main()
 {
+    
     Demo dobj;
 
     return 0;
