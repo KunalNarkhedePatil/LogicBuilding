@@ -7,4 +7,9 @@
 3.SumOfArrayElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SumOfArrayElements.cpp
 4.MaximumInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/MaximumInArray.cpp
 
-1.ReadAndPrintArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+4.MinimumInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/MaximumInArray.cpp
+
+
+1.SecondLargestElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.CountEvenAndOdd   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems

@@ -1,21 +1,21 @@
-// print maximum elements in the array
+// print minimum elements in the array
 #include "MyArray.h"
 
 class Demo : public MyArray // here we inherite the MyArray class from MyArray.h header file
 {
 public:
-    int maximumElement()
+    int minimumElement()
     {
-        int iMax=Arr[0];
+        int iMin = Arr[0];
 
-        for(int i=0;i<iSize;i++)
+        for (int i = 0; i < iSize; i++)
         {
-            if(Arr[i]>iMax)
+            if (Arr[i] < iMin)
             {
-                iMax=Arr[i];
+                iMin = Arr[i];
             }
         }
-        return iMax;
+        return iMin;
     }
 };
 int main()
@@ -29,9 +29,9 @@ int main()
     Demo dobj;
 
     dobj.acceptArray();
-    int iRet = dobj.maximumElement();
+    int iRet = dobj.minimumElement();
 
-    cout << "Maximum element is " << iRet << endl;
+    cout << "Minimum element is " << iRet << endl;
 
     return 0;
 }
