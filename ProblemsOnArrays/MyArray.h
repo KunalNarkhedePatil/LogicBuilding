@@ -27,5 +27,6 @@ class MyArray
         {
             cout<<Arr[i]<<" ";
         }
+        cout<<endl;
     }
 };
