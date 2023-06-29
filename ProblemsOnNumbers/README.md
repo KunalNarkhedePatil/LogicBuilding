@@ -5,6 +5,7 @@
 1.SumOfTwoNo   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/SumOfTwoNo.cpp
 2.CheckEvenOdd   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckEvenOdd.cpp
 3.CheckPositiveNegative   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckPositiveNegative.cpp
+3.CheckLeapYear   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckPositiveNegative.cpp
 4.FindFactorial   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FindFactorial.cpp
 5.FactorOfNo   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FactorOfNo.cpp
 6.FindPower   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FindPower.cpp
@@ -22,5 +23,13 @@
 17.FindLcmOfTwoNo   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/FindLcmOfTwoNo.cpp
 19.CheckPrimeOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckPrimeOrNot.cpp
 20.CheckNoPalindromeOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckNoPalindromeOrNot.cpp
+21.CheckNoArmstrongOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckNoArmstrongOrNot.cpp
+
+21.CheckPerfectOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckNoArmstrongOrNot.cpp
+
+21.CheckUniqueOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckNoArmstrongOrNot.cpp
+
+21.CheckStrongOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckNoArmstrongOrNot.cpp
+
 21.CheckNoArmstrongOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckNoArmstrongOrNot.cpp
 
