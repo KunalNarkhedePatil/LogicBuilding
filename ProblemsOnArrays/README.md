@@ -9,4 +9,4 @@
 5.MinimumInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/MinimumInArray.cpp
 6.SecondLargestElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SecondLargestElement.cp
 7.CountEvenAndOdd   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CountEvenAndOdd.cpp
-8.CopyOneArrToAnotherArr   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CountEvenAndOdd.cpp
+8.CopyOneArrToAnotherArr   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CopyOneArrToAnotherArr.cpp
