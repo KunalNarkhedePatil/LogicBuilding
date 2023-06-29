@@ -28,4 +28,5 @@
 24.CheckPerfectOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckPerfectOrNot.cpp
 25.CheckUniqueOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckUniqueOrNot.cpp
 26.CheckStrongOrNot   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckStrongOrNot.cpp
+26.CreateCalculator   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnNumbers/CheckStrongOrNot.cpp
 
