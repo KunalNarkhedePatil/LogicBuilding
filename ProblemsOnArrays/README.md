@@ -10,6 +10,4 @@
 6.SecondLargestElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SecondLargestElement.cp
 7.CountEvenAndOdd   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CountEvenAndOdd.cpp
 8.CopyOneArrToAnotherArr   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CopyOneArrToAnotherArr.cpp
-
-9.InsertElementInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CopyOneArrToAnotherArr.cpp
-
+9.InsertElementInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/InsertElementInArray.cpp
