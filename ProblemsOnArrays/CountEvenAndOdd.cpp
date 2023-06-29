@@ -4,6 +4,11 @@
 class Demo : public MyArray // here we inherite the MyArray class from MyArray.h header file
 {
 public:
+int iSize;
+    Demo(int iSize):MyArray(iSize)// base member initialisation
+    {
+        this->iSize=iSize;
+    }
     int countEvenElements()
     {
         int iEvenCnt=0;
@@ -40,7 +45,9 @@ int main()
 
     MyArray mobj(iSize);
 
-    Demo dobj;
+    Demo dobj(iSize);
+    //we can also create a dynamic obj
+    //Demo *dobj=new Demo(iSize);
 
     dobj.acceptArray();
     

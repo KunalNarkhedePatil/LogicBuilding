@@ -4,6 +4,11 @@
 class Demo : public MyArray // here we inherite the MyArray class from MyArray.h header file
 {
 public:
+    int iSize;
+    Demo(int iSize) : MyArray(iSize)// base member initialisation
+    {
+        this->iSize = iSize;
+    }
     int minimumElement()
     {
         int iMin = Arr[0];
@@ -24,9 +29,9 @@ int main()
     cout << "Enter the number of element in the array\n";
     cin >> iSize;
 
-    MyArray mobj(iSize);
-
-    Demo dobj;
+    Demo dobj(iSize);
+    //we can also create a dynamic obj
+    //Demo *dobj=new Demo(iSize);
 
     dobj.acceptArray();
     int iRet = dobj.minimumElement();

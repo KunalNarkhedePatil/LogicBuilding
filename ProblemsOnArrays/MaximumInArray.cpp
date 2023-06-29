@@ -4,15 +4,20 @@
 class Demo : public MyArray // here we inherite the MyArray class from MyArray.h header file
 {
 public:
+    int iSize;
+    Demo(int iSize) : MyArray(iSize) //base member initialisation
+    {
+        this->iSize = iSize;
+    }
     int maximumElement()
     {
-        int iMax=Arr[0];
+        int iMax = Arr[0];
 
-        for(int i=0;i<iSize;i++)
+        for (int i = 0; i < iSize; i++)
         {
-            if(Arr[i]>iMax)
+            if (Arr[i] > iMax)
             {
-                iMax=Arr[i];
+                iMax = Arr[i];
             }
         }
         return iMax;
@@ -24,9 +29,10 @@ int main()
     cout << "Enter the number of element in the array\n";
     cin >> iSize;
 
-    MyArray mobj(iSize);
+    Demo dobj(iSize);
+    //we can also create a dynamic obj
+    //Demo *dobj=new Demo(iSize);
 
-    Demo dobj;
 
     dobj.acceptArray();
     int iRet = dobj.maximumElement();

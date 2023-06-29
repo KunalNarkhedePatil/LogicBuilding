@@ -1,4 +1,4 @@
-// print sum of all element in the array
+// copy the element from one array to another array
 #include "MyArray.h"
 
 class Demo : public MyArray // here we inherite the MyArray class from MyArray.h header file
@@ -9,15 +9,20 @@ public:
     {
         this->iSize = iSize;
     }
-    int sumOfAllArrayElements()
+    void copyArray()
     {
-        int iSum = 0;
+        int *Brr = new int[iSize];
 
         for (int i = 0; i < iSize; i++)
         {
-            iSum = iSum + Arr[i];
+            Brr[i] = Arr[i];
         }
-        return iSum;
+        cout << "Copied Array:" << endl;
+
+        for (int i = 0; i < iSize; i++)
+        {
+            cout << Brr[i] << " ";
+        }
     }
 };
 int main()
@@ -26,14 +31,14 @@ int main()
     cout << "Enter the number of element in the array\n";
     cin >> iSize;
 
+    MyArray mobj(iSize);
+
     Demo dobj(iSize);
-    //we can also create a dynamic obj
-    //Demo *dobj=new Demo(iSize);
+    // we can also create a dynamic obj
+    // Demo *dobj=new Demo(iSize);
 
     dobj.acceptArray();
-    int iRet = dobj.sumOfAllArrayElements();
-
-    cout << "Sum of all the elements in the array are " << iRet << endl;
-
+    cout << "Original array:" << endl;
+    dobj.copyArray();
     return 0;
 }
