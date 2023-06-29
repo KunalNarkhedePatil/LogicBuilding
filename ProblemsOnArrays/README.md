@@ -6,10 +6,6 @@
 2.PrintAllNegative   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/PrintAllNegative.cpp
 3.SumOfArrayElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SumOfArrayElements.cpp
 4.MaximumInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/MaximumInArray.cpp
-
-4.MinimumInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/MaximumInArray.cpp
-
-
-1.SecondLargestElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.CountEvenAndOdd   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+5.MinimumInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/MinimumInArray.cpp
+6.SecondLargestElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SecondLargestElement.cp
+7.CountEvenAndOdd   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CountEvenAndOdd.cpp
