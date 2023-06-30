@@ -16,4 +16,6 @@
 12.CountFreqOfEachLElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CountFreqOfEachLElement.cpp
 13.PrintAllUniqueElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/PrintAllUnique.cpp
 14.FindAllDuplicatesElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllDuplicates.cpp
+15.DeleteAllDuplicatesElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllDuplicates.cpp
+
 
