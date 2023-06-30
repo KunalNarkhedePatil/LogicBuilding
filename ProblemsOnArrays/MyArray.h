@@ -14,7 +14,7 @@ class MyArray
     }
     void acceptArray()
     {
-        cout<<"Enter the elements in the array\n";
+        cout<<"Enter the elements in the array:\n";
         for(int i=0;i<this->iSize;i++)
         {
             cin>>Arr[i];
@@ -23,7 +23,7 @@ class MyArray
     void displayArray()
     {
         
-        cout<<"Entered elements are\n";
+        cout<<"Entered elements are:\n";
         for(int i=0;i<this->iSize;i++)
         {
             cout<<Arr[i]<<" ";

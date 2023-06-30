@@ -1,4 +1,4 @@
-// insert the element in the array
+// delete the element in the array
 #include "MyArray.h"
 
 class Demo : public MyArray // here we inherite the MyArray class from MyArray.h header file

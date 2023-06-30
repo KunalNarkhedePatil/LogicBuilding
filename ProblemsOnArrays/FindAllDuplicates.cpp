@@ -9,38 +9,16 @@ public:
     {
         this->iSize = iSize;
     }
-    void printUniqueElements()
+    int findAllDuplicatesElements()
     {
-        int *Freq = new int[iSize];
-        for (int i = 0; i < iSize; i++)
+        for(int i=0;i<iSize;i++)
         {
-            Freq[i] = -1;
-        }
-        int iCount = 0;
-        for (int i = 0; i < iSize; i++)
-        {
-            iCount = 1;
-            for (int j = i + 1; j < iSize; j++)
+            for(int j=i+1;j<iSize;j++)
             {
-                if (Arr[i] == Arr[j])
+                if(Arr[i]==Arr[j])
                 {
-                    iCount++;
-                    Freq[j] = 0;
+                    cout<<Arr[i]<<" ";
                 }
-            }
-            if (Freq[i] != 0)
-            {
-                Freq[i]=iCount;
-            }
-        }
-
-        cout << "Unique elements in array :" << endl;
-
-        for (int i = 0; i < iSize; i++)
-        {
-            if (Freq[i] == 1)
-            {
-                cout << Arr[i] << " occurs " << Freq[i] << endl;
             }
         }
     }
@@ -48,7 +26,7 @@ public:
 int main()
 {
     int iSize = 0;
-    cout << "Enter the number of element in the array\n";
+    cout << "Enter the number of element in the array:\n";
     cin >> iSize;
 
     Demo dobj(iSize);
@@ -56,7 +34,8 @@ int main()
     // Demo *dobj=new Demo(iSize);
 
     dobj.acceptArray();
-    dobj.printUniqueElements();
+    cout<<"Duplicates elements are:\n";
+    dobj.findAllDuplicatesElements();
 
     return 0;
 }
