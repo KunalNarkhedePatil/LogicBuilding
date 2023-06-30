@@ -1,4 +1,4 @@
-// print all the palindrome elements in the array
+// print reverse all the elements in the array
 #include "MyArray.h"
 
 class Demo : public MyArray // here we inherite the MyArray class from MyArray.h header file
@@ -20,26 +20,12 @@ public:
         }
         return iRev;
     }
-    bool checkPalindrome(int iNo)
-    {
-        int iRet = reverseNo(iNo);
-        if (iRet == iNo)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-    void printAllPalindromeElements()
+    void reverseElements()
     {
         for (int i = 0; i < iSize; i++)
         {
-            if (checkPalindrome(Arr[i]))
-            {
-                cout << Arr[i] << " ";
-            }
+            int iNo = reverseNo(Arr[i]);
+            Arr[i] = iNo;
         }
     }
 };
@@ -54,8 +40,11 @@ int main()
     // Demo *dobj=new Demo(iSize);
 
     dobj.acceptArray();
+    cout << "Before Reverse Array:\n";
+    dobj.displayArray();
+    dobj.reverseElements();
+    cout << "After Reverse Array:\n";
+    dobj.displayArray();
 
-    cout << "Palindrome elements are:\n";
-    dobj.printAllPalindromeElements();
     return 0;
 }

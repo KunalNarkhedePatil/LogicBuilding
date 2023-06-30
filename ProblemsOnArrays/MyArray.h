@@ -22,8 +22,6 @@ class MyArray
     }
     void displayArray()
     {
-        
-        cout<<"Entered elements are:\n";
         for(int i=0;i<this->iSize;i++)
         {
             cout<<Arr[i]<<" ";
