@@ -13,13 +13,7 @@
 9.InsertElementInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/InsertElementInArray.cpp
 10.DeleteElementInArray.cpp   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/DeleteElementInArray.cpp
 11.SwapAlternateElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SwapAlternateElements.cpp
+12.CountFreqOfEachLElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CountFreqOfEachLElement.cpp
+13.PrintAllUniqueElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/PrintAllUnique.cpp
+14.FindAllDuplicatesElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllDuplicates.cpp
 
-11.CountFreqOfEachLElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CountFreqOfEachLElement.cpp
-
-11.PrintAllUniqueElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/PrintAllUnique.cpp
-
-11.FindAllDuplicatesElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllDuplicates.cpp
-
-11.SwapAlternateElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SwapAlternateElements.cpp
-
-11.SwapAlternateElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SwapAlternateElements.cpp
