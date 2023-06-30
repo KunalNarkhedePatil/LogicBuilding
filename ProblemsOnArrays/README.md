@@ -17,3 +17,18 @@
 13.PrintAllUniqueElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/PrintAllUnique.cpp
 14.FindAllDuplicatesElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllDuplicates.cpp
 15.DeleteAllDuplicatesElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/DeleteAllDuplicatesElements.cpp
+
+
+15.FindAllEvenOddElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/DeleteAllDuplicatesElements.cpp
+
+
+15.FindAllArmstrongElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/DeleteAllDuplicatesElements.cpp
+
+
+15.FindAllPalindromeElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/DeleteAllDuplicatesElements.cpp
+
+
+15.FindAllPerfectElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/DeleteAllDuplicatesElements.cpp
+
+
+15.FindAllPrimeElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/DeleteAllDuplicatesElements.cpp
