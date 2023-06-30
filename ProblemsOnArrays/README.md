@@ -11,3 +11,6 @@
 7.CountEvenAndOdd   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CountEvenAndOdd.cpp
 8.CopyOneArrToAnotherArr   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CopyOneArrToAnotherArr.cpp
 9.InsertElementInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/InsertElementInArray.cpp
+10.DeleteElementInArray.cpp   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/InsertElementInArray.cpp
+11.SwapAlternateElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/InsertElementInArray.cpp
+

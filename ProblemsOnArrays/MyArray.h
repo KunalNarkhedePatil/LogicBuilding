@@ -6,10 +6,11 @@ class MyArray
     public:
     int iSize;
     int *Arr;
-    MyArray(int iSize=5)//here we use the default argument
+    MyArray(int iSize)
     {
         this->iSize=iSize;
         Arr=new int[iSize];
+        //cout<<"Size of Arr"<<(Arr+iSize-Arr)*sizeof(int)<<endl;
     }
     void acceptArray()
     {
