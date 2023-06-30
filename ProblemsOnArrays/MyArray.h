@@ -6,7 +6,7 @@ class MyArray
     public:
     int iSize;
     int *Arr;
-    MyArray(int iSize)
+    MyArray(int iSize=5)//here we concept of dafault argument
     {
         this->iSize=iSize;
         Arr=new int[iSize];
