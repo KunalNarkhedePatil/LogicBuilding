@@ -9,7 +9,7 @@ public:
     {
         this->size = size;
     } 
-    void deleteElement(int Arr[],int iPos)
+    void deleteElement(int iPos)
     {
         if (iPos < 0 || iPos > iSize)
         {
@@ -32,9 +32,9 @@ public:
             {
                 if(Arr[i]==Arr[j])
                 {
-                    cout<<Arr[i]<<" "<<endl;
+                    cout<<Arr[i]<<" ";
                     int iPos=j;
-                    deleteElement(this->Arr,iPos); 
+                    deleteElement(iPos); 
                 }
             }
         }
