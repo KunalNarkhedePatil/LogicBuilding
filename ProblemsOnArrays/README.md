@@ -22,16 +22,8 @@
 18.FindAllPalindromeElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllPalindromeElements.cpp
 19.FindAllPerfectElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllPerfectElements.cpp
 20.FindAllPrimeElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllPrimeElements.cpp
-
-20.MergeTwoArrIntoThirdArr   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllPrimeElements.cpp
-
-
-20.ReverseTheArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllPrimeElements.cpp
-
-20.ReverseAllElementsInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllPrimeElements.cpp
-
-
-20.PutEvenOddArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllPrimeElements.cpp
-
-
-20.SearchElementInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindAllPrimeElements.cpp
+21.MergeTwoArrIntoThirdArr   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/MergeTwoArrIntoThirdArr.cpp
+22.ReverseTheArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/ReverseTheArray.cpp
+23.ReverseAllElementsInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/ReverseAllElementsInArray.cpp
+24.PutEvenOddArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/PutEvenOddArray.cpp
+25.SearchElementInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SearchElementInArray.cpp
