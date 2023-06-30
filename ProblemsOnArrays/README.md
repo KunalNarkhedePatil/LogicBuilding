@@ -27,3 +27,7 @@
 23.ReverseAllElementsInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/ReverseAllElementsInArray.cpp
 24.PutEvenOddArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/PutEvenOddArray.cpp
 25.SearchElementInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SearchElementInArray.cpp
+
+25.SeachFirstOccurrenceOfNo   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SearchElementInArray.cpp
+
+25.SeachLastOccurrenceOfNo   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SearchElementInArray.cpp
