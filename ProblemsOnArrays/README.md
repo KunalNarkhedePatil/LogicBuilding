@@ -29,9 +29,6 @@
 25.SearchElementInArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SearchElementInArray.cpp
 26.SeachFirstOccurrenceOfNo   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SeachFirstOccurrenceOfNo.cpp
 27.SeachLastOccurrenceOfNo   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SeachLastOccurrenceOfNo.cpp
-
-27.LeftRotate   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SeachLastOccurrenceOfNo.cpp
-
-27.RightRotate   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SeachLastOccurrenceOfNo.cpp
-
-27.CheckArrPalindromic   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SeachLastOccurrenceOfNo.cpp
+28.LeftRotate   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/LeftRotate.cpp
+29.RightRotate   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/RightRotate.cpp
+30.CheckArrPalindromic   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CheckArrPalindromic.cpp
