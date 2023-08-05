@@ -23,9 +23,9 @@ class Matrix
       //i=row
       //j=column
       cout<<"Enter the elements in the first matrix:\n";
-      for(int i=0;i<3;i++)
+      for(int i=0;i<iRows;i++)
       {
-        for(int j=0;j<3;i++)
+        for(int j=0;j<iCols;j++)
         {
             cin>>Matrix1[i][j];
         }
@@ -34,11 +34,12 @@ class Matrix
       cout<<"Enter the elements in the second matrix:\n";
       for(int i=0;i<iRows;i++)
       {
-        for(int j=0;j<iCols;i++)
+        for(int j=0;j<iCols;j++)
         {
             cin>>Matrix2[i][j];
         }
       }
+      cout<<endl;
    }
    //display the matrix;
    void displayMatrix()
@@ -50,7 +51,7 @@ class Matrix
       cout<<"First matrix:\n";
       for(int i=0;i<iRows;i++)
       {
-        for(int j=0;j<iCols;i++)
+        for(int j=0;j<iCols;j++)
         {
             cout<<Matrix1[i][j]<<" ";
         }
@@ -60,7 +61,7 @@ class Matrix
       cout<<"Second matrix:\n";
       for(int i=0;i<iRows;i++)
       {
-        for(int j=0;j<iCols;i++)
+        for(int j=0;j<iCols;j++)
         {
             cout<<Matrix2[i][j]<<" ";
         }
