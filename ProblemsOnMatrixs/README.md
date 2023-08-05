@@ -7,4 +7,5 @@
 3.SubtractTwoMatrix   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SumOfArrayElements.cpp
 4.MultiplicationOfMatrix   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/MaximumInArray.cpp
 5.ScalarOfMatrix   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/MinimumInArray.cpp
-6.CheckTwoMatrixEqual   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SecondLargestElement.cp
+6.CheckTwoMatrixEqual   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SecondLargestElement.cpp
+7.SumofMainDiagonal   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/SecondLargestElement.cpp
