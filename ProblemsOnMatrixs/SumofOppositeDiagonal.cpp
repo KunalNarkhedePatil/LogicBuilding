@@ -8,7 +8,7 @@ public:
     int sumOfOppositeDiagonalElements()
     {
         // i=row;
-        // j=col
+        // j=col 
         int iSum = 0;
         for (int i = 0; i < iRows; i++)
         {

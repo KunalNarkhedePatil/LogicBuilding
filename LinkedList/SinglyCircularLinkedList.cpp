@@ -40,9 +40,9 @@ void SinglyCircularLL::insertAtFirst(int iVal)
         newn->next = first;
         first = newn;
     }
+    last->next = first;
     size++;
 }
-
 void SinglyCircularLL::insertAtLast(int iVal)
 {
     PNODE newn = new Node(iVal);
@@ -54,8 +54,9 @@ void SinglyCircularLL::insertAtLast(int iVal)
     else
     {
         last->next = newn;
-        last=newn;
+        last = newn;
     }
+    last->next = first;
     size++;
 }
 void SinglyCircularLL::insertAtPos(int iPos, int iVal)
@@ -78,7 +79,7 @@ void SinglyCircularLL::insertAtPos(int iPos, int iVal)
         PNODE temp = first;
         PNODE newn = new Node(iVal);
 
-        for (int i = 1; i < iPos-1; i++)
+        for (int i = 1; i < iPos - 1; i++)
         {
             temp = temp->next;
         }
@@ -94,7 +95,7 @@ void SinglyCircularLL::deleteAtFirst()
         cout << "Linked list is empty\n";
         return;
     }
-    else if (first==last)
+    else if (first == last)
     {
         delete first;
         delete last;
@@ -107,6 +108,7 @@ void SinglyCircularLL::deleteAtFirst()
         first = first->next;
         delete temp;
     }
+    last->next = first;
     size--;
 }
 void SinglyCircularLL::deleteAtLast()
@@ -116,7 +118,7 @@ void SinglyCircularLL::deleteAtLast()
         cout << "Linked list is empty\n";
         return;
     }
-    else if (first==last)
+    else if (first == last)
     {
         delete first;
         first = NULL;
@@ -133,6 +135,7 @@ void SinglyCircularLL::deleteAtLast()
         delete temp->next;
         last = temp;
     }
+    last->next = first;
     size--;
 }
 void SinglyCircularLL::deleteAtPos(int iPos)
@@ -197,7 +200,7 @@ int main()
     sobj->deleteAtFirst();
     sobj->deleteAtLast();
     sobj->deleteAtPos(2);
-
+    
     sobj->dispaly();
     cout << "Number of node in the linked list are:" << sobj->count() << endl;
 

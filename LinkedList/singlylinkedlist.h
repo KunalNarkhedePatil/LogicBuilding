@@ -13,5 +13,4 @@ public:
         this->next = NULL;
     }
 };
-typedef class Node NODE;
 typedef class Node *PNODE;
