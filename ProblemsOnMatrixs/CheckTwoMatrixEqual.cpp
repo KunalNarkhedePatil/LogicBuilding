@@ -5,9 +5,29 @@ public:
     Demo(int iRows, int iCols) : Matrix(iRows, iCols)
     {
     }
-    void checkTwoMatrixEqual()
+    bool checkTwoMatrixEqual()
     {
-        
+        int iFlag=0;
+
+        for(int row=0;row<iRows;row++) 
+        {
+            for(int col=0;col<iCols;col++)
+            {
+                if(Matrix1[row][col]!=Matrix2[row][col])
+                {
+                    iFlag=1;
+                    break;
+                }
+            }
+        }
+        if(iFlag==0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 };
 int main()
@@ -25,5 +45,15 @@ int main()
     // display the matrix
     //dobj->displayMatrix();
 
-    dobj->checkTwoMatrixEqual();
+     bool bRet=dobj->checkTwoMatrixEqual();
+
+    if(bRet==true)
+    {
+        cout<<"Both matrix are equal\n";
+        dobj->displayMatrix();
+    }
+    else
+    {
+        cout<<"Both matrix are not equal\n";
+    }
 }
