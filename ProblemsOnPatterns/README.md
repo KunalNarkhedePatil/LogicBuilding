@@ -17,18 +17,18 @@
 
 13.DiamondStarPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
 
-12.SandglassStarPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
+14.SandglassStarPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
 
-12.VShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
+15.VShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
 
-12.MirroredVShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
+16.MirroredVShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
 
-12.HShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
+17.HShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
 
 
-12.InsideEmptyDiamond   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
+18.InsideEmptyDiamond   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
 
-12.EmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
+19.EmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
 
 12.DownEmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
 
