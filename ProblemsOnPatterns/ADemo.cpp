@@ -23,7 +23,8 @@ public:
     
     void DisplayPattern()
     {
-        
+        //i=row
+        //j=col
     }
 };
 int main()
