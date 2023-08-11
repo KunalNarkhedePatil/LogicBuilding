@@ -7,4 +7,4 @@
 3.DownRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownRightTriangle.cpp
 4.MirroredRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/MirroredRightTriangle.cpp
 5.DownMirroredRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownMirroredRightTriangle.cpp
-5.RightPascalsTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/RightPascalsTriangle.cpp
+6.RightPascalsTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/RightPascalsTriangle.cpp
