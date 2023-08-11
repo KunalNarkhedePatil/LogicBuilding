@@ -14,22 +14,11 @@
 10.ReverseKShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/ReverseKShapePattern.cpp
 11.PyramidPattern1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
 12.PyramidPattern2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
-
-13.DiamondStarPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
-
-14.SandglassStarPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
-
-15.VShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
-
-16.MirroredVShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
-
-17.HShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
-
-
-18.InsideEmptyDiamond   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
-
-19.EmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
-
-12.DownEmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
-
-12.HShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
+13.DiamondStarPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DiamondStarPattern.cpp
+14.SandglassStarPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/SandglassStarPattern.cpp
+15.VShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/VShapePattern.cpp
+16.MirroredVShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/MirroredVShapePattern.cpp
+17.HShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/HShapePattern.cpp
+18.InsideEmptyDiamond   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/InsideEmptyDiamond.cpp
+19.EmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/EmptyRightTriangle.cpp
+20.DownEmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
