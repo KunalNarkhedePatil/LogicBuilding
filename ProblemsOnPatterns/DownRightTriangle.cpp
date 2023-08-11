@@ -3,8 +3,12 @@ Enter the number of rows
 5
 Enter the number of columns
 5
--------------------------
-
+--------------------------
+* * * * *
+* * * *
+* * *
+* *
+*
 --------------------------
 */
 #include <iostream>
@@ -23,7 +27,19 @@ public:
     
     void DisplayPattern()
     {
-        
+        //i=row
+        //j=col
+        for(int i=1;i<=this->iRows;i++) 
+        {
+            for(int j=1;j<=this->iCols;j++)
+            {
+                if(i+j<=iCols+1)
+                {
+                    cout<<"*"<<" ";
+                }
+            }
+            cout<<endl;
+        }
     }
 };
 int main()

@@ -4,9 +4,10 @@ Enter the number of rows
 Enter the number of columns
 5
 -------------------------
-
+* * * * *
 --------------------------
 */
+
 #include <iostream>
 using namespace std;
 class Demo
@@ -20,10 +21,20 @@ public:
         this->iRows = iRows;
         this->iCols = iCols;
     }
-    
+
     void DisplayPattern()
     {
-        
+       //i=row
+       //j=col
+
+       for(int i=1;i<=this->iRows;i++)
+       {
+          for(int j=1;j<=this->iRows;j++)
+          {
+              cout<<"*"<<" ";
+          }
+          break;
+       }
     }
 };
 int main()
@@ -38,5 +49,6 @@ int main()
     Demo *dobj = new Demo(iRows, iCols);
 
     dobj->DisplayPattern();
+
     return 0;
 }
