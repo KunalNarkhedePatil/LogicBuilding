@@ -24,31 +24,31 @@ public:
         this->iRows = iRows;
         this->iCols = iCols;
     }
-    
+
     void DisplayPattern()
     {
-        //i=row
-        //j=col
-        //k=col
+        // i=row
+        // j=col
+        // k=col
 
-        for(int i=1;i<=this->iRows;i++)
+        for (int i = 1; i <= this->iRows; i++)
         {
-            for(int j=1;j<=this->iCols;j++)
+            for (int j = 1; j <= this->iCols; j++)
             {
-                if(i+j>=iCols+1)
+                if (i + j >= iCols + 1)
                 {
-                    cout<<"* ";
+                    cout << "* ";
                 }
                 else
                 {
-                    cout<<"  ";
+                    cout << "  ";
                 }
             }
-            for(int k=2;k<=i;k++)
+            for (int k = 2; k <= i; k++)
             {
-                cout<<"* ";
+                cout << "* ";
             }
-            cout<<endl;
+            cout << endl;
         }
     }
 };

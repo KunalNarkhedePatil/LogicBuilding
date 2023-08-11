@@ -42,9 +42,9 @@ public:
                 {
                     cout << "* ";
                 }
-                else 
+                else
                 {
-                    cout<<"  ";
+                    cout << "  ";
                 }
             }
             cout << endl;

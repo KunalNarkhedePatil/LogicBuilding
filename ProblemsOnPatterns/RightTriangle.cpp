@@ -24,19 +24,20 @@ public:
         this->iRows = iRows;
         this->iCols = iCols;
     }
-    
+
     void DisplayPattern()
     {
-        //i=row
-        //j=col
+        // i=row
+        // j=col
 
-        for(int i=1;i<=this->iRows;i++)
+        for (int i = 1; i <= this->iRows; i++)
         {
-            for(int j=1;j<=i;j++)
+            for (int j = 1; j <= i; j++)
             {
-                cout<<"*"<<" ";
+                cout << "*"
+                     << " ";
             }
-            cout<<endl;
+            cout << endl;
         }
     }
 };
