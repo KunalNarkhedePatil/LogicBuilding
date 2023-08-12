@@ -4,11 +4,11 @@ Enter the number of rows
 Enter the number of columns
 5
 -------------------------
-* * * * *
-*     *
-*   *
-* *
-*
+        *
+      *   *
+    *       *
+  *           *
+* * * * * * * * *
 --------------------------
 */
 #include <iostream>
@@ -29,12 +29,28 @@ public:
     {
         // i=row
         // j=col
+        // k=col
 
         for (int i = 1; i <= this->iRows; i++)
         {
             for (int j = 1; j <= this->iCols; j++)
             {
-                if (i == 1 || j == 1 || i + j == this->iCols + 1)
+                if (i + j == iCols + 1 || i == iRows)
+                {
+                    cout << "* ";
+                }
+                else
+                {
+                    cout << "  ";
+                }
+            }
+            for (int k = 2; k <= iCols; k++)
+            {
+                if (i == 1)
+                {
+                    continue;
+                }
+                if (i == k || i == iRows)
                 {
                     cout << "* ";
                 }

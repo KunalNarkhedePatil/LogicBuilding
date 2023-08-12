@@ -5,10 +5,10 @@ Enter the number of columns
 5
 -------------------------
 * * * * *
-*     *
-*   *
-* *
-*
+  *     *
+    *   *
+      * *
+        *
 --------------------------
 */
 #include <iostream>
@@ -34,7 +34,7 @@ public:
         {
             for (int j = 1; j <= this->iCols; j++)
             {
-                if (i == 1 || j == 1 || i + j == this->iCols + 1)
+                if (i == j || i == 1 || j == iCols)
                 {
                     cout << "* ";
                 }
