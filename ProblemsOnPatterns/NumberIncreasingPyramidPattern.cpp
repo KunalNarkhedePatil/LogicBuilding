@@ -5,10 +5,10 @@ Enter the number of columns
 5
 -------------------------
 1 
-   2 2 
-  3 3 3 
- 4 4 4 4 
-5 5 5 5 5
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
 --------------------------
 */
 #include <iostream>
@@ -32,16 +32,9 @@ public:
 
         for(int i=1;i<=this->iRows;i++)
         {
-            for(int j=1;j<=this->iCols;j++)
+            for(int j=1;j<=i;j++)
             {
-                if(i+j>=iCols+1)
-                {
-                    cout<<i<<" ";
-                }
-                else
-                {
-                    cout<<" ";
-                }
+                cout<<j<<" ";
             }
             cout<<endl;
         }

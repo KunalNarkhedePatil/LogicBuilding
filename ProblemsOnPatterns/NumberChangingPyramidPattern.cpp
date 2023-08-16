@@ -4,11 +4,7 @@ Enter the number of rows
 Enter the number of columns
 5
 -------------------------
-1 
-   2 2 
-  3 3 3 
- 4 4 4 4 
-5 5 5 5 5
+
 --------------------------
 */
 #include <iostream>
@@ -29,19 +25,13 @@ public:
     {
         //i=row
         //j=col
-
+        int k=0;
         for(int i=1;i<=this->iRows;i++)
         {
-            for(int j=1;j<=this->iCols;j++)
+            for(int j=1;j<=i;j++)
             {
-                if(i+j>=iCols+1)
-                {
-                    cout<<i<<" ";
-                }
-                else
-                {
-                    cout<<" ";
-                }
+                k++;
+                cout<<k<<" ";
             }
             cout<<endl;
         }
