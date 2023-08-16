@@ -4,11 +4,7 @@ Enter the number of rows
 Enter the number of columns
 5
 -------------------------
-* * * * *
-* *   * *
-*   *   *
-* *   * *
-* * * * *
+
 --------------------------
 */
 #include <iostream>
@@ -24,20 +20,11 @@ public:
         this->iRows = iRows;
         this->iCols = iCols;
     }
-
+    
     void DisplayPattern()
     {
-        // i=row
-        // j=col
-       
-       for(int i=1;i<=this->iRows;i++)
-       {
-          for(int j=1;j<=this->iCols;j++)
-          {
-              cout<<j<<" ";
-          }
-          cout<<endl;
-       }
+        //i=row
+        //j=col
     }
 };
 int main()

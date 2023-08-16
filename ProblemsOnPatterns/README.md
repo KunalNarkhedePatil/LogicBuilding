@@ -1,5 +1,6 @@
 # ProblemsOnPattern
 
+# StarPattern
 | Program Name             | Link Of Souce code                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
 1.BasicStarPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/BasicStarPattern.cpp
