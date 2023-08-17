@@ -4,7 +4,7 @@ Enter the number of rows
 Enter the number of columns
 5
 -------------------------
-1 
+    1 
    2 2 
   3 3 3 
  4 4 4 4 

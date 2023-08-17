@@ -25,6 +25,15 @@ public:
     {
         //i=row
         //j=col
+
+        for(int i=1;i<=this->iRows;i++)
+        {
+            for(int j=1;j<=this->iCols;j++)
+            {
+                cout<<j<<" ";
+            }
+            cout<<endl;
+        }
     }
 };
 int main()
