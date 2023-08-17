@@ -23,21 +23,21 @@
 18.InsideEmptyDiamond   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/InsideEmptyDiamond.cpp
 19.EmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/EmptyRightTriangle.cpp
 20.DownEmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-21.MirroredEmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-22.DownMirroredEmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-23.EmptyPascalsTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-24.EmptyKShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-25.MirroredEmptyPascalsTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-26.EmptyKShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-27.ReverseEmptyKShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-28.EmptyTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-29.DownEmptyTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-30.EmptyDiamondPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-31.EmptySandglassPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-32.SquarePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-33.EmptySquarePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-34.EmptyEightShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-35.DiagonalAndSidesRectangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
+21.MirroredEmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/MirroredEmptyRightTriangle.cpp
+22.DownMirroredEmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownMirroredEmptyRightTriangle.cpp
+23.EmptyPascalsTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/EmptyPascalsTriangle.cpp
+24.EmptyKShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/EmptyKShapePattern.cpp
+25.MirroredEmptyPascalsTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/MirroredEmptyPascalsTriangle.cpp
+26.EmptyKShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/EmptyKShapePattern.cpp
+27.ReverseEmptyKShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/ReverseKShapePattern.cpp
+28.EmptyTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/EmptyTriangle.cpp
+29.DownEmptyTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyTriangle.cpp
+30.EmptyDiamondPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/EmptyDiamondPattern.cpp
+31.EmptySandglassPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/EmptySandglassPattern.cpp
+32.SquarePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/SquarePattern.cpp
+33.EmptySquarePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/EmptySquarePattern.cpp
+34.EmptyEightShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/EmptyEightShapePattern.cpp
+35.DiagonalAndSidesRectangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DiagonalAndSidesRectangle.cpp
 
 
 
