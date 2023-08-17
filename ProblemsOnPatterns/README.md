@@ -53,17 +53,12 @@
 5.NumberChangingPyramidPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownMirroredRightTriangle.cpp
 6.ZeroOneTrianglePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/RightPascalsTriangle.cpp
 7.PalindromeTriangularPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/KShapePattern.cpp
-8.MirroredRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/MirroredRightTriangle.cpp
-9.RightPascalsTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/RightPascalsTriangle.cpp
-10.ReverseKShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/ReverseKShapePattern.cpp
-11.PyramidPattern1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
-12.PyramidPattern2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern2.cpp
-13.DiamondStarPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DiamondStarPattern.cpp
-14.SandglassStarPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/SandglassStarPattern.cpp
-15.VShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/VShapePattern.cpp
-16.MirroredVShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/MirroredVShapePattern.cpp
-17.HShapePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/HShapePattern.cpp
-18.InsideEmptyDiamond   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/InsideEmptyDiamond.cpp
-19.EmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/EmptyRightTriangle.cpp
-20.DownEmptyRightTriangle   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownEmptyRightTriangle.cpp
-
+8.DecendingOrderPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/MirroredRightTriangle.cpp
+9.RightTriangleNumericPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/RightPascalsTriangle.cpp
+10.SandglassNumericPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/ReverseKShapePattern.cpp
+11.NumberPattern1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
+12.NumberPattern2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
+13.NumberPattern3   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
+14.NumberPattern4   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
+15.NumberPattern5   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
+16.NumberPattern6   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
