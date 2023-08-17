@@ -46,19 +46,19 @@
 # NumberPattern
 | Program Name             | Link Of Souce code                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
-1.BasicNumberSquarePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/BasicStarPattern.cpp
-2.NumberTrianglePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/RightTriangle.cpp
-3.NumberIncreasingPyramidPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownRightTriangle.cpp
-4.NumberIncreasingReversePyramidPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/MirroredRightTriangle.cpp
-5.NumberChangingPyramidPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DownMirroredRightTriangle.cpp
-6.ZeroOneTrianglePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/RightPascalsTriangle.cpp
-7.PalindromeTriangularPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/KShapePattern.cpp
-8.DecendingOrderPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/MirroredRightTriangle.cpp
-9.RightTriangleNumericPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/RightPascalsTriangle.cpp
-10.SandglassNumericPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/ReverseKShapePattern.cpp
-11.NumberPattern1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
-12.NumberPattern2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
-13.NumberPattern3   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
-14.NumberPattern4   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
-15.NumberPattern5   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
-16.NumberPattern6   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PyramidPattern1.cpp
+1.BasicNumberSquarePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/BasicNumberSquarePattern.cpp
+2.NumberTrianglePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberTrianglePattern.cpp
+3.NumberIncreasingPyramidPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberIncreasingPyramidPattern.cpp
+4.NumberIncreasingReversePyramidPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberIncreasingReversePyramidPattern.cpp
+5.NumberChangingPyramidPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberChangingPyramidPattern.cpp
+6.ZeroOneTrianglePattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/ZeroOneTrianglePattern.cpp
+7.PalindromeTriangularPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/PalindromeTriangularPattern.cpp
+8.DecendingOrderPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/DecendingOrderPattern.cpp
+9.RightTriangleNumericPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/RightTriangleNumericPattern.cpp
+10.SandglassNumericPattern   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/SandglassNumericPattern.cpp
+11.NumberPattern1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberPattern1.cpp
+12.NumberPattern2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberPattern2.cpp
+13.NumberPattern3   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberPattern3.cpp
+14.NumberPattern4   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberPattern4.cpp
+15.NumberPattern5   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberPattern5.cpp
+16.NumberPattern6   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberPattern6.cpp
