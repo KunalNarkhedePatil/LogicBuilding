@@ -26,16 +26,16 @@ public:
 
     SinglyLinearLL();
     void insertAtLast(int iVal);
-    void dispaly();
+    void display();
     int count();
 };
-SinglyLinearLL::SinglyLinearLL()
+SinglyLinearLL::SinglyLinearLL()   //constructor
 {
     size = 0;
     first = NULL;
 }
 
-void SinglyLinearLL::insertAtLast(int iVal)
+void SinglyLinearLL::insertAtLast(int iVal) //insert element at last
 {
     PNODE newn = new Node(iVal);
     if (first == NULL)
@@ -54,7 +54,7 @@ void SinglyLinearLL::insertAtLast(int iVal)
     }
     size++;
 }
-void SinglyLinearLL::dispaly()
+void SinglyLinearLL::display()
 {
     PNODE temp = first;
 
