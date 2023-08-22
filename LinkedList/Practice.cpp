@@ -1,4 +1,4 @@
-#include"linkedlist.h"
+#include "linkedlist.h"
 class Demo
 {
     public:
@@ -9,51 +9,60 @@ class Demo
     {
         this->sobj=sobj;
     }
-
-    void reverse(PNODE prevNode,PNODE currNode)
+   
+    PNODE reverse(PNODE first,int k)
     {
-        if(currNode==NULL)
+        if(first==NULL)
         {
-            sobj->first=prevNode;
-            return;
+            return NULL;
+        }
+        PNODE prevNode=NULL;
+        PNODE currNode=first;
+        PNODE nextNode=NULL;
+        int iCnt=0;
+
+        while(currNode!=NULL &&  iCnt<k)
+        {
+            nextNode=currNode->next;
+
+            currNode->next=prevNode;
+
+            prevNode=currNode;
+            currNode=nextNode;
+            iCnt++;
         }
 
-        PNODE nextNode=currNode->next;
-        reverse(currNode,nextNode);
-        currNode->next=prevNode;
+        if(nextNode!=NULL)
+        {
+            first->next=reverse(nextNode,k);
+        }
+        return prevNode;
     }
-    void ReverseLL()
-    {
-       PNODE prevNode=NULL;
-       PNODE currNode=sobj->first;
-
-       reverse(prevNode,currNode);
-    }
-
-
-
 };
-
 int main()
 {
-    SinglyLinearLL *sobj=new SinglyLinearLL();
+   SinglyLinearLL *sobj=new SinglyLinearLL();
 
-    sobj->insertAtLast(10);
-    sobj->insertAtLast(20);
-    sobj->insertAtLast(30);
-    sobj->insertAtLast(40);
-    sobj->insertAtLast(50);
+   sobj->insertAtLast(10);
+   sobj->insertAtLast(20);
+   sobj->insertAtLast(30);
+   sobj->insertAtLast(40);
+   sobj->insertAtLast(50);
 
-    sobj->display();
+   sobj->display();
 
-    Demo *dobj=new Demo(sobj);
+   Demo *dobj=new Demo(sobj);
 
-    dobj->ReverseLL();
+   PNODE first=dobj->reverse(sobj->first,2);
 
-    sobj->display();
+   PNODE temp=first;
+
+   while(temp!=NULL)
+   {
+      cout<<temp->data<<"->";
+      temp=temp->next;
+   }
+   cout<<"NULL\n";
 
 
-
-
-    return 0;
 }
