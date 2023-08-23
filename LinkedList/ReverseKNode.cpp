@@ -61,7 +61,6 @@ int main()
     Demo *dobj = new Demo(sobj);
 
     PNODE first = dobj->kReverse(sobj->first, 2);
-
     dobj->display(first);
 
     return 0;

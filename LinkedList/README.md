@@ -20,3 +20,4 @@
 16.CheckCircularLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/CheckCircularLL.cpp
 17.DetectLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/DetectLoop.cpp
 18.FloydDetectLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FloydDetectLoop.cpp
+19.FindStartingNodeOfLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FloydDetectLoop.cpp

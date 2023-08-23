@@ -41,7 +41,7 @@ int main()
     sobj->insertAtLast(50);
     sobj->insertAtLast(60);
 
-    sobj->dispaly();
+    sobj->display();
     iRet=dobj->findMiddleElement();
     if(iRet==-1)
     {

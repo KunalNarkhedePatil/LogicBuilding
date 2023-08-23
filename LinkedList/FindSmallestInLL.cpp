@@ -39,7 +39,7 @@ int main()
     sobj->insertAtLast(40);
     sobj->insertAtLast(50);
 
-    sobj->dispaly();
+    sobj->display();
     
     cout<<"Smallest element in the linked list is: "<<dobj->smallestElement()<<endl;
 

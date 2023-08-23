@@ -14,7 +14,7 @@ class DoublyCircularLL
     void deleteAtFirst();
     void deleteAtLast();
     void deleteAtPos(int iPos);
-    void dispaly();
+    void display();
     int count();
 };
 
@@ -162,7 +162,7 @@ void DoublyCircularLL::deleteAtPos(int iPos)
       delete taragated;
    }
 }
-void DoublyCircularLL::dispaly()
+void DoublyCircularLL::display()
 {
     PNODE temp=first;
     do
@@ -197,7 +197,7 @@ int main()
     dobj->deleteAtLast();
     dobj->deleteAtPos(2);
 
-    dobj->dispaly();
+    dobj->display();
     cout << "Number of node in the linked list are:" << dobj->count() << endl;
 
 

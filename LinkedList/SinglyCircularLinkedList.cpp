@@ -17,7 +17,7 @@ public:
     void deleteAtFirst();
     void deleteAtLast();
     void deleteAtPos(int iPos);
-    void dispaly();
+    void display();
     int count();
 };
 SinglyCircularLL::SinglyCircularLL()
@@ -166,7 +166,7 @@ void SinglyCircularLL::deleteAtPos(int iPos)
         size--;
     }
 }
-void SinglyCircularLL::dispaly()
+void SinglyCircularLL::display()
 {
     PNODE temp = first;
 
@@ -201,7 +201,7 @@ int main()
     sobj->deleteAtLast();
     sobj->deleteAtPos(2);
     
-    sobj->dispaly();
+    sobj->display();
     cout << "Number of node in the linked list are:" << sobj->count() << endl;
 
     return 0;

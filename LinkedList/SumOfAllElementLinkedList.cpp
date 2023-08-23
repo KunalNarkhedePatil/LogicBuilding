@@ -36,7 +36,7 @@ int main()
     sobj->insertAtLast(40);
     sobj->insertAtLast(50);
 
-    sobj->dispaly();
+    sobj->display();
     
     cout<<"Sum of all element in the linked list are: "<<dobj->sumOfAllElementInLinkedList()<<endl;
 

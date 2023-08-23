@@ -1,68 +1,90 @@
 #include "linkedlist.h"
+#include<map>
 class Demo
 {
-    public:
-
+public:
     SinglyLinearLL *sobj;
 
     Demo(SinglyLinearLL *sobj)
     {
-        this->sobj=sobj;
+        this->sobj = sobj;
     }
-   
-    PNODE reverse(PNODE first,int k)
+
+    bool detectLoop()
     {
-        if(first==NULL)
+        if(sobj->first==NULL)
         {
-            return NULL;
-        }
-        PNODE prevNode=NULL;
-        PNODE currNode=first;
-        PNODE nextNode=NULL;
-        int iCnt=0;
-
-        while(currNode!=NULL &&  iCnt<k)
-        {
-            nextNode=currNode->next;
-
-            currNode->next=prevNode;
-
-            prevNode=currNode;
-            currNode=nextNode;
-            iCnt++;
+            return  false;
         }
 
-        if(nextNode!=NULL)
+        PNODE fast=sobj->first;
+        PNODE slow=sobj->first;
+
+        int iFlag=0;
+
+        while(slow!=NULL && fast!=NULL)
         {
-            first->next=reverse(nextNode,k);
+            fast=fast->next;
+            if(fast!=NULL)
+            {
+                fast=fast->next;
+            }
+            slow=slow->next;
+
+            if(slow==fast)
+            {
+                iFlag=1;
+                break;
+            }
         }
-        return prevNode;
+        if(iFlag==1)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 };
 int main()
-{
-   SinglyLinearLL *sobj=new SinglyLinearLL();
+{ SinglyLinearLL *sobj=new SinglyLinearLL();
 
-   sobj->insertAtLast(10);
-   sobj->insertAtLast(20);
-   sobj->insertAtLast(30);
-   sobj->insertAtLast(40);
-   sobj->insertAtLast(50);
+    sobj->insertAtLast(10);
+    sobj->insertAtLast(20);
+    sobj->insertAtLast(30);
+    sobj->insertAtLast(40);
+    sobj->insertAtLast(50);
+    sobj->insertAtLast(60);
+    sobj->insertAtLast(70);
 
-   sobj->display();
+    sobj->display();
 
-   Demo *dobj=new Demo(sobj);
+    Demo *dobj=new Demo(sobj);
+    
+    PNODE temp=sobj->first;
 
-   PNODE first=dobj->reverse(sobj->first,2);
+    //if want to check the linked list contain loop then uncomment this 
+    // PNODE Temp=NULL;
+    // while(temp->next!=NULL)
+    // {
+    //     if(temp->data==50)
+    //     {
+    //          Temp=temp;
+    //     }
+    //     temp=temp->next;
+    // }
+    // temp->next=Temp;
 
-   PNODE temp=first;
+    if(dobj->detectLoop())
+    {
+        cout<<"Linked list contain loop\n";
+    }
+    else
+    {
+        cout<<"Linked list not contain loop\n";
+    }
 
-   while(temp!=NULL)
-   {
-      cout<<temp->data<<"->";
-      temp=temp->next;
-   }
-   cout<<"NULL\n";
-
-
+    
+    return 0;
 }

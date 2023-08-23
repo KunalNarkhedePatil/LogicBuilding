@@ -14,7 +14,7 @@ class Demo
 
     bool detectLoop()
     {
-        int iFlag=1;
+        int iFlag=0;
         if(sobj->first==NULL)
         {
             return false;
@@ -28,13 +28,13 @@ class Demo
         {
             if(visited[temp]==true)
             {
-                iFlag=0;
+                iFlag=1;
                 break;
             }
             visited[temp]=true;
             temp=temp->next;
         }
-        if(iFlag==0)
+        if(iFlag==1)
         {
             return true;
         }

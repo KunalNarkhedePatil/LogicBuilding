@@ -13,7 +13,7 @@ public:
     void deleteAtFirst();
     void deleteAtLast();
     void deleteAtPos(int iPos);
-    void dispaly();
+    void display();
     int count();
 };
 DoublyLinearLL::DoublyLinearLL()
@@ -158,7 +158,7 @@ void DoublyLinearLL::deleteAtPos(int iPos)
         size--;
     }
 }
-void DoublyLinearLL::dispaly()
+void DoublyLinearLL::display()
 {
     PNODE temp=first;
 
@@ -193,7 +193,7 @@ int main()
     dobj->deleteAtLast();
     dobj->deleteAtPos(2);
 
-    dobj->dispaly();
+    dobj->display();
     cout << "Number of node in the linked list are:" << dobj->count() << endl;
 
     return 0;
