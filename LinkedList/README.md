@@ -12,7 +12,6 @@
 8.FindSmallestInLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FindSmallestInLL.cpp
 9.SumOfAllElementLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SumOfAllElementLinkedList.cpp
 10.findMiddleElementInLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/findMiddleElementInLL.cpp
-10.GetNthNode   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/GetNthNode.cpp
 11.GetNthNode   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/GetNthNode.cpp
 12.ReverseLinkedListIteratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/ReverseLinkedListIteratively.cpp
 13.ReverseLinkedListRecursively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/ReverseLinkedListRecursively.cpp
