@@ -23,7 +23,7 @@ public:
     {
         PNODE prevNode = NULL;
         PNODE currNode = sobj->first;
-        reverse(prevNode,currNode);
+        reverse(prevNode, currNode);
     }
 };
 int main()

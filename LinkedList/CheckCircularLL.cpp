@@ -50,14 +50,13 @@ int main()
     sobj->display();
 
     Demo *dobj = new Demo(sobj);
-    
+
     // PNODE temp=sobj->first;
     // while(temp->next!=NULL)
     // {
     //     temp=temp->next;
     // }
     // temp->next=sobj->first;
- 
 
     bool bRet = dobj->checkCircularLL();
 

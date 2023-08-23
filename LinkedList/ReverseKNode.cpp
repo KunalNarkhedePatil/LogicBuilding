@@ -39,12 +39,11 @@ public:
     }
     void display(PNODE first)
     {
-        while(first!=NULL)
+        while (first != NULL)
         {
-            cout<<first->data<<"->";
-            first=first->next;
+            cout << first->data << "->";
+            first = first->next;
         }
-
     }
 };
 int main()

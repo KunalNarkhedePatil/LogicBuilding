@@ -17,5 +17,6 @@
 13.ReverseLinkedListRecursively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/ReverseLinkedListRecursively.cpp
 14.ReverseDoublyLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/ReverseDoublyLinkedList.cpp
 15.ReverseKNode   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/ReverseKNode.cpp
-16.DetectLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/DetectLoop.cpp
-17.FloydDetectLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FloydDetectLoop.cpp
+16.CheckCircularLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/CheckCircularLL.cpp
+17.DetectLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/DetectLoop.cpp
+18.FloydDetectLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FloydDetectLoop.cpp

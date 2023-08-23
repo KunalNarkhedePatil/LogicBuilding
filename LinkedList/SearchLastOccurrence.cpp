@@ -41,7 +41,7 @@ int main()
     sobj->insertAtLast(40);
     sobj->insertAtLast(50);
 
-    sobj->dispaly();
+    sobj->display();
     cout<<"Enter the number to search:\n";
     cin>>iNo;
     iRet=dobj->seachLastOccurrence(sobj,iNo);

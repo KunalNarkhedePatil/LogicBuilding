@@ -34,7 +34,7 @@ void DoublyLL::insertAtLast(int iVal)
     {
         last->next = newn;
         newn->prev = last;
-        last=newn;
+        last = newn;
     }
     size++;
 }
@@ -53,12 +53,12 @@ void DoublyLL::reverseLL()
 {
     PNODE temp = last->prev->next;
 
-    while(temp!=NULL)
+    while (temp != NULL)
     {
-        cout<<temp->data<<"->";
-        temp=temp->prev;
+        cout << temp->data << "->";
+        temp = temp->prev;
     }
-    cout<<"NULL\n";
+    cout << "NULL\n";
 }
 int main()
 {
