@@ -59,7 +59,7 @@ void SinglyLinearLL::insertAtLast(int iVal)
 }
 void SinglyLinearLL::insertAtPos(int iPos, int iVal)
 {
-    
+
     if (iPos < 0 || iPos > size + 1)
     {
         cout << "Invalid Position\n";

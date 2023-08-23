@@ -1,37 +1,35 @@
 #include "linkedlist.h"
 class Demo
 {
-    public:
+public:
     SinglyLinearLL *sobj;
     Demo(SinglyLinearLL *sobj)
     {
-        this->sobj=sobj;
+        this->sobj = sobj;
     }
 
     int largestElement()
     {
-        PNODE temp=sobj->first;
-        int iMax=temp->data;
+        PNODE temp = sobj->first;
+        int iMax = temp->data;
 
-        while(temp!=NULL)
+        while (temp != NULL)
         {
-            if(temp->data>iMax)
+            if (temp->data > iMax)
             {
-                iMax=temp->data;
+                iMax = temp->data;
             }
-            temp=temp->next;
+            temp = temp->next;
         }
         return iMax;
     }
-
-    
 };
 int main()
 {
-    int iNo=0;
-    int iRet=0;
-    SinglyLinearLL *sobj=new SinglyLinearLL();
-    Demo *dobj=new Demo(sobj);
+    int iNo = 0;
+    int iRet = 0;
+    SinglyLinearLL *sobj = new SinglyLinearLL();
+    Demo *dobj = new Demo(sobj);
 
     sobj->insertAtLast(10);
     sobj->insertAtLast(20);
@@ -40,9 +38,8 @@ int main()
     sobj->insertAtLast(50);
 
     sobj->display();
-    
-    cout<<"Largest element in the linked list is: "<<dobj->largestElement()<<endl;
+
+    cout << "Largest element in the linked list is: " << dobj->largestElement() << endl;
 
     return 0;
 }
-

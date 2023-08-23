@@ -1,24 +1,23 @@
 #include "linkedlist.h"
 class Demo
 {
-    public:
-
-    int seachLastOccurrence(SinglyLinearLL *sobj,int iNo)
+public:
+    int seachLastOccurrence(SinglyLinearLL *sobj, int iNo)
     {
-        PNODE temp=sobj->first;
-        int iCnt=0;
-        int iFlag=0;
+        PNODE temp = sobj->first;
+        int iCnt = 0;
+        int iFlag = 0;
 
-        while(temp!=NULL)
+        while (temp != NULL)
         {
             iCnt++;
-            if(temp->data==iNo)
+            if (temp->data == iNo)
             {
-                iFlag=iCnt;
+                iFlag = iCnt;
             }
-            temp=temp->next;
+            temp = temp->next;
         }
-        if(iFlag==0)
+        if (iFlag == 0)
         {
             return -1;
         }
@@ -30,10 +29,10 @@ class Demo
 };
 int main()
 {
-    int iNo=0;
-    int iRet=0;
-    Demo *dobj=new Demo();
-    SinglyLinearLL *sobj=new SinglyLinearLL();
+    int iNo = 0;
+    int iRet = 0;
+    Demo *dobj = new Demo();
+    SinglyLinearLL *sobj = new SinglyLinearLL();
 
     sobj->insertAtLast(10);
     sobj->insertAtLast(20);
@@ -42,19 +41,18 @@ int main()
     sobj->insertAtLast(50);
 
     sobj->display();
-    cout<<"Enter the number to search:\n";
-    cin>>iNo;
-    iRet=dobj->seachLastOccurrence(sobj,iNo);
+    cout << "Enter the number to search:\n";
+    cin >> iNo;
+    iRet = dobj->seachLastOccurrence(sobj, iNo);
 
-    if(iRet==-1)
+    if (iRet == -1)
     {
-        cout<<"Element is not present in the linked list\n";
+        cout << "Element is not present in the linked list\n";
     }
     else
     {
-        cout<<"Element present at "<<iRet<<" index\n";
+        cout << "Element present at " << iRet << " index\n";
     }
 
     return 0;
 }
-

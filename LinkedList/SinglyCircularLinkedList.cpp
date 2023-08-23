@@ -200,7 +200,7 @@ int main()
     sobj->deleteAtFirst();
     sobj->deleteAtLast();
     sobj->deleteAtPos(2);
-    
+
     sobj->display();
     cout << "Number of node in the linked list are:" << sobj->count() << endl;
 

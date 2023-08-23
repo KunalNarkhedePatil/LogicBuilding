@@ -1,40 +1,39 @@
-#include"linkedlist.h"
-#include<map>
+#include "linkedlist.h"
+#include <map>
 
 class Demo
 {
-    public:
-
+public:
     SinglyLinearLL *sobj;
 
     Demo(SinglyLinearLL *sobj)
     {
-        this->sobj=sobj;
+        this->sobj = sobj;
     }
 
     bool detectLoop()
     {
-        int iFlag=0;
-        if(sobj->first==NULL)
+        int iFlag = 0;
+        if (sobj->first == NULL)
         {
             return false;
         }
 
-        map<PNODE,bool> visited;
+        map<PNODE, bool> visited;
 
-        PNODE temp=sobj->first;
+        PNODE temp = sobj->first;
 
-        while(temp!=NULL)
+        while (temp != NULL)
         {
-            if(visited[temp]==true)
+            if (visited[temp] == true)
             {
-                iFlag=1;
+                iFlag = 1;
                 break;
             }
-            visited[temp]=true;
-            temp=temp->next;
+            visited[temp] = true;
+            temp = temp->next;
         }
-        if(iFlag==1)
+        if (iFlag == 1)
         {
             return true;
         }
@@ -46,7 +45,7 @@ class Demo
 };
 int main()
 {
-    SinglyLinearLL *sobj=new SinglyLinearLL();
+    SinglyLinearLL *sobj = new SinglyLinearLL();
 
     sobj->insertAtLast(10);
     sobj->insertAtLast(20);
@@ -58,31 +57,30 @@ int main()
 
     sobj->display();
 
-    Demo *dobj=new Demo(sobj);
-    
-    PNODE temp=sobj->first;
+    Demo *dobj = new Demo(sobj);
 
-    //if want to check the linked list contain loop then uncomment this 
-    // PNODE Temp=NULL;
-    // while(temp->next!=NULL)
-    // {
-    //     if(temp->data==50)
-    //     {
-    //          Temp=temp;
-    //     }
-    //     temp=temp->next;
-    // }
-    // temp->next=Temp;
+    PNODE temp = sobj->first;
 
-    if(dobj->detectLoop())
+    // if want to check the linked list contain loop then uncomment this
+    //  PNODE Temp=NULL;
+    //  while(temp->next!=NULL)
+    //  {
+    //      if(temp->data==50)
+    //      {
+    //           Temp=temp;
+    //      }
+    //      temp=temp->next;
+    //  }
+    //  temp->next=Temp;
+
+    if (dobj->detectLoop())
     {
-        cout<<"Linked list contain loop\n";
+        cout << "Linked list contain loop\n";
     }
     else
     {
-        cout<<"Linked list not contain loop\n";
+        cout << "Linked list not contain loop\n";
     }
 
-    
     return 0;
 }

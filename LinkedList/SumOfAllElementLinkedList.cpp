@@ -1,34 +1,32 @@
 #include "linkedlist.h"
 class Demo
 {
-    public:
+public:
     SinglyLinearLL *sobj;
     Demo(SinglyLinearLL *sobj)
     {
-        this->sobj=sobj;
+        this->sobj = sobj;
     }
 
     int sumOfAllElementInLinkedList()
     {
-        int iSum=0;
-        PNODE temp=sobj->first;
+        int iSum = 0;
+        PNODE temp = sobj->first;
 
-        while(temp!=NULL)
+        while (temp != NULL)
         {
-            iSum=iSum+temp->data;
-            temp=temp->next;
+            iSum = iSum + temp->data;
+            temp = temp->next;
         }
         return iSum;
     }
-
-    
 };
 int main()
 {
-    int iNo=0;
-    int iRet=0;
-    SinglyLinearLL *sobj=new SinglyLinearLL();
-    Demo *dobj=new Demo(sobj);
+    int iNo = 0;
+    int iRet = 0;
+    SinglyLinearLL *sobj = new SinglyLinearLL();
+    Demo *dobj = new Demo(sobj);
 
     sobj->insertAtLast(10);
     sobj->insertAtLast(20);
@@ -37,9 +35,8 @@ int main()
     sobj->insertAtLast(50);
 
     sobj->display();
-    
-    cout<<"Sum of all element in the linked list are: "<<dobj->sumOfAllElementInLinkedList()<<endl;
+
+    cout << "Sum of all element in the linked list are: " << dobj->sumOfAllElementInLinkedList() << endl;
 
     return 0;
 }
-
