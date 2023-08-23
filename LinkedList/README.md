@@ -11,7 +11,7 @@
 7.FindLargestInLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FindLargestInLL.cpp
 8.FindSmallestInLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FindSmallestInLL.cpp
 9.SumOfAllElementLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SumOfAllElementLinkedList.cpp
-10.findMiddleElementInLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/findMiddleElementInLL.cpp
+10.FindMiddleElementInLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/findMiddleElementInLL.cpp
 11.GetNthNode   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/GetNthNode.cpp
 12.ReverseLinkedListIteratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/ReverseLinkedListIteratively.cpp
 13.ReverseLinkedListRecursively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/ReverseLinkedListRecursively.cpp
@@ -21,3 +21,4 @@
 17.DetectLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/DetectLoop.cpp
 18.FloydDetectLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FloydDetectLoop.cpp
 19.FindStartingNodeOfLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FloydDetectLoop.cpp
+20.RemoveLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FloydDetectLoop.cpp
