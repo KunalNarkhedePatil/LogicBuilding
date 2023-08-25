@@ -22,12 +22,8 @@
 18.FloydDetectLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FloydDetectLoop.cpp
 19.FindStartingNodeOfLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FindStartingNodeOfLoop.cpp
 20.RemoveLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveLoop.cpp
-
-20.SortLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveLoop.cpp
-
-20.RemoveDuplicatesFromSortedLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveLoop.cpp
-
-20.RemoveDuplicatesFromUnsortedLL1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveLoop.cpp
-
-20.RemoveDuplicatesFromUnsortedLL2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveLoop.cpp
+21.SortLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortLinkedList.cpp
+22.RemoveDuplicatesFromSortedLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveDuplicatesFromSortedLL.cpp
+23.RemoveDuplicatesFromUnsortedLL1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveDuplicatesFromUnsortedLL1.cpp
+24.RemoveDuplicatesFromUnsortedLL2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveDuplicatesFromUnsortedLL2.cpp
 
