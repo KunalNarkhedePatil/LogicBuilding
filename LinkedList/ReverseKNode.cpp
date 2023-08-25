@@ -35,7 +35,7 @@ public:
         {
             first->next = kReverse(nextNode, k);
         }
-        return prevNode;
+        return prevNode;  //pratek itaration madhala last vala prev 
     }
     void display(PNODE first)
     {
