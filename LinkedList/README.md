@@ -22,3 +22,12 @@
 18.FloydDetectLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FloydDetectLoop.cpp
 19.FindStartingNodeOfLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FindStartingNodeOfLoop.cpp
 20.RemoveLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveLoop.cpp
+
+20.SortLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveLoop.cpp
+
+20.RemoveDuplicatesFromSortedLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveLoop.cpp
+
+20.RemoveDuplicatesFromUnsortedLL1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveLoop.cpp
+
+20.RemoveDuplicatesFromUnsortedLL2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveLoop.cpp
+
