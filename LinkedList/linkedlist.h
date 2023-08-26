@@ -63,7 +63,7 @@ void SinglyLinearLL::display()
         cout << temp->data << "->";
         temp = temp->next;
     }
-    cout << endl;
+    cout<<"NULL\n";
 }
 int SinglyLinearLL::count()
 {
