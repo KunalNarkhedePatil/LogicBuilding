@@ -1,85 +1,87 @@
-//in this problem we only replacing the data.
-#include"linkedlist.h"
+// in this problem we only replacing the data.
+#include "linkedlist.h"
 class Demo
 {
-    public:
-
+public:
     SinglyLinearLL *sobj;
 
     Demo(SinglyLinearLL *sobj)
     {
-        this->sobj=sobj;
+        this->sobj = sobj;
     }
     void sortZeroOneTwo()
     {
-        int zeroCount=0;
-        int oneCount=0;
-        int twoCount=0;
+        int zeroCount = 0;
+        int oneCount = 0;
+        int twoCount = 0;
 
-        PNODE temp=sobj->first;
+        PNODE temp = sobj->first;
 
-        while(temp!=NULL)
+        while (temp != NULL)
         {
-            if(temp->data==0)
+            if (temp->data == 0)
             {
                 zeroCount++;
             }
-            else if(temp->data==1)
+            else if (temp->data == 1)
             {
                 oneCount++;
             }
-            else if(temp->data==2)
+            else if (temp->data == 2)
             {
                 twoCount++;
             }
-            temp=temp->next;
+            temp = temp->next;
         }
-        //cout<<zeroCount<<endl;
-        //cout<<oneCount<<endl;
-        //cout<<twoCount<<endl;
+        // cout<<zeroCount<<endl;
+        // cout<<oneCount<<endl;
+        // cout<<twoCount<<endl;
 
-        temp=sobj->first;
+        temp = sobj->first;
 
-        while(temp!=NULL)
+        while (temp != NULL)
         {
-            if(zeroCount!=0)
-            { 
-                temp->data=0;
+            if (zeroCount != 0)
+            {
+                temp->data = 0;
                 zeroCount--;
             }
-            else if(oneCount!=0)
+            else if (oneCount != 0)
             {
-                temp->data=1;
+                temp->data = 1;
                 oneCount--;
             }
-            else if(twoCount!=0)
+            else if (twoCount != 0)
             {
-                temp->data=2;
+                temp->data = 2;
                 twoCount--;
             }
-            temp=temp->next;
+            temp = temp->next;
         }
     }
 };
 int main()
 {
-    SinglyLinearLL *sobj=new SinglyLinearLL();
+    SinglyLinearLL *sobj = new SinglyLinearLL();
 
     sobj->insertAtLast(1);
+    sobj->insertAtLast(0);
     sobj->insertAtLast(0);
     sobj->insertAtLast(2);
     sobj->insertAtLast(1);
     sobj->insertAtLast(0);
+    sobj->insertAtLast(1);
     sobj->insertAtLast(2);
-
+    sobj->insertAtLast(0);
+    cout << "Before Sort\n";
     sobj->display();
 
-    Demo *dobj=new Demo(sobj);
+    Demo *dobj = new Demo(sobj);
 
+    cout << "After Sort\n";
     dobj->sortZeroOneTwo();
-
+    
     sobj->display();
-
 
     return 0;
 }
