@@ -10,7 +10,7 @@
 6.ProblemsOnRecursions   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/ProblemsOnRecursions
 7.ProblemsOnBits   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/ProblemsOnRecursions
 
-# Data Structure And Alogirithm
+# Data Structure And Alogorithm
 
 | Folder Name             | Link Of Folders                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
