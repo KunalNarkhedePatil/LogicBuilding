@@ -26,6 +26,6 @@
 22.RemoveDuplicatesFromSortedLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveDuplicatesFromSortedLL.cpp
 23.RemoveDuplicatesFromUnsortedLL1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveDuplicatesFromUnsortedLL1.cpp
 24.RemoveDuplicatesFromUnsortedLL2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveDuplicatesFromUnsortedLL2.cpp
-25.SortZeroOneTwo1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SplitLinkedList.cpp
 26.SplitLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SplitLinkedList.cpp
-27.SortZeroOneTwo2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SplitLinkedList.cpp
+26.SortZeroOneTwo1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortZeroOneTwo1.cpp
+27.SortZeroOneTwo2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortZeroOneTwo2.cpp
