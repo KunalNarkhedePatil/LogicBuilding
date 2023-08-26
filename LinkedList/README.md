@@ -31,4 +31,4 @@
 27.SortZeroOneTwo2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortZeroOneTwo2.cpp
 28.CheckPalindromicLL1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/CheckPalindromicLL1.cpp
 29.CheckPalindromicLL2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/CheckPalindromicLL2.cpp
-27.SortZeroOneTwo2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortZeroOneTwo2.cpp
+27.IntersectionOfTwoLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortZeroOneTwo2.cpp
