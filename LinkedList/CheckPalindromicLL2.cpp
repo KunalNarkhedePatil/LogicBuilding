@@ -37,18 +37,18 @@ public:
     }
     bool checkPalindromicLL()
     {
+        if(sobj->first==NULL || sobj->first->next==NULL)
+        {
+            return true;
+        }
         PNODE MiddleNode = findMiddle();
-
         PNODE Temp = MiddleNode->next;
-
         PNODE ReverseLL = reverseLL(Temp);
-
         PNODE temp = sobj->first;
         int iFlag = 1;
 
         while (temp != MiddleNode->next && ReverseLL != NULL)
         {
-
             if (temp->data != ReverseLL->data)
             {
                 iFlag = 0;
