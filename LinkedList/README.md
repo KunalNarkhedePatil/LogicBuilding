@@ -29,5 +29,5 @@
 26.SplitLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SplitLinkedList.cpp
 26.SortZeroOneTwo1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortZeroOneTwo1.cpp
 27.SortZeroOneTwo2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortZeroOneTwo2.cpp
-28.CheckPalindromicLL1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortZeroOneTwo2.cpp
+28.CheckPalindromicLL1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/CheckPalindromicLL1.cpp
 27.SortZeroOneTwo2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortZeroOneTwo2.cpp
