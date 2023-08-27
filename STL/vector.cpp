@@ -1,53 +1,73 @@
-#include<iostream>
-#include<vector>
-
+#include <iostream>
+#include <vector>
 using namespace std;
 
-#include<vector>
+class Demo
+{
+public:
+   void display()
+   {
+      vector<int> v;
+      vector<int> v1(5, 1);
+
+      vector<int> v2(v1); // copy v1 into v2
+      cout << "print v1:";
+      for (int iCnt : v1)
+      {
+         cout << iCnt << " ";
+      }
+      cout << endl;
+      cout << "print v2:";
+      for (int iCnt : v2)
+      {
+         cout << iCnt << " ";
+      }
+      cout << endl;
+      cout << "Capacity of v1 " << v1.capacity() << endl;
+      v1.push_back(2);
+      cout << "Capacity of v1 " << v1.capacity() << endl;
+      cout << "Size of v1 " << v1.size() << endl;
+
+      cout << "Capacity of v " << v.capacity() << endl;
+      v.push_back(10);
+      cout << "Capacity of v " << v.capacity() << endl;
+      v.push_back(20);
+      cout << "Capacity of v " << v.capacity() << endl;
+      v.push_back(30);
+      cout << "Capacity of v " << v.capacity() << endl;
+      v.push_back(40);
+      cout << "Capacity of v " << v.capacity() << endl;
+      v.push_back(50);
+      cout << "Capacity of v " << v.capacity() << endl;
+
+      v.pop_back();
+      cout << "Capacity of v " << v.capacity() << endl;
+      v.pop_back();
+      cout << "Capacity of v " << v.capacity() << endl;
+
+      cout << "print v\n";
+      for (int iCnt : v)
+      {
+         cout << iCnt << " ";
+      }
+      cout << endl;
+
+      // other way to print
+
+      //   for(int i=0;i<v.size();i++)
+      //   {
+      //      cout<<v.at(i)<<" ";
+      //   }
+      //   cout<<endl;
+
+      cout << "Front Element ->" << v.front() << endl;
+      cout << "Back Element ->" << v.back() << endl;
+   }
+};
 int main()
 {
-   vector<int> v;
-   for(int i=1;i<=5;i++)
-   {
-      v.push_back(i);
-   }
-   vector<int>::iterator it;
-   for(it=v.begin();it!=v.end();it++)
-   {
-      cout<<*it<<" ";
-   }
-   cout<<endl;
-   for(int i=0;i<v.size();i++)
-   {
-      cout<<v.at(i)<<" ";
-   }
-   cout<<endl;
+   Demo *dobj = new Demo();
 
-   vector<int> v1;
-
-   v1.push_back(10);
-   v1.push_back(10);
-   v1.push_back(10);
-   v1.push_back(10);
-
-   for(int i=0;i<v1.size();i++)
-   {
-     cout<<v1.at(i)<<" ";
-   }
-   cout<<endl;
-   v1.push_back(20);
-   cout<<v1.capacity()<<endl;
-   cout<<v1.size()<<endl;
-   cout<<v1.front()<<endl;
-   cout<<v1.back()<<endl;
-
-   int sum=0;
-   while(!v1.empty())
-   {
-      sum=sum+v1.back();
-      v1.pop_back();
-   }
-   cout<<sum<<endl;
-   cout<<v1.max_size()<<endl;
-    return 0;
+   dobj->display();
+   return 0;
 }
