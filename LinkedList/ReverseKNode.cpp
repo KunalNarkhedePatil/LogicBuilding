@@ -23,7 +23,6 @@ public:
         while (currNode != NULL && iCnt < k)
         {
             nextNode = currNode->next;
-
             currNode->next = prevNode;
 
             prevNode = currNode;

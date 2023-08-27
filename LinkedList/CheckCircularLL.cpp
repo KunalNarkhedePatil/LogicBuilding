@@ -1,3 +1,15 @@
+/*
+CASE1:
+Input:
+10->20->30->40->50->NULL
+Output:
+Linked list is not circular
+CASE2:
+Input:
+10->20->30->40->50->NULL
+Output:
+Linked list is circular
+*/
 #include "linkedlist.h"
 class Demo
 {

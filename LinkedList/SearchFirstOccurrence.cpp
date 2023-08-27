@@ -1,3 +1,11 @@
+/*
+Input:
+10->20->30->40->50->NULL
+Enter the number to search:
+40
+Output:
+Element present at 4 index
+*/
 #include "linkedlist.h"
 class Demo
 {

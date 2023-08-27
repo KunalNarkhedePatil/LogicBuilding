@@ -1,3 +1,10 @@
+/*Input:
+10->20->30->40->30->50->NULL
+Enter the number to search:
+30
+Output:
+Element present at 5 index
+*/
 #include "linkedlist.h"
 class Demo
 {
@@ -38,6 +45,7 @@ int main()
     sobj->insertAtLast(20);
     sobj->insertAtLast(30);
     sobj->insertAtLast(40);
+    sobj->insertAtLast(30);
     sobj->insertAtLast(50);
 
     sobj->display();

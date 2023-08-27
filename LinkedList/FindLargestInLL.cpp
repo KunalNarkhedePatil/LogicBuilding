@@ -1,3 +1,9 @@
+/*
+Input:
+10->20->70->40->50->NULL
+Output:
+Largest element in the linked list is: 70
+*/
 #include "linkedlist.h"
 class Demo
 {

@@ -1,3 +1,16 @@
+/*
+CASE2:
+Input:
+10->20->30->20->10->NULL
+Output:
+Linked list is palindromic
+CASE2:
+
+Input:
+10->20->30->20->10->NULL
+Output:
+Linked list is not palindromic
+*/
 #include "linkedlist.h"
 class Demo
 {

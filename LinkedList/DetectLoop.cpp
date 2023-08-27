@@ -1,3 +1,16 @@
+/*
+CASE1:
+Input:
+10->20->30->40->50->60->70->NULL
+Output:
+Linked list not contain loop
+
+CASE2:
+Input:
+10->20->30->40->50->60->70->NULL
+Output:
+Linked list contain loop
+*/
 #include "linkedlist.h"
 #include <map>
 

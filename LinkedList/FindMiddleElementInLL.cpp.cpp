@@ -15,9 +15,9 @@ public:
             return -1;
         }
         PNODE temp = sobj->first;
-        int iSize = (sobj->size / 2) + 1;
+        int iPos = (sobj->size / 2) + 1;
 
-        for (int i = 1; i < iSize; i++)
+        for (int i = 1; i < iPos; i++)
         {
             temp = temp->next;
         }

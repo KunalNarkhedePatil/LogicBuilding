@@ -1,3 +1,9 @@
+/*
+Input:
+10->20->30->40->50->NULL
+Output:
+Sum of all element in the linked list are: 150
+*/
 #include "linkedlist.h"
 class Demo
 {

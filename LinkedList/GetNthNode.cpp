@@ -1,3 +1,11 @@
+/*
+Input:
+10->20->30->40->50->NULL
+Enter the number
+4
+Output:
+4 rd node is 40
+*/
 #include "linkedlist.h"
 class Demo
 {

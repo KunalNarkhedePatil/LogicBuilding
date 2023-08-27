@@ -1,5 +1,12 @@
+/*
+Input:
+Before Reverse:
+10->20->30->40->50->NULL
+Output:
+After Reverse:
+50->40->30->20->10->NULL
+*/
 #include "linkedlist.h"
-
 class Demo
 {
 public:

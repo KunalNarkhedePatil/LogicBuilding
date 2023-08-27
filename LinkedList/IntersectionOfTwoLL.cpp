@@ -1,10 +1,17 @@
+/*
+Input:
+1->2->3->4->NULL
+5->3->4->NULL
+Output:
+Intersection found at 3
+*/
 #include "linkedlist.h"
 class Demo
 {
 public:
     SinglyLinearLL *sobj1;
     SinglyLinearLL *sobj2;
-
+    
     Demo(SinglyLinearLL *sobj1, SinglyLinearLL *sobj2)
     {
         this->sobj1 = sobj1;
@@ -50,6 +57,9 @@ int main()
     sobj2->insertAtLast(4);
 
     Demo *dobj = new Demo(sobj1, sobj2);
+
+    sobj1->display();
+    sobj2->display();
 
     int iRet = dobj->intersectionOfTwoLL();
 

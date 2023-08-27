@@ -1,3 +1,12 @@
+/*
+Input:
+10->20->30->40->50->60->NULL
+Output:
+First LinkedList
+10->20->30->NULL
+Second LinkedList
+40->50->60->NULL
+*/
 #include "linkedlist.h"
 class Demo
 {

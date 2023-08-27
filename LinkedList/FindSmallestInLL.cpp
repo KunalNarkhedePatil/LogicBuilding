@@ -1,3 +1,9 @@
+/*
+Input:
+10->20->5->40->50->NULL
+Output:
+Smallest element in the linked list is: 5
+*/
 #include "linkedlist.h"
 class Demo
 {

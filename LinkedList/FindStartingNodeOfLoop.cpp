@@ -1,3 +1,10 @@
+/*
+Input:
+10->20->30->40->50->60->70->NULL
+Output:
+Linked list contain loop
+Loop start at 50
+*/
 #include "linkedlist.h"
 class Demo
 {

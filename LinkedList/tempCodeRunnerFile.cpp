@@ -1,1 +1,0 @@
-ReverseLL != NULL
