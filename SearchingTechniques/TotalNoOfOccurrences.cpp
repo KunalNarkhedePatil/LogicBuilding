@@ -1,3 +1,26 @@
+/*
+Input:
+Enter the size of array
+6
+Enter the elements in the array:
+1 2 2 2 2 5
+Original Array
+1 2 2 2 2 5 
+Enter the Number to search
+2
+Output:
+Total Number of occurrences of 4
+CASE2:
+Enter the size of array
+6
+Enter the elements in the array:
+1 2 2 2 2 5
+Original Array
+1 2 2 2 2 5 
+Enter the Number to search
+8
+Total Number of occurrences of 0
+*/
 #include "array.h"
 class Demo : public MyArray
 {
