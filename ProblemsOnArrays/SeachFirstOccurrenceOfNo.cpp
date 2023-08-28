@@ -46,7 +46,7 @@ int main()
     }
     else
     {
-        cout << "First occurrence of " << iNo << " is present at " << iRet << " index" << endl;
+        cout << "First  occurrence of " << iNo << " is present at " << iRet << " index" << endl;
     }
 
     return 0;

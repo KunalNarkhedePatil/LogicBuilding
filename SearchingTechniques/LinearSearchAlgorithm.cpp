@@ -32,7 +32,7 @@ class Demo:public MyArray
     {
         this->iSize=iSize;
     }
-    int linearSearch(int Key)
+    int linearSearchAlgorithm(int Key)
     {
         int iFlag=-1;
 
@@ -56,7 +56,7 @@ class Demo:public MyArray
 };
 int main()
 {
-    int *Arr=NULL,iSize=0,iNo=0,iRet=0;
+    int iSize=0,iNo=0,iRet=0;
 
     cout<<"Enter the size of array\n";
     cin>>iSize;
@@ -75,7 +75,7 @@ int main()
     cout<<"Enter the Number to search\n";
     cin>>iNo;
 
-    iRet=dobj->linearSearch(iNo);
+    iRet=dobj->linearSearchAlgorithm(iNo);
 
     if(iRet==-1)
     {
