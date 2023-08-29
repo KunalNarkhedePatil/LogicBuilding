@@ -1,3 +1,26 @@
+/*
+CASE1:
+Input:
+Enter the size of array
+5
+Enter the elements in the array:
+1 2 3 4 5
+Enter the number to search
+3
+Output:
+3 is present at 2 index
+---------------------------------------
+CASE2:
+Input:
+Enter the size of array
+5
+Enter the elements in the array:
+1 2 3 4 5
+Enter the number to search
+6
+Output:
+6 is not present in the array
+*/
 #include "array.h"
 class Demo : public MyArray
 {
