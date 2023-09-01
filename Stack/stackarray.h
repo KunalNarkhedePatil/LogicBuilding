@@ -6,14 +6,14 @@ class Stack
 public:
     int iTop;
     int iSize;
-    int *iArr;
+    int *Arr;
 
     Stack(int iSize = 20);
     bool isEmpty();
     bool isFull();
     void push(int iVal);
     void pop();
-    char top();
+    int top();
     int size();
     void display();
 };
@@ -22,7 +22,7 @@ Stack::Stack(int iSize)
     this->iTop = -1;
     this->iSize = iSize;
     //cout << "Size:" << this->iSize << endl;
-    this->iArr = new int[this->iSize];
+    this->Arr = new int[this->iSize];
 }
 bool Stack::isEmpty()
 {
@@ -46,9 +46,9 @@ bool Stack::isFull()
         return false;
     }
 }
-char Stack::top()
+int Stack::top()
 {
-    return this->iArr[this->iTop];
+    return this->Arr[this->iTop];
 }
 void Stack::push(int iVal)
 {
@@ -60,7 +60,7 @@ void Stack::push(int iVal)
     else
     {
         this->iTop++;
-        this->iArr[this->iTop] = iVal;
+        this->Arr[this->iTop] = iVal;
     }
 }
 void Stack::pop()
@@ -97,7 +97,7 @@ void Stack::display()
     {
         for (int i = 0; i <= this->iTop; i++)
         {
-            cout << this->iArr[i] << "->";
+            cout << this->Arr[i] << "->";
         }
         cout<<endl;
     }

@@ -2,25 +2,27 @@
 using namespace std;
 class Stack
 {
-public:
+private:
     int Top;
-    int size;
+    int iSize;
     int *Arr;
 
-    Stack();
+public:
+    Stack(int iNo);
+    void push(char ch);
+    char pop();
+    int isMatch(char a,char b);
     int isEmpty();
     int isFull();
-    void Push(char ch);
-    char Pop();
-    int isMatch(char a, char b);
-    bool MultipleParenthesisMatch(char Exp[]);
+    bool multipleParenthesis(char Exp[]);
 };
-Stack::Stack()
+Stack::Stack(int iNo = 20)
 {
     Top = -1;
-    size = 10;
-    Arr = new int[size];
+    iSize = iNo;
+    Arr = new int[iSize];
 }
+
 int Stack::isEmpty()
 {
     if (Top == -1)
@@ -34,7 +36,7 @@ int Stack::isEmpty()
 }
 int Stack::isFull()
 {
-    if (Top == size - 1)
+    if (Top == iSize - 1)
     {
         return 1;
     }
@@ -43,12 +45,22 @@ int Stack::isFull()
         return 0;
     }
 }
-void Stack::Push(char ch)
+int Stack::isMatch(char a,char b)
+{
+    if((a=='(' && b==')')||(a=='[' && b==']')||a=='{' && b=='}')
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+}
+void Stack::push(char ch)
 {
     if (isFull())
     {
-        cout << "Stack is full\n";
-        return;
+        cout << "Stack is Full\n";
     }
     else
     {
@@ -56,53 +68,41 @@ void Stack::Push(char ch)
         Arr[Top] = ch;
     }
 }
-char Stack::Pop()
+char Stack::pop()
 {
-    char ch = '\0';
     if (isEmpty())
     {
-        cout << "Stack is empty\n";
+        cout << "Stack is Empty\n";
     }
     else
     {
-        ch = Arr[Top];
+        char ch = Arr[Top];
         Top--;
-    }
-    return ch;
-}
-int Stack::isMatch(char a, char b)
-{
-    if ((a == '(' && b == ')' )|| (a == '[' && b == ']') || (a == '{' && b == '}'))
-    {
-        return 1;
-    }
-    else
-    {
-        return 0;
+        return ch;
     }
 }
-bool Stack::MultipleParenthesisMatch(char Exp[])
+bool Stack::multipleParenthesis(char *Exp)
 {
     int i = 0;
-    while (Exp[i] != '\0')
+    while (*Exp != '\0')
     {
-        if (Exp[i] == '(' || Exp[i] == '{' || Exp[i] == '[')
+        if (*Exp == '(' || *Exp == '[' || *Exp == '{')
         {
-            Push(Exp[i]);
+            push(Exp[i]);
         }
-        else if (Exp[i] == ')' || Exp[i] == '}' || Exp[i] == ']')
+        else if (*Exp == ')' || *Exp == ']' || *Exp == '}')
         {
             if (isEmpty())
             {
                 return false;
             }
-            char ch = Pop();
-            if (!isMatch(ch, Exp[i]))
+            char ch = pop();
+            if (!isMatch(ch, *Exp))
             {
                 return false;
             }
         }
-        i++;
+        Exp++;
     }
     if (isEmpty())
     {
@@ -115,18 +115,19 @@ bool Stack::MultipleParenthesisMatch(char Exp[])
 }
 int main()
 {
-    Stack *sobj = new Stack();
-
+    Stack *sobj = new Stack(20);
     char Exp[20];
     cout << "Enter the Expression\n";
-    gets(Exp);
+    cin.getline(Exp, 20);
 
-    if (sobj->MultipleParenthesisMatch(Exp))
+    if (sobj->multipleParenthesis(Exp))
     {
-        cout << "Parenthesis are match\n";
+        cout << "Parentheisis are match\n";
     }
     else
     {
         cout << "Parenthesis are not match\n";
     }
+
+    return 0;
 }

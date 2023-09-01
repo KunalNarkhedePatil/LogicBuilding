@@ -1,48 +1,53 @@
+/*
+Input:
+Enter the string
+kunal narkhede
+Output:
+Reverse string is edehkran lanuk
+*/
 #include "stackarray.h"
-#include<string>
+#include <string>
 class StackArray
 {
-    public:
-
+public:
     Stack *sobj;
 
     StackArray(Stack *sobj)
     {
-        this->sobj=sobj;
+        this->sobj = sobj;
     }
 
     string reverseStringUsingStack(char *Str)
     {
-        string ansStr="";
-        while(*Str!='\0')
+        string ansStr = "";
+        while (*Str != '\0')
         {
             sobj->push(*Str);
             Str++;
         }
-        while(!this->sobj->isEmpty())
+        while (!this->sobj->isEmpty())
         {
-            char ch=sobj->iArr[sobj->iTop];
+            char ch = sobj->Arr[sobj->iTop];
             ansStr.push_back(ch);
             sobj->pop();
         }
         return ansStr;
     }
-
 };
 int main()
 {
     char str[50];
-    string resultStr;  
+    string resultStr;
 
-    Stack *sobj=new Stack();
-    StackArray *obj=new StackArray(sobj);
+    Stack *sobj = new Stack();
+    StackArray *obj = new StackArray(sobj);
 
-    cout<<"Enter the string\n";
-    cin.getline(str,20);
+    cout << "Enter the string\n";
+    cin.getline(str, 20);
 
-    resultStr=obj->reverseStringUsingStack(str);
+    resultStr = obj->reverseStringUsingStack(str);
 
-    cout<<"Reverse string is "<<resultStr<<endl;
+    cout << "Reverse string is " << resultStr << endl;
 
     return 0;
 }

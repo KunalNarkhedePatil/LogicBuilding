@@ -1,3 +1,17 @@
+/*
+CASE1:
+Input:
+Enter the Expression
+(a+b) 
+Output:
+Parenthesis are match
+CASE2:
+Input:
+Enter the Expression
+(1+2))
+Output:
+Parenthesis are not match
+*/
 #include<iostream>
 using namespace std;
 class Stack
@@ -11,9 +25,9 @@ class Stack
     Stack();
     int isFull();
     int isEmpty();
-    void Push(char ch);
-    void Pop();
-    bool ParenthesisMatch(char Exp[]);
+    void push(char ch);
+    void pop();
+    bool parenthesisMatch(char Exp[]);
 };
 Stack::Stack()
 {
@@ -43,7 +57,7 @@ int Stack::isFull()
       return 0;
    }
 }
-void Stack::Push(char ch)
+void Stack::push(char ch)
 {
    if(isFull())
    {
@@ -56,7 +70,7 @@ void Stack::Push(char ch)
       Arr[Top]=ch;
    }
 }
-void Stack::Pop()
+void Stack::pop()
 {
    if(isEmpty())
    {
@@ -68,33 +82,32 @@ void Stack::Pop()
       Top--;
    }
 }
-bool Stack::ParenthesisMatch(char Exp[])
+bool Stack::parenthesisMatch(char *Exp)
 {
-    int i=0;
-
-    while(Exp[i]!='\0')
-    {
-        if(Exp[i]=='(')
-        {
-             Push(Exp[i]);
-        }
-        else if(Exp[i]==')')
-        {
-            if(isEmpty())
-            {
-                return false;
-            }
-            Pop();
-        }
-        i++;
-    }
-    if(isEmpty())
-    {
-        return true;
-    }
-    else{
-        return false;
-    }
+   while(*Exp!='\0')
+   {
+       if(*Exp=='(')
+       {
+          push(*Exp);
+       }
+       else if(*Exp==')')
+       {
+          if(isEmpty())
+          {
+              return false;
+          }
+          pop();
+       }
+       Exp++;
+   }
+   if(isEmpty())
+   {
+      return true;
+   }
+   else
+   {
+      return false;
+   }
 }
 
 int main()
@@ -106,7 +119,7 @@ int main()
     cout<<"Enter the Expression\n";
     gets(Exp);
 
-    if(sobj->ParenthesisMatch(Exp))
+    if(sobj->parenthesisMatch(Exp))
     {
         cout<<"Parenthesis are match\n";
     }

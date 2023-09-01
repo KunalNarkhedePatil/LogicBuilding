@@ -13,13 +13,14 @@ public:
     }
 };
 typedef class Node *PNODE;
-class linkedlist
+class StackLL
 {
+public:
+
     PNODE first;
     int iSize;
 
-public:
-    linkedlist();
+    StackLL();
     bool isEmpty();
     void push(int iVal);
     void pop();
@@ -27,12 +28,12 @@ public:
     int size();
 };
 
-linkedlist::linkedlist()
+ StackLL:: StackLL()
 {
     this->first = NULL;
     this->iSize = 0;
 }
-bool linkedlist::isEmpty()
+bool  StackLL::isEmpty()
 {
     if (first == NULL)
     {
@@ -43,7 +44,7 @@ bool linkedlist::isEmpty()
         return false;
     }
 }
-void linkedlist::push(int iVal)
+void  StackLL::push(int iVal)
 {
     PNODE newn = new Node(iVal);
     if (this->isEmpty())
@@ -61,7 +62,7 @@ void linkedlist::push(int iVal)
     }
     iSize++;
 }
-void linkedlist::pop()
+void  StackLL::pop()
 {
     if (this->isEmpty())
     {
@@ -85,7 +86,7 @@ void linkedlist::pop()
     }
     iSize--;
 }
-void linkedlist::display()
+void  StackLL::display()
 {
     PNODE temp = first;
 
@@ -96,7 +97,7 @@ void linkedlist::display()
     }
     cout << "NULL\n";
 }
-int linkedlist::size()
+int  StackLL::size()
 {
     return iSize;
 }

@@ -1,39 +1,117 @@
-#include"stackarray.h"
-class StackArray:public Stack
+#include<iostream>
+using namespace std;
+class Stack
 {
     public:
-    int iSize;
 
-    StackArray(int iSize):Stack(iSize)
-    {
-       cout<<"Stack using array\n";
-    }
+    int Top;
+    int size;
+    int *Arr;
 
+    Stack();
+    int isFull();
+    int isEmpty();
+    void push(char ch);
+    void pop();
+    bool parenthesisMatch(char Exp[]);
 };
+Stack::Stack()
+{
+    Top=-1;
+    size=10;
+    Arr=new int[size];
+}
+int Stack::isEmpty()
+{
+   if(Top==-1)
+   {
+      return 1;
+   }
+   else
+   {
+      return 0;
+   }
+}
+int Stack::isFull()
+{
+   if(Top==size-1)
+   {
+      return 1;
+   }
+   else
+   {
+      return 0;
+   }
+}
+void Stack::push(char ch)
+{
+   if(isFull())
+   {
+      cout<<"Stack is full\n";
+      return;
+   }
+   else
+   {
+      Top++;
+      Arr[Top]=ch;
+   }
+}
+void Stack::pop()
+{
+   if(isEmpty())
+   {
+      cout<<"Stack is empty\n";
+      return;
+   }
+   else
+   {
+      Top--;
+   }
+}
+bool Stack::parenthesisMatch(char *Exp)
+{
+   while(*Exp!='\0')
+   {
+       if(*Exp=='(')
+       {
+          push(*Exp);
+       }
+       else if(*Exp==')')
+       {
+          if(isEmpty())
+          {
+              return false;
+          }
+          pop();
+       }
+       Exp++;
+   }
+   if(isEmpty())
+   {
+      return true;
+   }
+   else
+   {
+      return false;
+   }
+}
+
 int main()
 {
-    int iSize=0;
-    cout<<"Enter the size of stack"<<endl;
-    cin>>iSize;
+    Stack *sobj=new Stack();
 
-    StackArray *sobj=new StackArray(iSize);
+    char Exp[20];
 
-    sobj->push(10);
-    sobj->push(20);
-    sobj->push(30);
-    sobj->push(40);
-    sobj->push(50);
+    cout<<"Enter the Expression\n";
+    gets(Exp);
 
-    sobj->display();
-
-    sobj->pop();
-    sobj->pop();
-    sobj->pop();
-    sobj->pop();
-    sobj->pop();
-    sobj->pop();
-
-    sobj->display();
-
+    if(sobj->parenthesisMatch(Exp))
+    {
+        cout<<"Parenthesis are match\n";
+    }
+    else
+    {
+        cout<<"Parenthesis are not match\n";
+    }
     return 0;
 }

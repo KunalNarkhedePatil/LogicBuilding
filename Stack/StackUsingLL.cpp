@@ -2,7 +2,7 @@
 
 int main()
 {
-   linkedlist *obj=new linkedlist();
+   StackLL *obj=new StackLL();
 
    obj->push(10);
    obj->push(20);
