@@ -2,4 +2,39 @@
 
 | Program Name             | Link Of Souce code                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
+1.AcceptAndDisplayString   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
 1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+1.BasicFundamentalPrograms   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+
+
+

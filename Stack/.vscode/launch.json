@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Kunal Narkhede/Desktop/DSA/Stack",
-      "program": "c:/Users/Kunal Narkhede/Desktop/DSA/Stack/build/Debug/outDebug",
+      "cwd": "f:/Logic Building/Stack",
+      "program": "f:/Logic Building/Stack/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
