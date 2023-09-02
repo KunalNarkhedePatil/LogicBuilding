@@ -39,7 +39,6 @@ int main()
     Demo *dobj = new Demo(sobj);
 
     int iRet = dobj->findMinFromStack();
-
     cout << "Maximum element in the stack is " << iRet << endl;
 
     return 0;
