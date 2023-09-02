@@ -16,7 +16,7 @@
 12.FindMaxFromStackItaratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/FindMaxFromStackItaratively.cpp
 13.FindMaxFromStackRecursively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/FindMaxFromStackRecursively.cpp
 14.FindMinFromStackItaratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/FindMinFromStackItaratively.cpp
-15.ParenthesisMatching1   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+15.ParenthesisMatching1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/ParenthesisMatching1.cpp
 16.ParenthesisMatching2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/ParenthesisMatching2.cpp
 17.MultipleParenthesisMatch1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/MultipleParenthesisMatch1.cpp
 18.MultipleParenthesisMatch2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/MultipleParenthesisMatch2.cpp
