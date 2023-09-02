@@ -20,5 +20,4 @@
 16.ParenthesisMatching2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/ParenthesisMatching2.cpp
 17.MultipleParenthesisMatch1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/MultipleParenthesisMatch1.cpp
 18.MultipleParenthesisMatch2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/MultipleParenthesisMatch2.cpp
-19.SortStack   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/MultipleParenthesisMatch2.cpp
-
+19.SortStack   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/SortStack.cpp
