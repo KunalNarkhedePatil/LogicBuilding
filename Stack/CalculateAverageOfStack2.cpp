@@ -10,39 +10,35 @@ public:
     {
         this->s = s;
     }
-    void solve(int count, int mid)
+    int calculateAverageStack(int iSum)
     {
-        if (count == mid)
+        if (s.empty())
         {
-            cout << "Middle element is " << s.top() << endl;
-            s.pop();
-            return;
+            return 0;
         }
         int iNo = s.top();
         s.pop();
-        solve(count + 1, mid);
+        iSum = iNo + calculateAverageStack(iSum);
         s.push(iNo);
-    }
-    void deleteMiddle()
-    {
-        int count = 0;
-        int mid = s.size() / 2;
-
-        solve(count, mid);
+        return iSum;
     }
 };
+
 int main()
 {
+    int iAns = 0;
     stack<int> sobj;
-
     sobj.push(10);
     sobj.push(20);
     sobj.push(30);
     sobj.push(40);
     sobj.push(50);
-    sobj.push(60);
 
     Demo *dobj = new Demo(sobj);
 
-    dobj->deleteMiddle();
+    int iRet = dobj->calculateAverageStack(iAns) / sobj.size();
+
+    cout << "Average of stack is " << iRet << endl;
+
+    return 0;
 }

@@ -10,25 +10,22 @@ public:
     {
         this->s = s;
     }
-    void solve(int count, int mid)
+
+    void findMaxFromStack(int *iMax)
     {
-        if (count == mid)
+        if (s.empty())
         {
-            cout << "Middle element is " << s.top() << endl;
-            s.pop();
             return;
         }
         int iNo = s.top();
         s.pop();
-        solve(count + 1, mid);
-        s.push(iNo);
-    }
-    void deleteMiddle()
-    {
-        int count = 0;
-        int mid = s.size() / 2;
+        findMaxFromStack(iMax);
 
-        solve(count, mid);
+                s.push(iNo);
+        if (iNo > *iMax)
+        {
+            *iMax = iNo;
+        }
     }
 };
 int main()
@@ -38,11 +35,15 @@ int main()
     sobj.push(10);
     sobj.push(20);
     sobj.push(30);
-    sobj.push(40);
-    sobj.push(50);
     sobj.push(60);
+    sobj.push(50);
+
+    int iMax = 0;
 
     Demo *dobj = new Demo(sobj);
 
-    dobj->deleteMiddle();
+    dobj->findMaxFromStack(&iMax);
+    cout << "Maximum element in the stack is " << iMax << endl;
+
+    return 0;
 }

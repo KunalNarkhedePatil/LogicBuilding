@@ -8,7 +8,7 @@ public:
 
     Demo(stack<int> &s)
     {
-        this->s=s;
+        this->s = s;
     }
     void deleteMiddle(int mid)
     {
@@ -41,7 +41,6 @@ int main()
     sobj.push(40);
     sobj.push(50);
     sobj.push(60);
-
 
     Demo *dobj = new Demo(sobj);
 
