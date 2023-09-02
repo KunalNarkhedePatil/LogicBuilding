@@ -2,44 +2,22 @@
 
 | Program Name             | Link Of Souce code                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
-1.StackUsingArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.StackUsingLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.ReverseStringUsingStack   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.insertElementAtBottom   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.ReverseStackItarative   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.ReverseStackRecursive   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.DeleteMiddleitaratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.DeleteMiddleRecursively1   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.DeleteMiddleRecursively2   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-
-1.CalculateAverageOfStackItaratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.CalculateAverageOfStackRecursively   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.FindMaxFromStackItaratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.FindMaxFromStackRecursively   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-
-1.FindMinFromStackItaratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-
-1.ParenthesisMatching1   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-
-1.ParenthesisMatching2   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-
-1.MultipleParenthesisMatch1   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-
-1.MultipleParenthesisMatch2   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+1.StackUsingArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/StackUsingArray.cpp
+2.StackUsingLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/StackUsingLL.cpp
+3.ReverseStringUsingStack   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/ReverseStringUsingStack.cpp
+4.insertElementAtBottom   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/insertElementAtBottom.cpp
+5.ReverseStackItarative   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/ReverseStackItarative.cpp
+6.ReverseStackRecursive   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/ReverseStackRecursive.cpp
+7.DeleteMiddleitaratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/DeleteMiddleitaratively.cpp
+8.DeleteMiddleRecursively1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/DeleteMiddleRecursively1.cpp
+9.DeleteMiddleRecursively2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/DeleteMiddleRecursively2.cpp
+10.CalculateAverageOfStackItaratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/CalculateAverageOfStackItaratively.cpp
+11.CalculateAverageOfStackRecursively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/CalculateAverageOfStackRecursively.cpp
+12.FindMaxFromStackItaratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/FindMaxFromStackItaratively.cpp
+13.FindMaxFromStackRecursively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/FindMaxFromStackRecursively.cpp
+14.FindMinFromStackItaratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/FindMinFromStackItaratively.cpp
+15.ParenthesisMatching1   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+16.ParenthesisMatching2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/ParenthesisMatching2.cpp
+17.MultipleParenthesisMatch1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/MultipleParenthesisMatch1.cpp
+18.MultipleParenthesisMatch2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/MultipleParenthesisMatch2.cpp
 
