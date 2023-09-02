@@ -1,29 +1,28 @@
-#include<iostream>
-#include<stack>
+#include <iostream>
+#include <stack>
 
 using namespace std;
 class Demo
 {
-    public:
-
+public:
     stack<int> s;
 
     Demo(stack<int> s)
     {
-        this->s=s;
+        this->s = s;
     }
 
     bool parenthesisMatch(char *Str)
     {
-        while(*Str!='\0')
+        while (*Str != '\0')
         {
-            if(*Str=='(')
+            if (*Str == '(')
             {
                 s.push(*Str);
             }
-            else if(*Str==')')
+            else if (*Str == ')')
             {
-                if(s.empty())
+                if (s.empty())
                 {
                     return false;
                 }
@@ -31,16 +30,15 @@ class Demo
             }
             Str++;
         }
-        if(s.empty())
+        if (s.empty())
         {
             return true;
         }
         else
         {
-            return false; 
+            return false;
         }
     }
-
 };
 int main()
 {
@@ -48,19 +46,18 @@ int main()
 
     char Exp[20];
 
-    Demo *dobj=new Demo(sobj);
+    Demo *dobj = new Demo(sobj);
 
-    cout<<"Enter the Expression\n";
+    cout << "Enter the Expression\n";
     gets(Exp);
 
-    if(dobj->parenthesisMatch(Exp))
+    if (dobj->parenthesisMatch(Exp))
     {
-        cout<<"Parenthesis are match\n";
+        cout << "Parenthesis are match\n";
     }
     else
     {
-        cout<<"Parenthesis are not match\n";
+        cout << "Parenthesis are not match\n";
     }
     return 0;
-
 }
