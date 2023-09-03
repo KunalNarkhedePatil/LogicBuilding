@@ -1,117 +1,57 @@
-#include<iostream>
+
+#include <iostream>
+#include <stack>
 using namespace std;
-class Stack
+class Demo
 {
-    public:
+public:
+    stack<int> s;
 
-    int Top;
-    int size;
-    int *Arr;
-
-    Stack();
-    int isFull();
-    int isEmpty();
-    void push(char ch);
-    void pop();
-    bool parenthesisMatch(char Exp[]);
+    Demo(stack<int> s)
+    {
+        this->s = s;
+    }
+    void insertAtBottom(int iNo)
+    {
+        if(s.empty())
+        {
+            s.push(iNo);
+            return;
+        }
+        int num=s.top();
+        s.pop();
+        insertAtBottom(iNo);
+        s.push(num);
+    }
+    void reverseStack()
+    {
+        if(s.empty())
+        {
+            return;
+        }
+        int iNo=s.top();
+        s.pop();
+        reverseStack();
+        insertAtBottom(iNo);
+    }
 };
-Stack::Stack()
-{
-    Top=-1;
-    size=10;
-    Arr=new int[size];
-}
-int Stack::isEmpty()
-{
-   if(Top==-1)
-   {
-      return 1;
-   }
-   else
-   {
-      return 0;
-   }
-}
-int Stack::isFull()
-{
-   if(Top==size-1)
-   {
-      return 1;
-   }
-   else
-   {
-      return 0;
-   }
-}
-void Stack::push(char ch)
-{
-   if(isFull())
-   {
-      cout<<"Stack is full\n";
-      return;
-   }
-   else
-   {
-      Top++;
-      Arr[Top]=ch;
-   }
-}
-void Stack::pop()
-{
-   if(isEmpty())
-   {
-      cout<<"Stack is empty\n";
-      return;
-   }
-   else
-   {
-      Top--;
-   }
-}
-bool Stack::parenthesisMatch(char *Exp)
-{
-   while(*Exp!='\0')
-   {
-       if(*Exp=='(')
-       {
-          push(*Exp);
-       }
-       else if(*Exp==')')
-       {
-          if(isEmpty())
-          {
-              return false;
-          }
-          pop();
-       }
-       Exp++;
-   }
-   if(isEmpty())
-   {
-      return true;
-   }
-   else
-   {
-      return false;
-   }
-}
-
 int main()
 {
-    Stack *sobj=new Stack();
+    stack<int> sobj;
 
-    char Exp[20];
+    sobj.push(10);
+    sobj.push(20);
+    sobj.push(30);
+    sobj.push(40);
+    sobj.push(50);
 
-    cout<<"Enter the Expression\n";
-    gets(Exp);
+    Demo *dobj = new Demo(sobj);
 
-    if(sobj->parenthesisMatch(Exp))
-    {
-        cout<<"Parenthesis are match\n";
-    }
-    else
-    {
-        cout<<"Parenthesis are not match\n";
-    }
+    cout << "Before stack reverse..top value is " << sobj.top() << endl;
+
+    dobj->reverseStack();
+
+    cout << "After stack reverse..top value is " << dobj->s.top() << endl;
+
     return 0;
 }

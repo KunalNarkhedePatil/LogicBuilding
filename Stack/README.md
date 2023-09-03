@@ -21,3 +21,6 @@
 17.MultipleParenthesisMatch1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/MultipleParenthesisMatch1.cpp
 18.MultipleParenthesisMatch2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/MultipleParenthesisMatch2.cpp
 19.SortStack   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/SortStack.cpp
+20.CheckRedundantParenthesis   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/SortStack.cpp
+21.TwoStackInOneArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/SortStack.cpp
+
