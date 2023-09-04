@@ -1,6 +1,6 @@
-
 #include <iostream>
 #include <stack>
+
 using namespace std;
 class Demo
 {
@@ -11,47 +11,54 @@ public:
     {
         this->s = s;
     }
-    void insertAtBottom(int iNo)
+
+    bool parenthesisMatch(char *Exp)
     {
+        while(*Exp!='\0')
+        {
+            char ch=*Exp;
+            if(ch=='(')
+            {
+                s.push(ch);
+            }
+            else if(ch==')')
+            {
+                if(s.empty())
+                {
+                    return false;
+                }
+                s.pop();
+            }
+            Exp++;
+        }
         if(s.empty())
         {
-            s.push(iNo);
-            return;
+            return true;
         }
-        int num=s.top();
-        s.pop();
-        insertAtBottom(iNo);
-        s.push(num);
-    }
-    void reverseStack()
-    {
-        if(s.empty())
+        else
         {
-            return;
+            return false;
         }
-        int iNo=s.top();
-        s.pop();
-        reverseStack();
-        insertAtBottom(iNo);
     }
 };
 int main()
 {
     stack<int> sobj;
 
-    sobj.push(10);
-    sobj.push(20);
-    sobj.push(30);
-    sobj.push(40);
-    sobj.push(50);
+    char Exp[20];
 
     Demo *dobj = new Demo(sobj);
 
-    cout << "Before stack reverse..top value is " << sobj.top() << endl;
+    cout << "Enter the Expression\n";
+    gets(Exp);
 
-    dobj->reverseStack();
-
-    cout << "After stack reverse..top value is " << dobj->s.top() << endl;
-
+    if (dobj->parenthesisMatch(Exp))
+    {
+        cout << "Parenthesis are match\n";
+    }
+    else
+    {
+        cout << "Parenthesis are not match\n";
+    }
     return 0;
 }
