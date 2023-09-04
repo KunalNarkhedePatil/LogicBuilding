@@ -23,3 +23,4 @@
 19.SortStack   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/SortStack.cpp
 20.CheckRedundantParenthesis   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/CheckRedundantParenthesis.cpp
 21.TwoStackInOneArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/TwoStackInOneArray.cpp
+21.MinCostToMakeString   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Stack/MinCostToMakeString.cpp
