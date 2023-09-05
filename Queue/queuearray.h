@@ -29,7 +29,7 @@ Queue::Queue(int iSize)
 }
 bool Queue::isEmpty()
 {
-    if (iFront == iRare) // if(iFornt==-1  && iRare ==-1)
+    if (iFront==-1 &&  iRare==-1) // if(iFornt==-1  && iRare ==-1)
     {
         return true;
     }
