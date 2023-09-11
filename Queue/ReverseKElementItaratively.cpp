@@ -1,31 +1,43 @@
 #include <iostream>
 #include <queue>
 #include <stack>
-
 using namespace std;
 class Demo
 {
 public:
-    stack<int> s;
+    queue<int> q;
 
-    queue<int> reverseQueue(queue<int> &q)
+    Demo(queue<int> &q)
     {
-        int element = 0;
-        while (!q.empty())
+        this->q = q;
+    }
+    void reverseQueue(int k)
+    {
+        int iNo = 0;
+        stack<int> s;
+        for (int i = 1; i <= k; i++)
         {
-            element = q.front();
+            iNo = q.front();
             q.pop();
-            s.push(element);
+            s.push(iNo);
         }
+
         while (!s.empty())
         {
-            element = s.top();
+            iNo = s.top();
             s.pop();
-            q.push(element);
+            q.push(iNo);
         }
-        return q;
+        int rem = q.size() - k;
+
+        while (rem--)
+        {
+            iNo = q.front();
+            q.pop();
+            q.push(iNo);
+        }
     }
-    void display(queue<int> &q)
+    void display()
     {
         queue<int> temp = q;
 
@@ -40,20 +52,19 @@ public:
 int main()
 {
     queue<int> q;
-
     q.push(10);
     q.push(20);
     q.push(30);
     q.push(40);
     q.push(50);
 
-    Demo *dobj = new Demo();
+    Demo *dobj = new Demo(q);
     cout << "Before Reverse Queue is:";
-    dobj->display(q);
+    dobj->display();
 
-    q = dobj->reverseQueue(q);
+    dobj->reverseQueue(3);
     cout << "After Reverse Queue is:";
-    dobj->display(q);
+    dobj->display();
 
     return 0;
 }

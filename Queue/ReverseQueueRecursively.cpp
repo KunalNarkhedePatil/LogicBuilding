@@ -1,29 +1,19 @@
 #include <iostream>
 #include <queue>
-#include <stack>
-
 using namespace std;
 class Demo
 {
 public:
-    stack<int> s;
-
-    queue<int> reverseQueue(queue<int> &q)
+    void reverseQueue(queue<int> &q)
     {
-        int element = 0;
-        while (!q.empty())
+        if (q.empty())
         {
-            element = q.front();
-            q.pop();
-            s.push(element);
+            return;
         }
-        while (!s.empty())
-        {
-            element = s.top();
-            s.pop();
-            q.push(element);
-        }
-        return q;
+        int iNo = q.front();
+        q.pop();
+        reverseQueue(q);
+        q.push(iNo);
     }
     void display(queue<int> &q)
     {
@@ -51,7 +41,7 @@ int main()
     cout << "Before Reverse Queue is:";
     dobj->display(q);
 
-    q = dobj->reverseQueue(q);
+    dobj->reverseQueue(q);
     cout << "After Reverse Queue is:";
     dobj->display(q);
 

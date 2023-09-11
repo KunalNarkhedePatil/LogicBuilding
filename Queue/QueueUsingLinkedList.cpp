@@ -2,7 +2,7 @@
 
 int main()
 {
-    Queue *obj=new Queue();
+    Queue *obj = new Queue();
 
     obj->enQueue(10);
     obj->enQueue(20);

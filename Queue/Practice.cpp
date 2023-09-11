@@ -1,163 +1,60 @@
 #include <iostream>
+#include <queue>
+
 using namespace std;
-class Queue
-{
-public:
-    int iSize;
-    int *Arr;
-    int iFront;
-    int iRare;
-    Queue(int iSize = 10)
-    {
-        this->iSize = iSize;
-        this->Arr = new int[iSize];
-        this->iFront = -1;
-        this->iRare = -1;
+
+void insert(queue<int> &q, int item) {
+    // Base case: If the queue is empty or the item is greater than the front of the queue,
+    // insert the item at the front.
+    if (q.empty() || item > q.front()) {
+        q.push(item);
+    } else {
+        // Remove the front item and insert it at the end of the queue.
+        int front = q.front();
+        q.pop();
+        insert(q, item);
+        q.push(front);
     }
-    bool isEmpty()
-    {
-        if (iFront == -1 && iRare == -1)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+}
+
+void sortQueue(queue<int> &q) {
+    if (!q.empty()) {
+        // Dequeue the front element.
+        int front = q.front();
+        q.pop();
+        // Recursively sort the remaining queue.
+        sortQueue(q);
+        // Insert the front element in its sorted position.
+        insert(q, front);
     }
-    bool isFull()
-    {
-        if (iFront == 0 && iRare == iSize - 1 || iRare + 1 == iFront)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-    void enQueueFront(int iVal)
-    {
-        if (isFull())
-        {
-            cout << "Queue is full\n";
-            return;
-        }
-        if (isEmpty())
-        {
-            iFront = 0;
-            iRare = 0;
-        }
-        else if (iFront == 0)
-        {
-            iFront = iSize - 1;
-        }
-        else
-        {
-            iFront--;
-        }
-        Arr[iFront] = iVal;
+}
+
+int main() {
+    queue<int> q;
+    q.push(30);
+    q.push(11);
+    q.push(15);
+    q.push(4);
+
+    cout << "Original Queue: ";
+    while (!q.empty()) {
+        cout << q.front() << " ";
+        q.pop();
     }
 
-    void enQueueRare(int iVal)
-    {
-        if (isFull())
-        {
-            cout << "Queue is full\n";
-            return;
-        }
-        if (isEmpty())
-        {
-            iFront = 0;
-            iRare = 0;
-        }
-        else if (iRare == iSize - 1)
-        {
-            iRare = 0;
-        }
-        else
-        {
-            iRare++;
-        }
-        Arr[iRare] = iVal;
+    q.push(30);
+    q.push(11);
+    q.push(15);
+    q.push(4);
+
+    sortQueue(q);
+
+    cout << "\nQueue after sorting: ";
+    while (!q.empty()) {
+        cout << q.front() << " ";
+        q.pop();
     }
-    void deQueueFront()
-    {
-        if (isEmpty())
-        {
-            cout << "Queue is empty\n";
-            return;
-        }
-        if (iFront == iRare)
-        {
-            iFront = -1;
-            iRare = -1;
-        }
-        else if (iFront == iSize - 1)
-        {
-            iFront = 0;
-        }
-        else
-        {
-            iFront++;
-        }
-    }
-    void deQueueRare()
-    {
-        if (isEmpty())
-        {
-            cout << "Queue is empty\n";
-            return;
-        }
-        if (iFront == iRare)
-        {
-            iFront = -1;
-            iRare = -1;
-        }
-        else if (iRare == 0)
-        {
-            iRare = iSize - 1;
-        }
-        else
-        {
-            iRare--;
-        }
-    }
-    int getFront()
-    {
-        return Arr[iFront];
-    }
-    int getRare()
-    {
-        return Arr[iRare];
-    }
-};
-int main()
-{
-
-    Queue *obj = new Queue();
-
-    obj->enQueueRare(10);
-    obj->enQueueRare(20);
-    obj->enQueueRare(30);
-    obj->enQueueRare(40);
-
-    cout << "Front :" << obj->getFront() << endl;
-    cout << "Rare :" << obj->getRare() << endl;
-
-    obj->enQueueFront(5);
-
-    cout << "Front :" << obj->getFront() << endl;
-    cout << "Rare :" << obj->getRare() << endl;
-
-    obj->deQueueFront();
-
-    cout << "Front :" << obj->getFront() << endl;
-    cout << "Rare :" << obj->getRare() << endl;
-    obj->deQueueRare();
-
-    cout << "Front :" << obj->getFront() << endl;
-    cout << "Rare :" << obj->getRare() << endl;
 
     return 0;
 }
+

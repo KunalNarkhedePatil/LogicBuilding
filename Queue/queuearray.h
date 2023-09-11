@@ -29,7 +29,7 @@ Queue::Queue(int iSize)
 }
 bool Queue::isEmpty()
 {
-    if (iFront==-1) // if(iFornt==-1  && iRare ==-1)
+    if (iFront == -1) // if(iFornt==-1  && iRare ==-1)
     {
         return true;
     }
@@ -58,7 +58,7 @@ int Queue::getFront()
     }
     else
     {
-        return Arr[iFront + 1       ];
+        return Arr[iFront + 1];
     }
 }
 int Queue::getBack()
@@ -75,23 +75,23 @@ int Queue::getBack()
 }
 void Queue::enQueue(int iVal)
 {
-    if(isFull())
+    if (isFull())
     {
-        cout<<"Queue is full\n";
+        cout << "Queue is full\n";
         return;
     }
 
-    if(isEmpty())
+    if (isEmpty())
     {
         iFront++;
         iRare++;
 
-        Arr[iRare]=iVal;
+        Arr[iRare] = iVal;
     }
     else
     {
         iRare++;
-        Arr[iRare]=iVal;
+        Arr[iRare] = iVal;
     }
 }
 void Queue::deQueue()
@@ -102,10 +102,10 @@ void Queue::deQueue()
         return;
     }
 
-    if(iFront==iRare)
+    if (iFront == iRare)
     {
-        iFront=-1;
-        iRare=-1;
+        iFront = -1;
+        iRare = -1;
     }
     else
     {
