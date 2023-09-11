@@ -1,96 +1,163 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-
 class Queue
 {
-    public:
+public:
+    int iSize;
+    int *Arr;
     int iFront;
     int iRare;
-    int *Arr;
-    int iSize;
-
-    Queue(int iSize=10)
+    Queue(int iSize = 10)
     {
-        iSize=iSize;
-        Arr=new int[iSize];
-        iFront=-1;
-        iRare=-1;
+        this->iSize = iSize;
+        this->Arr = new int[iSize];
+        this->iFront = -1;
+        this->iRare = -1;
     }
-    int isEmpty()
+    bool isEmpty()
     {
-       if(iFront==-1 && iRare ==-1)
-       {
-          return 1;
-       }
-       else
-       {
-          return 0;
-       }
-    }
-    int isFull()
-    {
-        if(iRare==iSize-1)
+        if (iFront == -1 && iRare == -1)
         {
-            return 1;
+            return true;
         }
         else
         {
-            return 0;
+            return false;
         }
     }
-    void enQueue(int iNo)
+    bool isFull()
     {
-        if(isFull())
+        if (iFront == 0 && iRare == iSize - 1 || iRare + 1 == iFront)
         {
-            cout<<"Queue is full\n";
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    void enQueueFront(int iVal)
+    {
+        if (isFull())
+        {
+            cout << "Queue is full\n";
             return;
+        }
+        if (isEmpty())
+        {
+            iFront = 0;
+            iRare = 0;
+        }
+        else if (iFront == 0)
+        {
+            iFront = iSize - 1;
+        }
+        else
+        {
+            iFront--;
+        }
+        Arr[iFront] = iVal;
+    }
+
+    void enQueueRare(int iVal)
+    {
+        if (isFull())
+        {
+            cout << "Queue is full\n";
+            return;
+        }
+        if (isEmpty())
+        {
+            iFront = 0;
+            iRare = 0;
+        }
+        else if (iRare == iSize - 1)
+        {
+            iRare = 0;
         }
         else
         {
             iRare++;
-            Arr[iRare]=iNo;
         }
+        Arr[iRare] = iVal;
     }
-    void deQueue()
+    void deQueueFront()
     {
-        if(isEmpty())
+        if (isEmpty())
         {
-            cout<<"Queue is empty\n";
+            cout << "Queue is empty\n";
             return;
+        }
+        if (iFront == iRare)
+        {
+            iFront = -1;
+            iRare = -1;
+        }
+        else if (iFront == iSize - 1)
+        {
+            iFront = 0;
         }
         else
         {
             iFront++;
         }
     }
+    void deQueueRare()
+    {
+        if (isEmpty())
+        {
+            cout << "Queue is empty\n";
+            return;
+        }
+        if (iFront == iRare)
+        {
+            iFront = -1;
+            iRare = -1;
+        }
+        else if (iRare == 0)
+        {
+            iRare = iSize - 1;
+        }
+        else
+        {
+            iRare--;
+        }
+    }
     int getFront()
     {
-       return Arr[iFront+1];
+        return Arr[iFront];
     }
     int getRare()
     {
-       return Arr[iRare];
+        return Arr[iRare];
     }
 };
 int main()
 {
-    Queue *obj=new Queue();
 
-    obj->enQueue(10);
-    obj->enQueue(20);
-    obj->enQueue(30);
-    obj->enQueue(40);
-    obj->enQueue(50);
-    obj->enQueue(60);
+    Queue *obj = new Queue();
 
-    cout<<"Front is "<<obj->getFront()<<endl;
-    cout<<"Rare is "<<obj->getRare()<<endl;
+    obj->enQueueRare(10);
+    obj->enQueueRare(20);
+    obj->enQueueRare(30);
+    obj->enQueueRare(40);
 
-    obj->deQueue();
+    cout << "Front :" << obj->getFront() << endl;
+    cout << "Rare :" << obj->getRare() << endl;
 
-    
-    cout<<"Front is "<<obj->getFront()<<endl;
-    cout<<"Rare is "<<obj->getRare()<<endl;
+    obj->enQueueFront(5);
+
+    cout << "Front :" << obj->getFront() << endl;
+    cout << "Rare :" << obj->getRare() << endl;
+
+    obj->deQueueFront();
+
+    cout << "Front :" << obj->getFront() << endl;
+    cout << "Rare :" << obj->getRare() << endl;
+    obj->deQueueRare();
+
+    cout << "Front :" << obj->getFront() << endl;
+    cout << "Rare :" << obj->getRare() << endl;
 
     return 0;
 }

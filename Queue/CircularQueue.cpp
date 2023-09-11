@@ -8,7 +8,7 @@ public:
     int iRare;
     int iSize;
 
-    Queue(int iSize = 10);
+    Queue(int iSize = 7);
     bool isEmpty();
     bool isFull();
     void enQueue(int iVal);
@@ -24,7 +24,7 @@ Queue::Queue(int iSize)
 }
 bool Queue::isEmpty()
 {
-    if (iFront == -1)
+    if (iFront == -1 && iRare == -1)
     {
         return true;
     }
@@ -36,7 +36,7 @@ bool Queue::isEmpty()
 
 bool Queue::isFull()
 {
-    if (this->iFront == 0 && iRare == iSize - 1 || iRare + 1 % iSize == iFront)
+    if (iFront == 0 && iRare == iSize - 1 || (iRare + 1) % iSize == iFront)
     {
         return true;
     }
@@ -60,7 +60,7 @@ void Queue::enQueue(int iVal)
     }
     else
     {
-        this->iRare = this->iRare + 1 % iSize;
+        this->iRare = (this->iRare + 1) % iSize;
         this->Arr[this->iRare] = iVal;
     }
 }
@@ -71,17 +71,24 @@ void Queue::deQueue()
         cout << "Queue is empty\n";
         return;
     }
+    if (iFront == iRare)
+    {
+        iFront = -1;
+        iRare = -1;
+    }
     else
     {
-        iFront = iFront + 1 % iSize;
+        iFront = (iFront + 1) % iSize;
     }
 }
 void Queue::display()
 {
-    for (int i = iFront + 1; i <= iRare; i++)
+    int i = 0;
+    for (i = iFront; i != iRare; i = (i + 1) % iSize)
     {
         cout << this->Arr[i] << "->";
     }
+    cout << this->Arr[i] << "->";
     cout << endl;
 }
 int main()
@@ -92,14 +99,21 @@ int main()
     obj->enQueue(10);
     obj->enQueue(20);
     obj->enQueue(30);
+    obj->enQueue(40);
     obj->enQueue(50);
     obj->enQueue(60);
     obj->enQueue(70);
 
+    obj->deQueue();
+    obj->deQueue();
+    obj->deQueue();
+    cout << obj->iFront << endl;
+
     obj->display();
 
-    obj->deQueue();
-
+    obj->enQueue(20);
+    obj->enQueue(20);
+    cout << obj->iRare << endl;
     obj->display();
 
     return 0;
