@@ -2,10 +2,10 @@
 
 | Program Name             | Link Of Souce code                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
-1.QueueUsingArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
-1.QueueUsingLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+1.QueueUsingArray   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/QueueUsingArray.cpp
+1.QueueUsingLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/QueueUsingLinkedList.cpp
 
-1.CircularQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
+1.CircularQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/CircularQueue.cpp
 
 1.DoubleEndedQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
 1.ReverseQueueItarative   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
