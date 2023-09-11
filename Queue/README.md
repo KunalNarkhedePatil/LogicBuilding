@@ -1,4 +1,4 @@
-# ArrayProblems
+# ProblemsOnQueue
 
 | Program Name             | Link Of Souce code                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
