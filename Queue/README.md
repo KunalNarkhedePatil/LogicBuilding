@@ -17,6 +17,6 @@
 13.AverageOfAllElementRecurively   |https://github.com/KunalNarkhedePatil/LogicBuilding/tree/main/FundamentalProblems
 14.MaximumElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/MaximumElement.cpp
 15.MinimumElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/MinimumElement.cpp
-16.RemoveGivenElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/MinimumElement.cpp
-17.RemoveAllEvenElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/MinimumElement.cpp
-18.RemoveAllOddElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/MinimumElement.cpp
+16.RemoveGivenElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveGivenElement.cpp
+17.RemoveAllEvenElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllEvenElements.cpp
+18.RemoveAllOddElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
