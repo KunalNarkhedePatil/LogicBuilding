@@ -7,7 +7,7 @@
 
 1.CircularQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/CircularQueue.cpp
 
-1.DoubleEndedQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/doubleEndedQueue.cpp
+1.DoubleEndedQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/DoubleEndedQueue.cpp
 1.ReverseQueueItarative   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/ReverseQueueItarative.cpp
 1.ReverseQueueRecursively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/ReverseQueueRecursively.cpp
 
