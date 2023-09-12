@@ -20,3 +20,8 @@
 16.RemoveGivenElement   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveGivenElement.cpp
 17.RemoveAllEvenElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllEvenElements.cpp
 18.RemoveAllOddElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
+19.RemoveAllOddElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
+20.RemoveGreaterThan   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
+21.ConcatinateTwoQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
+22.CopyOneToAnother   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
+23.FindTopAndBottom   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
