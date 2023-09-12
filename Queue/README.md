@@ -6,7 +6,7 @@
 2.QueueUsingLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/QueueUsingLinkedList.cpp
 3.CircularQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/CircularQueue.cpp
 4.DoubleEndedQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/DoubleEndedQueue.cpp
-5.PriorityQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/DoubleEndedQueue.cpp
+5.PriorityQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/PriorityQueue.cpp
 6.ReverseQueueItarative   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/ReverseQueueItarative.cpp
 7.ReverseQueueRecursively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/ReverseQueueRecursively.cpp
 8.ReverseKElementItaratively   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/ReverseKElementItaratively.cpp
