@@ -25,3 +25,4 @@
 21.ConcatinateTwoQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
 22.CopyOneToAnother   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
 23.FindTopAndBottom   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
+24.CheckTwoQueueEqual   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp

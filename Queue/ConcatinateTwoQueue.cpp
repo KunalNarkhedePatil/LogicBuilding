@@ -38,7 +38,6 @@ int main()
     q1.push(50);
 
     cout << "Queue 1:";
-
     dobj->display(q1);
 
     q2.push(60);
@@ -48,7 +47,6 @@ int main()
     q2.push(100);
 
     cout << "Queue 2:";
-
     dobj->display(q2);
 
     cout << "After concatonation queue is :";
