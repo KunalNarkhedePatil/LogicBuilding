@@ -21,8 +21,8 @@
 17.RemoveAllEvenElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllEvenElements.cpp
 18.RemoveAllOddElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
 19.RemoveAllOddElements   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
-20.RemoveGreaterThan   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
-21.ConcatinateTwoQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
-22.CopyOneToAnother   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
-23.FindTopAndBottom   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
-24.CheckTwoQueueEqual   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveAllOddElements.cpp
+20.RemoveGreaterThan   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/RemoveGreaterThan.cpp
+21.ConcatinateTwoQueue   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/ConcatinateTwoQueue.cpp
+22.CopyOneToAnother   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/CopyOneToAnother.cpp
+23.FindTopAndBottom   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/FindTopAndBottom.cpp
+24.CheckTwoQueueEqual   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/Queue/CheckTwoQueueEqual.cpp
