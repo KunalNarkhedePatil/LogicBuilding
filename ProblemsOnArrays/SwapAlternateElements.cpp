@@ -9,23 +9,21 @@ public:
     {
         this->iSize = iSize;
     }
-    void swap(int *iNo1,int *iNo2)
+    void swap(int *iNo1, int *iNo2)
     {
-        int iTemp=*iNo1;
-        *iNo1=*iNo2;
-        *iNo2=iTemp;
+        int iTemp = *iNo1;
+        *iNo1 = *iNo2;
+        *iNo2 = iTemp;
     }
     int swapAlternateElements()
     {
-        for(int i=0;i<iSize;i++)
+        for (register int i = 0; i < iSize; i++)
         {
-            if(i==iSize-1)
+            if (i != iSize - 1)
             {
-                Arr[i]=Arr[i];
-                break;
+                swap(&Arr[i], &Arr[i + 1]);
+                i++;
             }
-            swap(&Arr[i],&Arr[i+1]);
-            i=i+1;
         }
     }
 };
@@ -36,14 +34,14 @@ int main()
     cin >> iSize;
 
     Demo dobj(iSize);
-    //we can also create a dynamic obj
-    //Demo *dobj=new Demo(iSize);
+    // we can also create a dynamic obj
+    // Demo *dobj=new Demo(iSize);
 
     dobj.acceptArray();
-    cout<<"Before Swaping:"<<endl;
+    cout << "Before Swaping:" << endl;
     dobj.displayArray();
     int iRet = dobj.swapAlternateElements();
-    cout<<"After Swaping:"<<endl;
+    cout << "After Swaping:" << endl;
     dobj.displayArray();
 
     return 0;

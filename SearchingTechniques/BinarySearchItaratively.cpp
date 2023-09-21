@@ -62,7 +62,7 @@ public:
             {
                 iEnd = Mid - 1;
             }
-            Mid = iStart + (iStart - iEnd) / 2;
+            Mid = iStart + (iEnd - iStart) / 2;
         }
         if (iFlag == -1)
         {
