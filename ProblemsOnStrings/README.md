@@ -1,4 +1,4 @@
-# ArrayProblems
+# ProblemsOnString
 
 | Program Name             | Link Of Souce code                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
