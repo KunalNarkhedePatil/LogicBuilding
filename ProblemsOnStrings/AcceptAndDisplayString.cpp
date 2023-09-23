@@ -1,19 +1,12 @@
-#include<iostream>
-# define MAX 100
+#include <iostream>
 using namespace std;
 
-class Demo
-{
-   public:
-
-   void DisplayString()
-   {
-
-   }
-};
 int main()
 {
-    char Str[MAX];
-    Demo *dobj=new Demo();
+    char Str[50];
+    cout << "Enter the string\n";
+    cin.getline(Str, 30);
+
+    cout << "String is :" << Str << endl;
     return 0;
 }

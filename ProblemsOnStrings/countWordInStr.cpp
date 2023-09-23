@@ -1,47 +1,42 @@
-#include<iostream>
-#include<string>
+#include <iostream>
 using namespace std;
 class Demo
 {
-    public:
+public:
+    char *Str;
 
-    string str;
-
-    Demo(string str)
+    Demo(char *Str)
     {
-        this->str=str;
+        this->Str = Str;
     }
 
-    int countWordInStr()
+    int countWord()
     {
-        if(str.length()==0)
+        int iCnt = 0;
+
+        while (*Str != '\0')
         {
-            return 0;
+            if (*Str == ' ')
+            {
+                iCnt++;
+            }
+            Str++;
         }
-       int i=0;
-       int iCnt=0;
-       while(str[i]!='\0')
-       {
-          if(str[i]==' ' || str[i]=='\n')
-          {
-             cout<<"inside";
-             iCnt++;
-          }
-          i++;
-       }
-       return iCnt+1;
+        return iCnt+1;
     }
 };
 int main()
 {
-    string str;
+    char str[30];
 
-    cout<<"Enter the string"<<endl;
-    cin>>str;
+    cout << "Enter the string\n";
+    cin.getline(str, 30);
 
-    Demo *dobj=new Demo(str);
+    Demo *dobj = new Demo(str);
 
-    cout<<"Count of word is "<<dobj->countWordInStr()<<endl;
+    int iRet = dobj->countWord();
+
+    cout << "count of word is " << iRet << endl;
 
     return 0;
 }
