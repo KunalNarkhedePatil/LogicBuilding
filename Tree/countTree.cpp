@@ -73,11 +73,11 @@ public:
     }
     int countNodes(TreeNode *root)
     {
-        int iSum=1;
+        int iSum = 1;
 
-        for(int i=0;i<root->children.size();i++)
+        for (int i = 0; i < root->children.size(); i++)
         {
-            iSum=iSum+countNodes(root->children[i]);
+            iSum = iSum + countNodes(root->children[i]);
         }
         return iSum;
     }
