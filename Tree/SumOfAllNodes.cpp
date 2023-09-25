@@ -71,15 +71,16 @@ public:
             cout << endl;
         }
     }
-    int countNodes(TreeNode *root)
+    int sumOfNodes(TreeNode *root)
     {
-        int iAns = 1;
+        static int iSum;
+        iSum=iSum+root->data;
 
         for (int i = 0; i < root->children.size(); i++)
         {
-            iAns = iAns + countNodes(root->children[i]);
+            sumOfNodes(root->children[i]);
         }
-        return iAns;
+        return iSum;
     }
 };
 int main()
@@ -88,9 +89,9 @@ int main()
     TreeNode *root = obj.takeInput();
     obj.printTree(root);
 
-    int iRet = obj.countNodes(root);
+    int iRet = obj.sumOfNodes(root);
 
-    cout << "Num of nodes are " << iRet << endl;
+    cout << "Sum of nodes is " << iRet << endl;
 
     return 0;
 }
