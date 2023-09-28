@@ -24,7 +24,7 @@
 20.FindStartingNodeOfLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FindStartingNodeOfLoop.cpp
 21.RemoveLoop   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveLoop.cpp
 22.SortLinkedList   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortLinkedList.cpp
-23.MergeSortedLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/SortLinkedList.cpp
+23.MergeSortedLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/MergeSortedLL.cpp
 24.RemoveDuplicatesFromSortedLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveDuplicatesFromSortedLL.cpp
 25.RemoveDuplicatesFromUnsortedLL1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveDuplicatesFromUnsortedLL1.cpp
 26.RemoveDuplicatesFromUnsortedLL2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/RemoveDuplicatesFromUnsortedLL2.cpp
