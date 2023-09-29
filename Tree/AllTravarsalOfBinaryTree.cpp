@@ -15,63 +15,75 @@ public:
         this->right = NULL;
     }
 };
-
+typedef BinaryTreeNode *PBTNODE;
+typedef BinaryTreeNode BTNODE;
 class BinaryTree
 {
+private:
+    PBTNODE root;
+
 public:
-    BinaryTreeNode *takeInputLevelWise()
+    BinaryTree()
+    {
+        this->root = NULL;
+    }
+    PBTNODE getRoot()
+    {
+        return this->root;
+    }
+    void takeInputLevelWise()
     {
         int rootData = 0;
-        cout << "Enter the rootdata" << endl;
+        cout << "Enter the rootData" << endl;
         cin >> rootData;
 
         if (rootData == -1)
         {
-            return NULL;
+            return;
         }
-        BinaryTreeNode *root = new BinaryTreeNode(rootData);
-        queue<BinaryTreeNode *> pendingnodes;
+        PBTNODE root = new BTNODE(rootData);
+        queue<PBTNODE> pendingnodes;
         pendingnodes.push(root);
 
         while (pendingnodes.size() != 0)
         {
-            BinaryTreeNode *front = pendingnodes.front();
+            PBTNODE front = pendingnodes.front();
             pendingnodes.pop();
 
             int leftChildData = 0;
-            cout << "Enter the left child of " << front->data << endl;
+            cout << "Enter the leftChild data of " << front->data << endl;
             cin >> leftChildData;
 
             if (leftChildData != -1)
             {
-                BinaryTreeNode *leftChild = new BinaryTreeNode(leftChildData);
+                PBTNODE leftChild = new BTNODE(leftChildData);
                 front->left = leftChild;
                 pendingnodes.push(leftChild);
             }
             int rightChildData = 0;
-            cout << "Enter the right child of " << front->data << endl;
+            cout << "Enter the rightChild data of " << front->data << endl;
             cin >> rightChildData;
 
             if (rightChildData != -1)
             {
-                BinaryTreeNode *rightChild = new BinaryTreeNode(rightChildData);
+                PBTNODE rightChild = new BTNODE(rightChildData);
                 front->right = rightChild;
                 pendingnodes.push(rightChild);
             }
         }
-        return root;
+        this->root = root;
     }
-    void levelOrderTravarsal(BinaryTreeNode *root)
+    void levelOrderTravarsal()
     {
-        queue<BinaryTreeNode *> pendingnodes;
-        pendingnodes.push(root);
+        queue<PBTNODE> pendingnodes;
+        pendingnodes.push(this->root);
 
         while (pendingnodes.size() != 0)
         {
-            BinaryTreeNode *front = pendingnodes.front();
-            cout << front->data << " ";
-
+            PBTNODE front = pendingnodes.front();
             pendingnodes.pop();
+
+            cout << front->data << " ";
 
             if (front->left != NULL)
             {
@@ -83,7 +95,7 @@ public:
             }
         }
     }
-    void preOrderTravarsal(BinaryTreeNode *root)
+    void preOrderTravarsal(PBTNODE root)
     {
         if (root == NULL)
         {
@@ -93,7 +105,7 @@ public:
         preOrderTravarsal(root->left);
         preOrderTravarsal(root->right);
     }
-    void postOrderTravarsal(BinaryTreeNode *root)
+    void postOrderTravarsal(PBTNODE root)
     {
         if (root == NULL)
         {
@@ -103,7 +115,7 @@ public:
         postOrderTravarsal(root->right);
         cout << root->data << " ";
     }
-    void inOrderTravarsal(BinaryTreeNode *root)
+    void inOrderTravarsal(PBTNODE root)
     {
         if (root == NULL)
         {
@@ -117,17 +129,21 @@ public:
 int main()
 {
     BinaryTree obj;
-    BinaryTreeNode *root = obj.takeInputLevelWise();
-    cout<<"Levelorder Travarsal:";
-    obj.levelOrderTravarsal(root);
-    cout<<endl;
-    cout << "Preorder Travarsal is :";
+    obj.takeInputLevelWise();
+    PBTNODE root = obj.getRoot();
+    cout << "Level Order Travarsal: ";
+    obj.levelOrderTravarsal();
+    cout << endl;
+
+    cout << "Pre Order Travarsal: ";
     obj.preOrderTravarsal(root);
-    cout<<endl;
-    cout << "Postorder Travarsal is :";
+    cout << endl;
+
+    cout << "Post Order Travarsal: ";
     obj.postOrderTravarsal(root);
-    cout<<endl;
-    cout << "Inorder Travarsal is :";
+    cout << endl;
+
+    cout << "In Order Travarsal: ";
     obj.inOrderTravarsal(root);
 
     return 0;

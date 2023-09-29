@@ -1,5 +1,10 @@
 /*
-Input:
+CASE1:
+Output:
+Linked list contain loop
+Remove loop successfully
+10->20->30->40->50->60->70->NULL
+CASE2:
 Linked list not contain loop
 Output:
 10->20->30->40->50->60->70->NULL
@@ -53,11 +58,12 @@ public:
         PNODE interSection = floydDetectLoop();
         PNODE slow = sobj->first;
 
-        while (slow->next != interSection)
+        while (slow->next != interSection->next)
         {
             slow = slow->next;
+            interSection = interSection->next;
         }
-        slow->next = NULL;
+        interSection->next = NULL;
     }
 };
 int main()
@@ -72,23 +78,23 @@ int main()
     sobj->insertAtLast(60);
     sobj->insertAtLast(70);
 
-    //sobj->display();
+    // sobj->display();
 
     Demo *dobj = new Demo(sobj);
 
     PNODE temp = sobj->first;
 
     // if want to check the linked list contain loop then uncomment this
-    // PNODE Temp = NULL;
-    // while (temp->next != NULL)
-    // {
-    //     if (temp->data == 50)
-    //     {
-    //         Temp = temp;
-    //     }
-    //     temp = temp->next;
-    // }
-    // temp->next = Temp;
+    PNODE Temp = NULL;
+    while (temp->next != NULL)
+    {
+        if (temp->data == 50)
+        {
+            Temp = temp;
+        }
+        temp = temp->next;
+    }
+    temp->next = Temp;
     PNODE RetPNODE = dobj->floydDetectLoop();
     if (RetPNODE != NULL)
     {

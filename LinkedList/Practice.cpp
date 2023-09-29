@@ -245,6 +245,10 @@ public:
             cout << "Circular LL" << endl;
         }
     }
+    void detectLoop()
+    {
+        
+    }
     int count()
     {
         return iSize;

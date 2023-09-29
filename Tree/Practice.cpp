@@ -1,96 +1,150 @@
-#include<iostream>
-#include<vector>
-#include<queue>
+#include <iostream>
+#include <queue>
 using namespace std;
-class TreeNode
+class BinaryTreeNode
 {
-    public:
+public:
     int data;
-    vector<TreeNode *> children;
+    BinaryTreeNode *left;
+    BinaryTreeNode *right;
 
-    TreeNode(int data)
+    BinaryTreeNode(int data)
     {
-        this->data=data;
+        this->data = data;
+        this->left = NULL;
+        this->right = NULL;
     }
 };
-
-class Demo
+typedef BinaryTreeNode *PBTNODE;
+typedef BinaryTreeNode BTNODE;
+class BinaryTree
 {
-    public:
+private:
+    PBTNODE root;
 
-    TreeNode * takeInput()
+public:
+    BinaryTree()
     {
-        int rootData=0;
-        cout<<"Enter the root data"<<endl;
-        cin>>rootData;
+        this->root = NULL;
+    }
+    PBTNODE getRoot()
+    {
+        return this->root;
+    }
+    void takeInputLevelWise()
+    {
+        int rootData = 0;
+        cout << "Enter the rootData" << endl;
+        cin >> rootData;
 
-        TreeNode *root=new TreeNode(rootData);
-
-        queue<TreeNode *> pendingnodes;
+        if (rootData == -1)
+        {
+            return;
+        }
+        PBTNODE root = new BTNODE(rootData);
+        queue<PBTNODE> pendingnodes;
         pendingnodes.push(root);
-        while(pendingnodes.size()!=0)
+
+        while (pendingnodes.size() != 0)
         {
-            TreeNode *front=pendingnodes.front();
+            PBTNODE front = pendingnodes.front();
             pendingnodes.pop();
 
-            int numChild=0;
-            cout<<"Enter the number of children of "<<front->data<<endl;
-            cin>>numChild;
+            int leftChildData = 0;
+            cout << "Enter the leftChild data of " << front->data << endl;
+            cin >> leftChildData;
 
-            for(int i=0;i<numChild;i++)
+            if (leftChildData != -1)
             {
-                int childData=0;
-                cout<<"Enter the "<<i<<"th children of "<<front->data<<endl;
-                cin>>childData;
+                PBTNODE leftChild = new BTNODE(leftChildData);
+                front->left = leftChild;
+                pendingnodes.push(leftChild);
+            }
+            int rightChildData = 0;
+            cout << "Enter the rightChild data of " << front->data << endl;
+            cin >> rightChildData;
 
-                TreeNode *child=new TreeNode(childData);
-                front->children.push_back(child);
-                pendingnodes.push(child);
+            if (rightChildData != -1)
+            {
+                PBTNODE rightChild = new BTNODE(rightChildData);
+                front->right = rightChild;
+                pendingnodes.push(rightChild);
             }
         }
-        return root;
-
+        this->root = root;
     }
-    void printTreeLevelWise(TreeNode *root)
+    void levelOrderTravarsal()
     {
-         queue<TreeNode *> pendingnodes;
-         pendingnodes.push(root);
+        queue<PBTNODE> pendingnodes;
+        pendingnodes.push(this->root);
 
-         while(pendingnodes.size()!=0)
-         {
-            TreeNode *front=pendingnodes.front();
-            cout<<front->data<<":";
+        while (pendingnodes.size() != 0)
+        {
+            PBTNODE front = pendingnodes.front();
             pendingnodes.pop();
 
-            for(int i=0;i<front->children.size();i++)
+            cout << front->data << " ";
+
+            if (front->left != NULL)
             {
-                cout<<front->children[i]->data<<",";
-                pendingnodes.push(front->children[i]);
+                pendingnodes.push(front->left);
             }
-            cout<<endl;
-         }
+            if (front->right != NULL)
+            {
+                pendingnodes.push(front->right);
+            }
+        }
     }
-    void printTree(TreeNode *root)
+    void preOrderTravarsal(PBTNODE root)
     {
-        cout<<root->data<<":";
-        for(int i=0;i<root->children.size();i++)
+        if (root == NULL)
         {
-            cout<<root->children[i]->data<<",";
+            return;
         }
-        cout<<endl;
-        for(int i=0;i<root->children.size();i++)
+        cout << root->data << " ";
+        preOrderTravarsal(root->left);
+        preOrderTravarsal(root->right);
+    }
+    void postOrderTravarsal(PBTNODE root)
+    {
+        if (root == NULL)
         {
-            printTree(root->children[i]);
+            return;
         }
+        postOrderTravarsal(root->left);
+        postOrderTravarsal(root->right);
+        cout << root->data << " ";
+    }
+    void inOrderTravarsal(PBTNODE root)
+    {
+        if (root == NULL)
+        {
+            return;
+        }
+        inOrderTravarsal(root->left);
+        cout << root->data << " ";
+        inOrderTravarsal(root->right);
     }
 };
 int main()
 {
-    Demo dobj;
-    TreeNode *root=dobj.takeInput();
-    //dobj.printTree(root);
-    dobj.printTreeLevelWise(root);
+    BinaryTree obj;
+    obj.takeInputLevelWise();
+    PBTNODE root = obj.getRoot();
+    cout << "Level Order Travarsal: ";
+    obj.levelOrderTravarsal();
+    cout << endl;
 
+    cout << "Pre Order Travarsal: ";
+    obj.preOrderTravarsal(root);
+    cout << endl;
+
+    cout << "Post Order Travarsal: ";
+    obj.postOrderTravarsal(root);
+    cout << endl;
+
+    cout << "In Order Travarsal: ";
+    obj.inOrderTravarsal(root);
 
     return 0;
 }
