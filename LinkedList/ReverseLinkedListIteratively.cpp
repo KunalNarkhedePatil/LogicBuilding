@@ -19,6 +19,10 @@ public:
 
     void reverseLinkedListIteratively()
     {
+        if(sobj->first==NULL||sobj->first==NULL)
+        {
+            return;
+        }
         PNODE prevNode = NULL;
         PNODE currNode = sobj->first;
         PNODE nextNode = NULL;
