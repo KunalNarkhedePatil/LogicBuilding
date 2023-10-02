@@ -58,5 +58,6 @@
   "files.associations": {
     "type_traits": "cpp",
     "new": "cpp"
-  }
+  },
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }

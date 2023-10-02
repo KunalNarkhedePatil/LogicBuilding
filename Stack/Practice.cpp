@@ -1,64 +1,36 @@
-#include <iostream>
-#include <stack>
-
+#include<iostream>
+#include<stack>
+#include<string>
 using namespace std;
-class Demo
-{
-public:
-    stack<int> s;
 
-    Demo(stack<int> s)
-    {
-        this->s = s;
-    }
 
-    bool parenthesisMatch(char *Exp)
-    {
-        while(*Exp!='\0')
-        {
-            char ch=*Exp;
-            if(ch=='(')
-            {
-                s.push(ch);
-            }
-            else if(ch==')')
-            {
-                if(s.empty())
-                {
-                    return false;
-                }
-                s.pop();
-            }
-            Exp++;
-        }
-        if(s.empty())
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-};
 int main()
 {
-    stack<int> sobj;
+    stack<char> sobj;
 
-    char Exp[20];
+    char Str[20]="kunal";
 
-    Demo *dobj = new Demo(sobj);
+   int i=0;
 
-    cout << "Enter the Expression\n";
-    gets(Exp);
-
-    if (dobj->parenthesisMatch(Exp))
+    while(Str[i]!='\0')
     {
-        cout << "Parenthesis are match\n";
+        cout<<Str[i]<<" ";
+        sobj.push(Str[i]);
+        i++;
     }
-    else
+    cout<<endl;
+    string str="";
+
+    while(!sobj.empty())
     {
-        cout << "Parenthesis are not match\n";
+        cout<<sobj.top()<<" ";
+        str.push_back(sobj.top());
+        sobj.pop();
     }
+    cout<<str<<endl;
+
+
+
+
     return 0;
 }

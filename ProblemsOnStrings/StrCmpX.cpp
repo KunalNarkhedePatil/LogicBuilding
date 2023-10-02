@@ -30,18 +30,18 @@ public:
     }
     bool StrCmpX()
     {
-       int iFlag=0;
+       int iFlag=1;
        while(*Str1!='\0' && *Str2!='\0')
        {
           if(*Str1!=*Str2)
           {
-              iFlag=1;
+              iFlag=0;
               break;
           }
           Str1++;
           Str2++;
        }
-       if(iFlag==0)
+       if(iFlag==1)
        {
           return true;
        }

@@ -41,7 +41,7 @@ public:
 int main()
 {
     SinglyLinearLL *sobj = new SinglyLinearLL();
-
+    
     sobj->insertAtLast(10);
     sobj->insertAtLast(30);
     sobj->insertAtLast(20);
