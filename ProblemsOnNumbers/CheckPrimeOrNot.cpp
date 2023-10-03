@@ -23,21 +23,17 @@ public:
         {
             return true;
         }
-        int iFlag = 0;
+        int iFlag = 1;
         int M=this->iNo/2;
-        for (int i = 2; i <= M; i = i + 2)
+        for (int i = 3; i <= M; i++)
         {
             if (this->iNo % i == 0)
             {
-                iFlag = 1;
+                iFlag = 0;
                 break;
             }
-            if(i==2)   
-            {
-                i++;
-            }
         }
-        if (iFlag == 0)
+        if (iFlag == 1)
         {
             return true;
         }
