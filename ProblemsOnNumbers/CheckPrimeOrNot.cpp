@@ -19,13 +19,9 @@ public:
         {
             return false;
         }
-        if (this->iNo == 2)
-        {
-            return true;
-        }
         int iFlag = 1;
         int M=this->iNo/2;
-        for (int i = 3; i <= M; i++)
+        for (int i = 2; i <= M; i++)
         {
             if (this->iNo % i == 0)
             {
