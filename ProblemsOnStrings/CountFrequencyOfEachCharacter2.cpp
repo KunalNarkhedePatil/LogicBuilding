@@ -26,7 +26,7 @@ class Demo
     {
         int size=countLength(str);
 
-        int *Freq=new int[size];
+        int Freq[size];
 
         for(int i=0;i<size;i++)
         {
@@ -45,7 +45,7 @@ class Demo
                     str[j]=0;
                 }
             }
-            if(str[i]!=0)
+            if(Freq[i]!=0)
             {
                 Freq[i]=iCnt;
             }

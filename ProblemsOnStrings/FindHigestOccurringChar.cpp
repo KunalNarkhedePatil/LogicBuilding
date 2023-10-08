@@ -25,7 +25,7 @@ public:
         int size = StrLenX(Str);
 
         int iFreq[size];
-        //int *iFreq=new int[size];
+        // int *iFreq=new int[size];
 
         for (int i = 0; i < size; i++)
         {
@@ -50,22 +50,22 @@ public:
             }
         }
         int iMax = iFreq[0];
-        int j=0;
-        int i=0;
+        int j = 0;
+        int i = 0;
         for (i = 0; i < size; i++)
         {
             if (iFreq[i] != 0)
             {
                 if (iFreq[i] > iMax)
                 {
-                    j=i;
+                    j = i;
                     iMax = iFreq[i];
                 }
             }
         }
         pair<char, int> p;
-        p.first=Str[j];
-        p.second=iMax;
+        p.first = Str[j];
+        p.second = iMax;
         return p;
     }
 };

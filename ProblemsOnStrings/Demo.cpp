@@ -1,14 +1,25 @@
 #include<iostream>
 using namespace std;
-#include<string>
+void Display(char *Str)
+{
+    char *End=Str;
 
+    while(*End!='\0')
+    {
+        End++;
+    }
+    End--;
+
+    while()
+}
 int main()
 {
-    string str;
+    char Str[20];
+
     cout<<"Enter the string\n";
-    cin>>str;
+    cin.getline(Str,20);
 
-    cout<<str<<endl;
+    Display(Str);
 
-
+    return 0;
 }

@@ -18,11 +18,11 @@ public:
     }
     void lowerCaseToUpperCase()
     {
-        while(*Str!='\0')
+        while (*Str != '\0')
         {
-            if(*Str>='a' && *Str<='z')
+            if (*Str >= 'a' && *Str <= 'z')
             {
-                *Str=*Str-32;
+                *Str = *Str - 32;
             }
             Str++;
         }
@@ -37,11 +37,11 @@ int main()
 
     Demo *dobj = new Demo(Str);
 
-    cout<<"Original String "<<Str<<endl;
+    cout << "Original String " << Str << endl;
 
     dobj->lowerCaseToUpperCase();
 
-    cout<<"String is "<<Str<<endl;
+    cout << "String is " << Str << endl;
 
     delete dobj;
 

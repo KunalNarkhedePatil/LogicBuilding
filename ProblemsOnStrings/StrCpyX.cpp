@@ -26,7 +26,7 @@ public:
             Str++;
             CpyStr++;
         }
-        *CpyStr = '\0';
+        *CpyStr = *Str;
     }
 };
 int main()

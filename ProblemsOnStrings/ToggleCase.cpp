@@ -20,11 +20,11 @@ public:
     {
         while (*Str != '\0')
         {
-            if (*Str > 'a' && *Str <= 'z')
+            if (*Str >= 'a' && *Str <= 'z')
             {
                 *Str = *Str - 32;
             }
-            else if (*Str > 'A' && *Str <= 'Z')
+            else if (*Str >= 'A' && *Str <= 'Z')
             {
                 *Str = *Str + 32;
             }
