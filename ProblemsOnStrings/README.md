@@ -17,6 +17,11 @@
 13.CheckVowelInString   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CheckVowelInString.cpp
 14.CheckStringPalindrome   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CheckStringPalindrome.cpp
 15.CountPalindromeWordInStr   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountPalindromeWordInStr.cpp
+
+15.ConvertStringToInt   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountPalindromeWordInStr.cpp
+
+15.ConvertNoToWord   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountPalindromeWordInStr.cpp
+
 16.ReverseWord   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/ReverseWord.cpp
 17.FindFirstOccurrence   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/FindFirstOccurrence.cpp
 18.FindLastOccurrence   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/FindLastOccurrence.cpp
