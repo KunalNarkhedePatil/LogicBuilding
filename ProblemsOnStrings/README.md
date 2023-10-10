@@ -17,18 +17,15 @@
 13.CheckVowelInString   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CheckVowelInString.cpp
 14.CheckStringPalindrome   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CheckStringPalindrome.cpp
 15.CountPalindromeWordInStr   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountPalindromeWordInStr.cpp
-
-15.ConvertStringToInt   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountPalindromeWordInStr.cpp
-
-15.ConvertNoToWord   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountPalindromeWordInStr.cpp
-
-16.ReverseWord   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/ReverseWord.cpp
-17.FindFirstOccurrence   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/FindFirstOccurrence.cpp
-18.FindLastOccurrence   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/FindLastOccurrence.cpp
-19.CountSmall   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountSmall.cpp
-20.CountCapitalChar   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountCapitalChar.cpp
-21.CountOccurrenceOfChar   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountOccurrenceOfChar.cpp
-22.CountFrequencyOfEachCharacter1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountFrequencyOfEachCharacter1.cpp
-23.CountFrequencyOfEachCharacter2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountFrequencyOfEachCharacter2.cpp
-24.FindHigestOccurringChar   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/FindHigestOccurringChar.cpp
-25.FindLowestOccurringChar   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/FindLowestOccurringChar.cpp
+16.ConvertStringToInt   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/ConvertStringToInt.cpp
+17.ConvertNoToWord   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/ConvertNoToWord.cpp
+18.ReverseWord   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/ReverseWord.cpp
+19.FindFirstOccurrence   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/FindFirstOccurrence.cpp
+20.FindLastOccurrence   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/FindLastOccurrence.cpp
+21.CountSmall   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountSmall.cpp
+22.CountCapitalChar   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountCapitalChar.cpp
+23.CountOccurrenceOfChar   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountOccurrenceOfChar.cpp
+24.CountFrequencyOfEachCharacter1   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountFrequencyOfEachCharacter1.cpp
+25.CountFrequencyOfEachCharacter2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/CountFrequencyOfEachCharacter2.cpp
+26.FindHigestOccurringChar   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/FindHigestOccurringChar.cpp
+27.FindLowestOccurringChar   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnStrings/FindLowestOccurringChar.cpp
