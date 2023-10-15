@@ -32,3 +32,4 @@
 28.LeftRotate   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/LeftRotate.cpp
 29.RightRotate   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/RightRotate.cpp
 30.CheckArrPalindromic   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CheckArrPalindromic.cpp
+30.PosNegAlternate   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CheckArrPalindromic.cpp
