@@ -83,6 +83,11 @@ void Queue::deQueue()
 }
 void Queue::display()
 {
+    if(isEmpty())
+    {
+        cout<<"Queue is empty"<<endl;
+        return;
+    }
     int i = 0;
     for (i = iFront; i != iRare; i = (i + 1) % iSize)
     {

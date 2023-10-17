@@ -1,60 +1,109 @@
 #include <iostream>
-#include <queue>
-
 using namespace std;
+class Queue
+{
+public:
+    int Front;
+    int Rear;
+    int *Arr;
+    int iSize;
 
-void insert(queue<int> &q, int item) {
-    // Base case: If the queue is empty or the item is greater than the front of the queue,
-    // insert the item at the front.
-    if (q.empty() || item > q.front()) {
-        q.push(item);
-    } else {
-        // Remove the front item and insert it at the end of the queue.
-        int front = q.front();
-        q.pop();
-        insert(q, item);
-        q.push(front);
+    Queue(int iSize)
+    {
+        this->Front = -1;
+        this->Rear = -1;
+        this->iSize = iSize;
+        this->Rear;
     }
-}
-
-void sortQueue(queue<int> &q) {
-    if (!q.empty()) {
-        // Dequeue the front element.
-        int front = q.front();
-        q.pop();
-        // Recursively sort the remaining queue.
-        sortQueue(q);
-        // Insert the front element in its sorted position.
-        insert(q, front);
+    bool isEmpty()
+    {
+        if (Front == -1 && Rear == -1)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
-}
-
-int main() {
-    queue<int> q;
-    q.push(30);
-    q.push(11);
-    q.push(15);
-    q.push(4);
-
-    cout << "Original Queue: ";
-    while (!q.empty()) {
-        cout << q.front() << " ";
-        q.pop();
+    bool isFull()
+    {
+        if ((Front == 0 && Rear == iSize - 1) || ((Rear + 1) % iSize) == Front)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
+    void enQueue(int val)
+    {
+        if (isFull())
+        {
+            cout << "Queue is full" << endl;
+            return;
+        }
+        if (isEmpty())
+        {
+            Front++;
+            Rear++;
 
-    q.push(30);
-    q.push(11);
-    q.push(15);
-    q.push(4);
-
-    sortQueue(q);
-
-    cout << "\nQueue after sorting: ";
-    while (!q.empty()) {
-        cout << q.front() << " ";
-        q.pop();
+            Arr[Rear] = val;
+        }
+        else
+        {
+            Rear = (Rear + 1) % iSize;
+            Arr[Rear] = val;
+        }
     }
+    void deQueue()
+    {
+        if (isEmpty())
+        {
+            cout << "Queue is empty" << endl;
+            return;
+        }
+        if (Front == Rear)
+        {
+            cout << "HElo" << endl;
+            Front = -1;
+            Rear = -1;
+        }
+        else
+        {
+            Front = (Front + 1) % iSize;
+        }
+    }
+    void Display()
+    {
+        for (int i = Front; i != Rear+1; i = (i + 1) % iSize)
+        {
+            cout << Arr[i] << " ";
+        }
+        cout << endl;
+    }
+};
+int main()
+{
+
+    Queue obj(10);
+
+    obj.enQueue(10);
+    obj.enQueue(20);
+    obj.enQueue(30);
+    obj.enQueue(40);
+    obj.enQueue(50);
+
+    obj.Display();
+
+    obj.deQueue();
+    obj.deQueue();
+    obj.deQueue();
+    obj.deQueue();
+    obj.deQueue();
+
+    obj.Display();
 
     return 0;
 }
-
