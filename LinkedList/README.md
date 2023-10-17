@@ -36,4 +36,4 @@
 32.CheckPalindromicLL2   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/CheckPalindromicLL2.cpp
 33.IntersectionOfTwoLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/IntersectionOfTwoLL.cpp
 34.FindNthNodeFromEnd   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/FindNthNodeFromEnd.cpp
-35.DeleteOccFromLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/DeleteOccFromLL.cpp
+35.DeleteLastOccFromLL   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/LinkedList/DeleteLastOccFromLL.cpp

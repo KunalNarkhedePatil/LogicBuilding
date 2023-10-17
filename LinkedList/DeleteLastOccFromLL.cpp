@@ -16,7 +16,7 @@ public:
         this->sobj = sobj;
     }
 
-    void deleteOccFromLL(int iNo)
+    void deleteLastOccFromLL(int iNo)
     {
         PNODE temp = sobj->first;
         int iCnt = 0;
@@ -59,7 +59,7 @@ int main()
     cin >> iNo;
     cout << "Before Linked list is :";
     sobj->display();
-    dobj->deleteOccFromLL(iNo);
+    dobj->deleteLastOccFromLL(iNo);
 
     cout << "After Linked list is :";
     sobj->display();
