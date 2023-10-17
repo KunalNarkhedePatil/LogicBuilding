@@ -1,8 +1,9 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 class Queue
 {
-public:
+    public:
+
     int Front;
     int Rear;
     int *Arr;
@@ -10,14 +11,14 @@ public:
 
     Queue(int iSize)
     {
-        this->Front = -1;
-        this->Rear = -1;
-        this->iSize = iSize;
-        this->Rear;
+        this->Front=-1;
+        this->Rear=-1;
+        this->iSize=iSize;
+        this->Arr=new int[this->iSize];
     }
     bool isEmpty()
     {
-        if (Front == -1 && Rear == -1)
+        if(Front==-1 && Rear==-1)
         {
             return true;
         }
@@ -28,7 +29,7 @@ public:
     }
     bool isFull()
     {
-        if ((Front == 0 && Rear == iSize - 1) || ((Rear + 1) % iSize) == Front)
+        if((Front==0 && Rear==iSize-1 ) || Rear+1==Front)
         {
             return true;
         }
@@ -37,73 +38,97 @@ public:
             return false;
         }
     }
-    void enQueue(int val)
+    void enQueueFront(int val)
     {
-        if (isFull())
+        if(isFull())
         {
-            cout << "Queue is full" << endl;
+            cout<<"Queue is full"<<endl;
             return;
         }
-        if (isEmpty())
+        if(isEmpty())
         {
             Front++;
             Rear++;
-
-            Arr[Rear] = val;
+        }
+        if(Front==0)
+        {
+            Front=iSize-1;
         }
         else
         {
-            Rear = (Rear + 1) % iSize;
-            Arr[Rear] = val;
+            Front--;
         }
+        Arr[Front]=val;
     }
-    void deQueue()
+    void enQueueRear(int val)
     {
-        if (isEmpty())
+       if(isFull())
+       {
+        cout<<"Queue is full"<<endl;
+        return;
+       }
+       if(isEmpty())
+       {
+         Front++;
+         Rear++;
+       }
+       if(Rear==iSize-1)
+       {
+           Rear=0;
+       }
+       else
+       {
+        Rear++;
+       }
+       Arr[Rear]=val;
+    }
+    void deQueueFront()
+    {
+        if(isEmpty())
         {
-            cout << "Queue is empty" << endl;
+            cout<<"Queue is Empty"<<endl;
             return;
         }
-        if (Front == Rear)
+        if(Front==Rear)
         {
-            cout << "HElo" << endl;
-            Front = -1;
-            Rear = -1;
+            Front=-1;
+            Rear=-1;
+        }
+        if(Front==iSize-1)
+        {
+            Front=0;
         }
         else
         {
-            Front = (Front + 1) % iSize;
+            Front++;
         }
     }
-    void Display()
+    void deQueueRear()
     {
-        for (int i = Front; i != Rear+1; i = (i + 1) % iSize)
+        if(isEmpty())
         {
-            cout << Arr[i] << " ";
+            cout<<"Queue is full"<<endl;
+            return;
         }
-        cout << endl;
+
+        if(Front==Rear)
+        {
+            Front=-1;
+            Rear=-1;
+        }
+        if(Rear==0)
+        {
+            Rear==iSize-1;
+        }
+        else
+        {
+            Rear--;
+        }
     }
-};
+}
+
 int main()
 {
-
-    Queue obj(10);
-
-    obj.enQueue(10);
-    obj.enQueue(20);
-    obj.enQueue(30);
-    obj.enQueue(40);
-    obj.enQueue(50);
-
-    obj.Display();
-
-    obj.deQueue();
-    obj.deQueue();
-    obj.deQueue();
-    obj.deQueue();
-    obj.deQueue();
-
-    obj.Display();
 
     return 0;
 }
