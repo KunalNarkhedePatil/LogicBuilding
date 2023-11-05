@@ -3,22 +3,20 @@ using namespace std;
 class Queue
 {
     public:
-
     int Front;
     int Rear;
     int *Arr;
     int iSize;
 
-    Queue(int iSize)
+    Queue()
     {
-        this->Front=-1;
-        this->Rear=-1;
-        this->iSize=iSize;
-        this->Arr=new int[this->iSize];
+        Front=Rear=-1;
+        this->iSize=10;
+        Arr=new int[iSize];
     }
-    bool isEmpty()
+    bool empty()
     {
-        if(Front==-1 && Rear==-1)
+        if(Front==-1 && Rear ==-1)
         {
             return true;
         }
@@ -27,66 +25,41 @@ class Queue
             return false;
         }
     }
-    bool isFull()
+    bool full()
     {
-        if((Front==0 && Rear==iSize-1 ) || Rear+1==Front)
+        if(Front==0 && Rear == iSize-1 || Rear+1%iSize==Front)
         {
             return true;
         }
-        else
-        {
+        else{
             return false;
         }
     }
-    void enQueueFront(int val)
+    void push(int val)
     {
-        if(isFull())
+        if(full())
         {
             cout<<"Queue is full"<<endl;
-            return;
+            return ;
         }
-        if(isEmpty())
+        if(empty())
         {
             Front++;
             Rear++;
-        }
-        if(Front==0)
-        {
-            Front=iSize-1;
+            Arr[Rear]=val;
         }
         else
         {
-            Front--;
+            Rear=((Rear+1)%iSize);
+            Arr[Rear]=val;
         }
-        Arr[Front]=val;
+        
     }
-    void enQueueRear(int val)
+    void pop()
     {
-       if(isFull())
-       {
-        cout<<"Queue is full"<<endl;
-        return;
-       }
-       if(isEmpty())
-       {
-         Front++;
-         Rear++;
-       }
-       if(Rear==iSize-1)
-       {
-           Rear=0;
-       }
-       else
-       {
-        Rear++;
-       }
-       Arr[Rear]=val;
-    }
-    void deQueueFront()
-    {
-        if(isEmpty())
+        if(empty())
         {
-            cout<<"Queue is Empty"<<endl;
+            cout<<"Queue is empty"<<endl;
             return;
         }
         if(Front==Rear)
@@ -94,41 +67,49 @@ class Queue
             Front=-1;
             Rear=-1;
         }
-        if(Front==iSize-1)
-        {
-            Front=0;
-        }
         else
         {
-            Front++;
+            Front=(Front+1)%iSize;
         }
     }
-    void deQueueRear()
+    void display()
     {
-        if(isEmpty())
+        int i=0;
+        for(i=Front;i!=Rear;i=(i+1)%iSize)
         {
-            cout<<"Queue is full"<<endl;
-            return;
+            cout<<i<<" ";
+            cout<<Arr[i]<<" ";
         }
-
-        if(Front==Rear)
-        {
-            Front=-1;
-            Rear=-1;
-        }
-        if(Rear==0)
-        {
-            Rear==iSize-1;
-        }
-        else
-        {
-            Rear--;
-        }
+        cout<<Arr[i]<<" ";
+        cout<<endl;
     }
-}
-
+};
 int main()
 {
+    Queue *obj=new Queue();
 
+    obj->push(10);
+    obj->push(10);
+    obj->push(10);
+    obj->push(10);
+    obj->push(10);
+    obj->push(10);
+    obj->push(10);
+    obj->push(10);
+    obj->push(10);
+    obj->push(10);
+
+    obj->pop();
+    obj->pop();
+    obj->pop();
+    obj->pop();
+    obj->push(10);
+    obj->push(10);
+    obj->push(10);
+    obj->push(10);
+
+    
+
+    obj->display();
     return 0;
 }
