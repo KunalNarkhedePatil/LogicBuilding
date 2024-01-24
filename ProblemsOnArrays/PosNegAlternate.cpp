@@ -57,7 +57,6 @@ public:
                 }
                 else
                 {
-                    cout << "hello1" << endl;
                     for (int l = i; l < iSize; l++)
                     {
                         Arr[l] = NegArr[k];

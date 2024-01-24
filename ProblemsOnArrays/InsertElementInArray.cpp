@@ -5,6 +5,7 @@ class Demo : public MyArray // here we inherite the MyArray class from MyArray.h
 {
 public:
     int size;
+    
     Demo(int size) : MyArray(size) // base member initialisation
     {
         this->size = size;
