@@ -1,71 +1,43 @@
-#include "array.h"
-class Demo : public MyArray
-{
-public:
-    Demo(int iSize) : MyArray(iSize)
-    {
-    }
-    int binarySearchAlgorithm(int Key)
-    {
-        int iStart=0;
-        int iEnd=iSize-1;
+#include<iostream>
+#include<algorithm>
+using namespace std;
 
-        int iFlag=-1;
-
-        int Mid=iStart+(iEnd-iStart)/2;
-
-        while(iStart<=iEnd)
-        {
-            if(Arr[Mid]==Key)
-            {
-                iFlag=Mid;
-                break;
-            }
-
-            if(Key>Arr[Mid])
-            {
-                iStart=Mid+1;
-            }
-            else if(Key<Arr[Mid])
-            {
-                iEnd=Mid-1;
-            }
-            Mid=iStart+(iEnd-iStart)/2;
-        }
-        // Time complexity 0(log n)
-
-        if(iFlag==-1)
-        {
-            return iFlag;
-        }
-        else
-        {
-            return iFlag;
-        }
-    }
-};
 int main()
 {
-    int iSize = 0, iRet = 0, iNo = 0;
+    int size=0;
+    cout<<"Enter the size of array\n";
+    cin>>size;
 
-    cout << "Enter the size of array\n";
-    cin >> iSize;
+    int *Arr=new int[size];
 
-    Demo *dobj = new Demo(iSize);
-    dobj->acceptArray();
-
-    cout << "Enter the number to search\n";
-    cin >> iNo;
-
-    iRet = dobj->binarySearchAlgorithm(iNo);
-
-    if (iRet == -1)
+    cout<<"Enter element "<<endl;
+    for(int i=0;i<size;i++)
     {
-        cout << iNo << " is not present in the array\n";
+        cin>>Arr[i];
+    }
+
+    while(size!=1)
+    {
+      sort(Arr,Arr+size);
+      int x=Arr[size-2];
+      int y=Arr[size-1];
+      if(x!=y)
+      {
+        Arr[size-2]=y-x;
+        size=size-1;
+      }
+      else
+      {
+        size=size-2;
+      }
+    }
+    if(size==1)
+    {
+        cout<<Arr[0];
     }
     else
     {
-        cout << iNo << " is present at " << iRet << " index\n";
+        cout<<"0";
     }
 
     return 0;

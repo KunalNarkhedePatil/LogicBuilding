@@ -16,12 +16,12 @@ public:
     void rotateByOne()
     {
         int iFirst = Arr[0];
-
-        for (int i = 0; i < iSize; i++)
+        int i=0;
+        for (i = 0; i < iSize-1; i++)
         {
             Arr[i] = Arr[i + 1];
         }
-        Arr[iSize - 1] = iFirst;
+        Arr[i] = iFirst;
     }
     void leftRotate(int iNo)
     {
