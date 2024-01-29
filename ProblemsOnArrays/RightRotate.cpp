@@ -22,7 +22,6 @@ public:
             Arr[i]=Arr[i-1];
         }
         Arr[0]=iLast;
-
     }
     void rightRotate(int iNo)
     {
