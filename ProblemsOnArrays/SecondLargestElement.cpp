@@ -25,7 +25,7 @@ public:
     int secondLargestElement()
     {
         int iMax = maximumElement();
-        int iSecondMax = Arr[0];
+        int iSecondMax = 0;
 
         for (int i = 0; i < iSize; i++)
         {
