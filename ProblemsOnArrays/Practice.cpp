@@ -55,6 +55,24 @@ void SecondMaxinArray(int *Arr,int size)
     }
     cout<<"Second Maximum number is "<<secMax<<endl;
 }
+void countEvenOdd(int *Arr,int size)
+{
+    int CntEven=0;
+    int CntOdd=0;
+
+    for(int i=0;i<size;i++){
+        if(Arr[i]%2==0)
+        {
+            CntEven++;
+        }
+        else
+        {
+            CntOdd++;
+        }
+    }
+    cout<<"Number of Even Element "<<CntEven<<endl;
+    cout<<"Number of Odd Element "<<CntOdd<<endl;
+}
 int main()
 {
     int size=0;
@@ -73,7 +91,7 @@ int main()
     //printAllNegative(Arr,size);
     //cout<<"Sum of all element in the array"<<sumOfAllElement(Arr,size)<<endl;
     //MaxInArray(Arr,size);
-    SecondMaxinArray(Arr,size);
-
+    //SecondMaxinArray(Arr,size);
+    //countEvenOdd(Arr,size);
     return 0;
 }
