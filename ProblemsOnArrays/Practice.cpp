@@ -73,6 +73,13 @@ void countEvenOdd(int *Arr,int size)
     cout<<"Number of Even Element "<<CntEven<<endl;
     cout<<"Number of Odd Element "<<CntOdd<<endl;
 }
+void copyOneToSec(int *Arr,int *Brr,int size)
+{
+    for(int i=0;i<size;i++)
+    {
+        Brr[i]=Arr[i];
+    }
+}
 int main()
 {
     int size=0;
@@ -82,6 +89,7 @@ int main()
     cout<<"Enter the element in the array"<<endl;
 
     int *Arr=new int[size];
+    int *Brr=new int[size];
 
     for(int i=0;i<size;i++)
     {
@@ -93,5 +101,7 @@ int main()
     //MaxInArray(Arr,size);
     //SecondMaxinArray(Arr,size);
     //countEvenOdd(Arr,size);
+    //copyOneToSec(Arr,Brr,size);
+    //Display(Brr,size);
     return 0;
 }
