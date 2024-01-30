@@ -111,7 +111,29 @@ void DeleteElementFromArray(int *Arr,int *size,int pos)
     Arr=(int *)realloc(Arr,(sizeof(int)*(*size-1)));
     *size=*size-1;
 }
-
+void Swap(int *p,int *q)
+{
+    int Temp=*p;
+    *p=*q;
+    *q=Temp;
+}
+void SwapAlternate(int *Arr,int size)
+{
+    for(int i=0;i<size;i++)
+    {
+        if(i==size-1)
+        {
+            Arr[i]=Arr[i];
+            break;
+        }
+        Swap(&Arr[i],&Arr[i+1]);
+        i++;
+    }
+}
+void CountFreqOfEachElement(int *Arr,int size)
+{
+    
+}
 int main()
 {
     int size = 0;
@@ -137,8 +159,8 @@ int main()
     // Display(Brr,size);
     //insertNewElement(Arr, &size, 5, 3);
     //DeleteElementFromArray(Arr,&size,3);
-
-    cout<<size<<endl;
+    //SwapAlternate(Arr,size);
+   
     Display(Arr, size);
     return 0;
 }
