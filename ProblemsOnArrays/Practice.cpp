@@ -102,6 +102,15 @@ void insertNewElement(int *Arr, int *size, int No, int pos)
     *size=*size+1;
     
 }
+void DeleteElementFromArray(int *Arr,int *size,int pos)
+{
+    for(int i=pos;i<*size-1;i++)
+    {
+        Arr[i]=Arr[i+1];
+    }
+    Arr=(int *)realloc(Arr,(sizeof(int)*(*size-1)));
+    *size=*size-1;
+}
 int main()
 {
     int size = 0;
@@ -125,7 +134,8 @@ int main()
     // countEvenOdd(Arr,size);
     // copyOneToSec(Arr,Brr,size);
     // Display(Brr,size);
-    insertNewElement(Arr, &size, 5, 3);
+    //insertNewElement(Arr, &size, 5, 3);
+    //DeleteElementFromArray(Arr,&size,3);
     cout<<size<<endl;
     Display(Arr, size);
     return 0;
