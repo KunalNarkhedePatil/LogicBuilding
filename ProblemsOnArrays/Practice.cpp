@@ -144,8 +144,33 @@ void CountFreqOfEachElement(int *Arr,int size)
         Count=1;
         for(int j=i+1;j<size;j++)
         {
-            
+
         }
+    }
+}
+void CheckArrayPalindromic(int Arr[],int size)
+{
+    bool Flag=true;
+
+    int s=0;
+    int e=size-1;
+
+    while(s<=e)
+    {
+        if(Arr[s]!=Arr[e])
+        {
+            Flag=false;
+        }
+        s++;
+        e--;
+    }
+    if(Flag==true)
+    {
+        cout<<"Palindromic"<<endl;
+    }
+    else
+    {
+        cout<<"Not Palindromic"<<endl;
     }
 }
 int main()
@@ -174,6 +199,7 @@ int main()
     //insertNewElement(Arr, &size, 5, 3);
     //DeleteElementFromArray(Arr,&size,3);
     //SwapAlternate(Arr,size);
+    CheckArrayPalindromic(Arr,size);
    
     Display(Arr, size);
     return 0;
