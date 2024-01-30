@@ -85,8 +85,10 @@ void copyOneToSec(int *Arr, int *Brr, int size)
 void insertNewElement(int *Arr, int *size, int No, int pos)
 {
     int n = *size;
-    Arr = (int *)realloc(Arr, sizeof(int) * (n + 1));
-    cout<<sizeof(Arr)<<endl;
+    int iSize=sizeof(int)*(n+1);
+
+    Arr = (int *)realloc(Arr,iSize);
+
     for (int i = n; i >= 0; i--)
     {
         if (i == pos)
@@ -94,9 +96,11 @@ void insertNewElement(int *Arr, int *size, int No, int pos)
             Arr[i] = No;
             break;
         }
+        
         Arr[i] = Arr[i - 1];
     }
-    *size = *size + 1;
+    *size=*size+1;
+    
 }
 int main()
 {
@@ -107,7 +111,7 @@ int main()
     cout << "Enter the element in the array" << endl;
 
     int *Arr = new int[size];
-    int *Brr = new int[size];
+    //int *Brr = new int[size];
 
     for (int i = 0; i < size; i++)
     {
