@@ -111,6 +111,7 @@ void DeleteElementFromArray(int *Arr,int *size,int pos)
     Arr=(int *)realloc(Arr,(sizeof(int)*(*size-1)));
     *size=*size-1;
 }
+
 int main()
 {
     int size = 0;
@@ -136,6 +137,7 @@ int main()
     // Display(Brr,size);
     //insertNewElement(Arr, &size, 5, 3);
     //DeleteElementFromArray(Arr,&size,3);
+
     cout<<size<<endl;
     Display(Arr, size);
     return 0;
