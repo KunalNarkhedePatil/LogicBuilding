@@ -132,7 +132,21 @@ void SwapAlternate(int *Arr,int size)
 }
 void CountFreqOfEachElement(int *Arr,int size)
 {
-    
+    int Freq[size];
+
+    for(int i=0;i<size;i++)
+    {
+        Freq[i]=-1;
+    }
+    int Count=0;
+    for(int i=0;i<size;i++)
+    {
+        Count=1;
+        for(int j=i+1;j<size;j++)
+        {
+            
+        }
+    }
 }
 int main()
 {
