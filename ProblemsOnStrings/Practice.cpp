@@ -85,6 +85,34 @@ void UpperToLower(char *Str)
         Str++;
     }
 }
+void ToggleCase(char *Str)
+{
+    while(*Str!='\0')
+    {
+        if(*Str>='a' && *Str<='z')
+        {
+            *Str=*Str-32;
+        }
+        else if(*Str>='A' && *Str<='Z')
+        {
+            *Str=*Str+32;
+        }
+        Str++;
+    }
+}
+int countWord(char *Str)
+{
+    int iCnt=0;
+   while(*Str!='\0')
+   {
+      if(*Str==' ' || *Str==',' ||*Str=='\n')
+      {
+          iCnt++;
+      }
+      Str++;
+   }
+   return iCnt+1;
+}
 int main()
 {
     char Str[50];
@@ -116,7 +144,11 @@ int main()
     //cout<<"Reverse String is "<<Str<<endl;
 
     //LowerToUpper(Str);
-    UpperToLower(Str);
-    cout<<"String is "<<Str<<endl;
+    //UpperToLower(Str);
+    //ToggleCase(Str);
+    //cout<<"String is "<<Str<<endl;
+
+    cout<<"Number of word in the String are "<<countWord(Str)<<endl;
+
     return 0;
 }
