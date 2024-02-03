@@ -38,18 +38,42 @@ bool StrCmpX(char *Str,char *Str1)
     }
     return true;
 }
+void Swap(char *P,char *Q)
+{
+    char Temp=*P;
+    *P=*Q;
+    *Q=Temp;
+}
+void StrRevX(char *Str)
+{
+    char *End=Str;
 
+    while(End!='\0')
+    {
+        End++;
+    }
+    End--;
+
+    char *Start=Str;
+
+    while(Start<=End)
+    {
+        Swap(Start,End);
+        Start++;
+        End--;
+    }
+}
 int main()
 {
     char Str[50];
-    char Str1[50];
-    char CpyStr[50];
+    //char Str1[50];
+    //char CpyStr[50];
 
     cout << "Enter the String" << endl;
     cin.getline(Str, 30);
 
-    cout<<"Enter the Another String"<<endl;
-    cin.getline(Str1,30);
+    // cout<<"Enter the Another String"<<endl;
+    // cin.getline(Str1,30);
 
 
     cout << "String is " << Str << endl;
@@ -57,14 +81,16 @@ int main()
     //CpyStrX(Str,CpyStr);
     //cout<<"Copied String is "<<CpyStr<<endl;
 
-    if(StrCmpX(Str,Str1))
-    {
-        cout<<"String is Equal"<<endl;
-    }
-    else
-    {
-        cout<<"String is not Equal"<<endl;
-    }
+    // if(StrCmpX(Str,Str1))
+    // {
+    //     cout<<"String is Equal"<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"String is not Equal"<<endl;
+    // }
     
+    StrRevX(Str);
+    cout<<"Reverse String is "<<Str<<endl;
     return 0;
 }
