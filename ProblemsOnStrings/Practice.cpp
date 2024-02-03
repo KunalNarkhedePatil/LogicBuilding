@@ -113,6 +113,20 @@ int countWord(char *Str)
    }
    return iCnt+1;
 }
+int CountCapital(char *Str)
+{
+    int iCnt=0;
+
+    while(*Str!='\0')
+    {
+        if(*Str>='A' && *Str<='Z')
+        {
+            iCnt++;
+        }
+        Str++;
+    }
+    return iCnt;
+}
 int main()
 {
     char Str[50];
@@ -148,7 +162,8 @@ int main()
     //ToggleCase(Str);
     //cout<<"String is "<<Str<<endl;
 
-    cout<<"Number of word in the String are "<<countWord(Str)<<endl;
+    //cout<<"Number of word in the String are "<<countWord(Str)<<endl;
+    cout<<"Number of Capital Character is "<<CountCapital(Str)<<endl;
 
     return 0;
 }
