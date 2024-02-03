@@ -48,7 +48,7 @@ void StrRevX(char *Str)
 {
     char *End=Str;
 
-    while(End!='\0')
+    while(*End!='\0')
     {
         End++;
     }
@@ -61,6 +61,28 @@ void StrRevX(char *Str)
         Swap(Start,End);
         Start++;
         End--;
+    }
+}
+void LowerToUpper(char *Str)
+{
+    while(*Str!='\0')
+    {
+        if(*Str>='a' && *Str<='z')
+        {
+            *Str=*Str-32;
+        }
+        Str++;
+    }
+}
+void UpperToLower(char *Str)
+{
+    while(*Str!='\0')
+    {
+        if(*Str>-'A' && *Str<='Z')
+        {
+            *Str=*Str+32;
+        }
+        Str++;
     }
 }
 int main()
@@ -90,7 +112,11 @@ int main()
     //     cout<<"String is not Equal"<<endl;
     // }
     
-    StrRevX(Str);
-    cout<<"Reverse String is "<<Str<<endl;
+    //StrRevX(Str);
+    //cout<<"Reverse String is "<<Str<<endl;
+
+    //LowerToUpper(Str);
+    UpperToLower(Str);
+    cout<<"String is "<<Str<<endl;
     return 0;
 }
