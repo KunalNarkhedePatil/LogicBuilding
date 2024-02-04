@@ -150,6 +150,36 @@ void checkVowelInString(char *Str)
     }
 
 }
+void checkStringPalindrome(char *Str)
+{
+    bool flag=true;
+
+    char *End=Str;
+
+    while(*End!='\0')
+    {
+        End++;
+    }
+    End--;
+
+    while(Str<=End)
+    {
+        if(*Str!=*End)
+        {
+            flag=false;
+        }
+        Str++;
+        End--;
+    }
+    if(flag==true)
+    {
+        cout<<"Palindromic"<<endl;
+    }
+    else
+    {
+        cout<<"Not Palindromic"<<endl;
+    }
+}
 int main()
 {
     char Str[50];
@@ -187,7 +217,10 @@ int main()
 
     //cout<<"Number of word in the String are "<<countWord(Str)<<endl;
     //cout<<"Number of Capital Character is "<<CountCapital(Str)<<endl;
-    checkVowelInString(Str);
+    //checkVowelInString(Str);
+
+    checkStringPalindrome(Str);
+
 
 
     return 0;
