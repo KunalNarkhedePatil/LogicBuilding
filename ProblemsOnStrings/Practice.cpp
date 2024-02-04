@@ -127,6 +127,29 @@ int CountCapital(char *Str)
     }
     return iCnt;
 }
+void checkVowelInString(char *Str)
+{
+    bool flag=false;
+
+    while(*Str!='\0')
+    {
+        if(*Str=='A'||*Str=='E'||*Str=='I'||*Str=='O'||*Str=='U'||*Str=='a'||*Str=='e'||*Str=='i'||*Str=='o'||*Str=='u')
+        {
+            flag=true;
+            break;
+        }
+        Str++;
+    }
+    if(flag==true)
+    {
+        cout<<"String contain voewls"<<endl;
+    }
+    else
+    {
+        cout<<"String contain not voewls"<<endl;
+    }
+
+}
 int main()
 {
     char Str[50];
@@ -163,7 +186,9 @@ int main()
     //cout<<"String is "<<Str<<endl;
 
     //cout<<"Number of word in the String are "<<countWord(Str)<<endl;
-    cout<<"Number of Capital Character is "<<CountCapital(Str)<<endl;
+    //cout<<"Number of Capital Character is "<<CountCapital(Str)<<endl;
+    checkVowelInString(Str);
+
 
     return 0;
 }
