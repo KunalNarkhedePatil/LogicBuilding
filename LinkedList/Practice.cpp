@@ -81,6 +81,34 @@ class LinkedList
         return -1;
 
     }
+    void FindLargestElement()
+    {
+        PNODE temp=first;
+
+        int Max=temp->data;
+
+        while(temp!=NULL)
+        {
+            if(temp->data>Max)
+            {
+                Max=temp->data;
+            }
+            temp=temp->next;
+        }
+        cout<<"Maximum number in the linked list is "<<Max<<endl;
+    }
+    void SumOfAllElement()
+    {
+        PNODE temp=first;
+        int Sum=0;
+
+        while(temp!=NULL)
+        {
+            Sum=Sum+temp->data;
+            temp=temp->next;
+        }
+        cout<<"Sum of all element in the linked list are"<<Sum<<endl;
+    }
 
 };
 
@@ -107,6 +135,8 @@ int main()
     else{
         cout<<"Element is present on the "<<iRet<<" index"<<endl;
     }
+
+    lobj->FindLargestElement();
 
 
 
