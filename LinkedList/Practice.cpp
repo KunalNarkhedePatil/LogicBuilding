@@ -109,6 +109,10 @@ class LinkedList
         }
         cout<<"Sum of all element in the linked list are "<<Sum<<endl;
     }
+    void findMiddleElement()
+    {
+        
+    }
 
 };
 
