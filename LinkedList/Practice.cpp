@@ -107,7 +107,7 @@ class LinkedList
             Sum=Sum+temp->data;
             temp=temp->next;
         }
-        cout<<"Sum of all element in the linked list are"<<Sum<<endl;
+        cout<<"Sum of all element in the linked list are "<<Sum<<endl;
     }
 
 };
@@ -137,7 +137,7 @@ int main()
     }
 
     lobj->FindLargestElement();
-
+    lobj->SumOfAllElement();
 
 
     return 0;
