@@ -111,7 +111,19 @@ class LinkedList
     }
     void findMiddleElement()
     {
-        
+        int iCnt=0;
+        int Mid=(this->size/2)+1;
+        PNODE temp=first;
+
+        while(temp!=NULL)
+        {
+            iCnt++;
+            if(iCnt==Mid)
+            {
+                cout<<"Middle element is "<<temp->data<<endl;
+            }
+            temp=temp->next;
+        }
     }
 
 };
@@ -140,8 +152,9 @@ int main()
         cout<<"Element is present on the "<<iRet<<" index"<<endl;
     }
 
-    lobj->FindLargestElement();
-    lobj->SumOfAllElement();
+    //lobj->FindLargestElement();
+    //lobj->SumOfAllElement();
+    lobj->findMiddleElement();
 
 
     return 0;
