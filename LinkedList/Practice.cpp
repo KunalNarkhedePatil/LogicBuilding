@@ -64,7 +64,26 @@ class LinkedList
         return this->size;
     }
 
+    int seachFirstOccurrence(int no)
+    {
+        PNODE temp=first;
+        int iCnt=0;
+
+        while(temp!=NULL)
+        {
+            iCnt++;
+            if(temp->data==no)
+            {
+                return iCnt;
+            }
+            temp=temp->next;
+        }
+        return -1;
+
+    }
+
 };
+
 int main()
 {
     LinkedList *lobj=new LinkedList();
@@ -78,6 +97,16 @@ int main()
     lobj->Display();
 
     cout<<"Number of node in the linked list are "<<lobj->Count()<<endl;
+
+    int iRet=lobj->seachFirstOccurrence(30);
+
+    if(iRet==-1)
+    {
+        cout<<"There is no element present in the linkedlist"<<endl;
+    }
+    else{
+        cout<<"Element is present on the "<<iRet<<" index"<<endl;
+    }
 
 
 
