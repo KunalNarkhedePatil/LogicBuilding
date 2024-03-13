@@ -1,7 +1,6 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -9,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/Logic Building/ProblemsOnArrays",
-      "program": "f:/Logic Building/ProblemsOnArrays/build/Debug/outDebug",
+      "cwd": "g:/Logic Building/ProblemsOnArrays",
+      "program": "g:/Logic Building/ProblemsOnArrays/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
