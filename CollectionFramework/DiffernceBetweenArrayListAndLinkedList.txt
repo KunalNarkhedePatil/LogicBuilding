@@ -1,0 +1,15 @@
+there are many differences between the ArrayList and LinkedList classes
+
+1) ArrayList internally uses a dynamic array to store the elements.
+1)LinkedList internally uses a doubly linked list to store the elements.
+
+2) Manipulation with ArrayList is slow because it internally uses an array. If any element is removed from the array, all the other elements are shifted in memory.
+2) Manipulation with ArrayList is slow because it internally uses an array. If any element is removed from the array, all the other elements are shifted in memory.
+
+3) ArrayList is better for storing and accessing data.
+3)LinkedList is better for manipulating data.
+
+4) The memory location for the elements of an ArrayList is contiguous.
+4)The location for the elements of a linked list is not contagious.
+
+5)ArrayList and LinkedList both implement the List interface and maintain insertion order. Both are non-synchronized classes.
