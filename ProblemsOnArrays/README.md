@@ -34,3 +34,4 @@
 30.RightRotate   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/RightRotate.cpp
 31.CheckArrPalindromic   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/CheckArrPalindromic.cpp
 32.PosNegAlternate   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/PosNegAlternate.cpp
+33.FindSubArrayWithSum   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnArrays/FindSubArrayWithSum.cpp
