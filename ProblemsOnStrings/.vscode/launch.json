@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/Logic Building/ProblemsOnStrings",
-      "program": "f:/Logic Building/ProblemsOnStrings/build/Debug/outDebug",
+      "cwd": "g:/Logic Building/ProblemsOnStrings",
+      "program": "g:/Logic Building/ProblemsOnStrings/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

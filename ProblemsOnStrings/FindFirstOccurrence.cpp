@@ -3,7 +3,7 @@ Input:
 Enter the string
 My Name is Kunal
 Enter the character
-K
+Ka
 Output:
 First occurance of K at 11 index
 */
