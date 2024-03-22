@@ -9,7 +9,7 @@ Enter the number of columns
 5 4 3 
 5 4 3 2 
 5 4 3 2 1
---------------------------
+--------------------------lmk,
 */
 #include <iostream>
 using namespace std;

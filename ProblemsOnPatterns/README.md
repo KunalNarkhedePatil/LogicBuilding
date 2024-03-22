@@ -42,7 +42,6 @@
 
 
 
-
 # NumberPattern
 | Program Name             | Link Of Souce code                                                                   |
 | ----------------- | ------------------------------------------------------------------ |
@@ -62,3 +61,5 @@
 14.NumberPattern4   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberPattern4.cpp
 15.NumberPattern5   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberPattern5.cpp
 16.NumberPattern6   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberPattern6.cpp
+17.NumberPattern7   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberPattern7.cpp
+18.NumberPattern8   |https://github.com/KunalNarkhedePatil/LogicBuilding/blob/main/ProblemsOnPatterns/NumberPattern8.cpp

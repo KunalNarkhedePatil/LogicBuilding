@@ -3,13 +3,11 @@ Enter the number of rows
 5
 Enter the number of columns
 5
--------------------------
-        1 
-      2 2 2 
-    3 3 3 3 3 
-  4 4 4 4 4 4 4 
-5 5 5 5 5 5 5 5 5 
---------------------------
+        5
+      * 4 *
+    * * 3 * *
+  * * * 2 * * * 
+* * * * 1 * * * * 
 */
 #include <iostream>
 using namespace std;
@@ -24,31 +22,36 @@ public:
         this->iRows = iRows;
         this->iCols = iCols;
     }
-    
+
     void DisplayPattern()
     {
-        //i=row
-        //j=col
-        int i=0;
-        int j=0;
-        for(i=1;i<=this->iRows;i++)
+        // i=row
+        // j=col
+        int m = iRows;
+        for (int i = 1; i <= iRows; i++)
         {
-            for(j=1;j<=this->iCols;j++)
+            for (int j = 1; j <= iCols; j++)
             {
-                if(i+j>=iCols+1)
+                if (j == iRows)
                 {
-                    cout<<i<<" ";
+                    cout << m << " ";
+                    m--;
+                    continue;
+                }
+                if (i + j >= 6)
+                {
+                    cout << "* ";
                 }
                 else
                 {
-                    cout<<"  ";
+                    cout << "  ";
                 }
             }
-            for(int k=2;k<=i;k++)
+            for (int k = 2; k <= i; k++)
             {
-                cout<<i<<" ";
+                cout << "* ";
             }
-            cout<<endl;
+            cout << endl;
         }
     }
 };
