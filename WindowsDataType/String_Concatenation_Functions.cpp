@@ -35,3 +35,19 @@ int main() {
     return 0;
 }
 ---------------------------------------------------------------------------------------------------
+8. String Tokenizing Functions
+h. strtok, wcstok, _tcstok
+These functions split a string into tokens based on delimiters.
+
+#include <cstring>
+#include <cwchar>
+#include <tchar.h>
+
+void string_tokenizing_example() {
+    char str[] = "Hello, World!";
+    wchar_t wstr[] = L"Hello, World!";
+    
+    char* token = strtok(str, ", "); // ANSI
+    wchar_t* wtoken = wcstok(wstr, L", "); // Unicode
+    TCHAR* ttoken = _tcstok(TEXT("Hello, World!"), TEXT(", ")); // Generic
+}
